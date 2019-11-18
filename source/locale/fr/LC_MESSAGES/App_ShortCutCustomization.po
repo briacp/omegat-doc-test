@@ -1,0 +1,1279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OmegaT team
+# This file is distributed under the same license as the OmegaT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: OmegaT \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/App_ShortCutCustomization.rst:2
+msgid "Shortcuts customization"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:5
+msgid ""
+"Most of the items that appear in the main menu can have a new shortcut "
+"assigned. You can change the already assigned shortcuts and add new "
+"shortcuts by putting a shortcut definition file in your OmegaT "
+"preferences folder (accessible by Options > Access Configuration Folder "
+"menu)."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:22
+msgid ""
+"The shortcut definition file must be named "
+"``MainMenuShortcuts.properties`` and must contain at most one shortcut "
+"definition per line. Empty lines are accepted and comment lines should "
+"start with \"//\". Anything after the \"//\" will be ignored."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:27
+msgid ""
+"Once the ``MainMenuShortcuts.properties`` file is modified, OmegaT must "
+"be relaunched to take the new shortcuts into account."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:30
+msgid ""
+"The shortcut definition syntax is the following: ``<menu item "
+"code>=<shortcut>``, where *<menu item code>* is a code taken from the "
+"tables below and *<shortcut>* is a combination of pressed keys specified "
+"by the user [1]_."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:35
+msgid ""
+"<shortcut> must be of the following form: 0 or more ``<modifier>`` "
+"followed by 0 or 1 ``<event>`` followed by 1 ``<key>``, where:"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:38
+msgid ""
+"``<modifier>`` can be: *shift*, *control*, *ctrl*, *meta*\\  [2]_, *alt*,"
+" *altGraph*"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:41
+msgid "``<event>`` can be: *typed*, *pressed*, *released*"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:43
+msgid "and ``<key>`` can be any key available on your keyboard [3]_."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:45
+msgid "For example, in the default OmegaT shortcuts [4]_, one can find:"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:47
+msgid "``projectOpenMenuItem=ctrl O``"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:49
+msgid "``editCreateGlossaryEntryMenuItem=ctrl shift G``"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:51
+msgid ""
+"The first is the shortcut for Open Project, the second for Create "
+"Glossary Entry."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:54
+msgid ""
+"If you want to use +Shift+ +Ctrl+ +O+ to open a project, modify your "
+"``MainMenuShortcuts.properties`` as follows:"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:57
+msgid "``projectOpenMenuItem=shift ctrl O``."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:59
+msgid ""
+"If you are on a Mac and you want to add a +Shift+ +Command+ +S+ shortcut "
+"to Tools > Statistics, add the following line to your "
+"``MainMenuShortcuts.properties``:"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:63
+msgid "``toolsShowStatisticsStandardMenuItem=shift meta S``"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:65
+msgid ""
+"Save then the file and relaunch OmegaT. Your new shortcuts should now "
+"appear next to the menu items you have modified. If they do not conflict "
+"with system shortcuts, they should be available from within OmegaT."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:70
+msgid "Project Menu"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:73
+#: ../../source/App_ShortCutCustomization.rst:126
+#: ../../source/App_ShortCutCustomization.rst:197
+#: ../../source/App_ShortCutCustomization.rst:228
+#: ../../source/App_ShortCutCustomization.rst:261
+#: ../../source/App_ShortCutCustomization.rst:280
+#: ../../source/App_ShortCutCustomization.rst:337
+msgid "Menu Item"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:73
+#: ../../source/App_ShortCutCustomization.rst:126
+#: ../../source/App_ShortCutCustomization.rst:197
+#: ../../source/App_ShortCutCustomization.rst:228
+#: ../../source/App_ShortCutCustomization.rst:261
+#: ../../source/App_ShortCutCustomization.rst:280
+#: ../../source/App_ShortCutCustomization.rst:337
+msgid "Default shortcut"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:73
+#: ../../source/App_ShortCutCustomization.rst:126
+#: ../../source/App_ShortCutCustomization.rst:197
+#: ../../source/App_ShortCutCustomization.rst:228
+#: ../../source/App_ShortCutCustomization.rst:261
+#: ../../source/App_ShortCutCustomization.rst:280
+#: ../../source/App_ShortCutCustomization.rst:337
+msgid "Menu Item Code"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:75
+msgid "New"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:75
+#: ../../source/App_ShortCutCustomization.rst:217
+msgid "Ctrl+Shift+N"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:75
+msgid "projectNewMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:77
+msgid "Download Team Project"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:77
+msgid "projectTeamNewMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:79
+msgid "Open"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:79
+msgid "Ctrl+O"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:79
+msgid "projectOpenMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:81
+msgid "Open Recent Project"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:81
+msgid "projectOpenRecentMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:83
+msgid "Copy Files to Source Folder..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:83
+msgid "projectImportMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:85
+msgid "Download MediaWiki Page..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:85
+msgid "projectWikiImportMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:87
+msgid "Reload"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:87
+msgid "F5"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:87
+msgid "projectReloadMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:89
+msgid "Close"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:89
+msgid "Ctrl+Shift+W"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:89
+msgid "projectCloseMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:91
+msgid "Save"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:91
+msgid "Ctrl+S"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:91
+msgid "projectSaveMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:93
+msgid "Create Translated Documents"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:93
+msgid "Ctrl+D"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:93
+msgid "projectCompileMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:95
+msgid "Create Current Translated Documents"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:95
+msgid "Ctrl+Shift+D"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:95
+msgid "projectSingleCompileMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:97
+msgid "Properties..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:97
+msgid "Ctrl+E"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:97
+msgid "projectEditMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:99
+msgid "Project Files..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:99
+msgid "Ctrl+L"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:99
+msgid "viewFileListMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:101
+msgid "Access Project Contents/Root"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:101
+msgid "projectAccessRootMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:103
+msgid "Access Project Contents/Dictionaries"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:103
+msgid "projectAccessDictionaryMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:105
+msgid "Access Project Contents/Glossaries"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:105
+msgid "projectAccessGlossaryMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:107
+msgid "Access Project Contents/Source Files"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:107
+msgid "projectAccessSourceMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:109
+msgid "Access Project Contents/Target Files"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:109
+msgid "projectAccessTargetMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:111
+msgid "Access Project Contents/Current Source Document"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:111
+msgid "projectAccessCurrentSourceDocumentMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:113
+msgid "Access Project Contents/Current Target Document"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:113
+msgid "projectAccessCurrentTargetDocumentMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:115
+msgid "Access Project Contents/Writeable Glossary"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:115
+msgid "projectAccessWriteableGlossaryMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:117
+msgid "Quit"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:117
+msgid "Ctrl+Q"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:117
+msgid "projectExitMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:120
+msgid "Table: Project Menu"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:123
+msgid "Edit Menu"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:128
+msgid "Undo Last Action"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:128
+msgid "Ctrl+Z"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:128
+msgid "editUndoMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:130
+msgid "Redo Last Action"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:130
+msgid "Ctrl+Y"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:130
+msgid "editRedoMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:132
+msgid "Replace With Match or Selection"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:132
+msgid "Ctrl+R"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:132
+msgid "editOverwriteTranslationMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:134
+msgid "Insert Match or Selection"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:134
+msgid "Ctrl+I"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:134
+msgid "editInsertTranslationMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:136
+msgid "Replace with Machine Translation"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:136
+msgid "Ctrl+M"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:136
+msgid "editOverwriteMachineTranslationMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:138
+msgid "Replace With Source"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:138
+msgid "Ctrl+Shift+R"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:138
+msgid "editOverwriteSourceMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:140
+msgid "Insert Source"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:140
+msgid "Ctrl+Shift+I"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:140
+msgid "editInsertSourceMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:142
+msgid "Insert Missing Source Tags"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:142
+msgid "Ctrl+Shift+T"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:142
+msgid "editTagPainterMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:144
+msgid "Insert Next Missing Tag"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:144
+msgid "Ctrl+T"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:144
+msgid "editTagNextMissedMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:146
+msgid "Export Selection"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:146
+msgid "Ctrl+Shift+C"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:146
+msgid "editExportSelectionMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:148
+msgid "Create Glossary Entry"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:148
+msgid "Ctrl+Shift+G"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:148
+msgid "editCreateGlossaryEntryMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:150
+msgid "Search Project..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:150
+msgid "Ctrl+F"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:150
+msgid "editFindInProjectMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:152
+msgid "Ctrl+Shift+F"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:152
+msgid "findInProjectReuseLastWindow"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:154
+msgid "Search and Replace..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:154
+msgid "Ctrl+K"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:154
+msgid "editReplaceInProjectMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:156
+msgid "Switch Case To/Lower Case"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:156
+msgid "lowerCaseMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:158
+msgid "Switch Case To/Upper Case"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:158
+msgid "upperCaseMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:160
+msgid "Switch Case To/Title Case"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:160
+msgid "titleCaseMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:162
+msgid "Switch Case To/Sentence Case"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:162
+msgid "sentenceCaseMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:164
+msgid "Switch Case To/Cycle"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:164
+msgid "Shift+F3"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:164
+msgid "cycleSwitchCaseMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:166
+msgid "Select Previous Match"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:166
+msgid "Ctrl+↑"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:166
+msgid "editSelectFuzzyPrevMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:168
+msgid "Select Next Match"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:168
+msgid "Ctrl+↓"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:168
+msgid "editSelectFuzzyNextMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:170
+msgid "Select Match #1"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:170
+msgid "Ctrl+1"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:170
+msgid "editSelectFuzzy1MenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:172
+msgid "Select Match #2"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:172
+msgid "Ctrl+2"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:172
+msgid "editSelectFuzzy2MenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:174
+msgid "Select Match #3"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:174
+msgid "Ctrl+3"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:174
+msgid "editSelectFuzzy3MenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:176
+msgid "Select Match #4"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:176
+msgid "Ctrl+4"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:176
+msgid "editSelectFuzzy4MenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:178
+msgid "Select Match #5"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:178
+msgid "Ctrl+5"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:178
+msgid "editSelectFuzzy5MenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:180
+msgid "Use as Default Translation"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:180
+msgid "editMultipleDefault"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:182
+msgid "Create Alternative Translation"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:182
+msgid "editMultipleAlternate"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:184
+msgid "Remove translation"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:184
+msgid "editRegisterUntranslatedMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:186
+msgid "Set empty translation"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:186
+msgid "editRegisterEmptyMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:188
+msgid "Register Identical Translation"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:188
+msgid "Ctrl+Shift+S"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:188
+msgid "editRegisterIdenticalMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:191
+msgid "Table: Edit Menu"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:194
+msgid "GoTo Menu"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:199
+msgid "Next Untranslated Segment"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:199
+msgid "Ctrl+U"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:199
+msgid "gotoNextUntranslatedMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:201
+msgid "Next Translated Segment"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:201
+msgid "Ctrl+Shift+U"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:201
+msgid "gotoNextTranslatedMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:203
+msgid "Next Segment"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:203
+msgid "Ctrl+N or Enter or Tab"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:203
+msgid "gotoNextSegmentMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:205
+msgid "Previous Segment"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:205
+msgid "Ctrl+P or Ctrl+Enter or Ctrl+Tab"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:205
+msgid "gotoPreviousSegmentMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:207
+msgid "Segment number..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:207
+msgid "Ctrl+J"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:207
+msgid "gotoSegmentMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:209
+msgid "Next Note"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:209
+msgid "gotoNextNoteMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:211
+msgid "Previous Note"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:211
+msgid "gotoPreviousNoteMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:213
+msgid "Next Unique Segment"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:213
+msgid "Ctrl+Shift+Q"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:213
+msgid "gotoNextUniqueMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:215
+msgid "Source of Selected Match"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:215
+msgid "Ctrl+Shift+M"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:215
+msgid "gotoMatchSourceSegment"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:217
+msgid "Forward in history..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:217
+msgid "gotoHistoryForwardMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:219
+msgid "Back in history..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:219
+msgid "Ctrl+Shift+P"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:219
+msgid "gotoHistoryBackMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:222
+msgid "Table: GoTo Menu"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:225
+msgid "View Menu"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:230
+msgid "Mark Translated Segments"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:230
+msgid "viewMarkTranslatedSegmentsCheckBoxMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:232
+msgid "Mark Untranslated Segments"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:232
+msgid "viewMarkUntranslatedSegmentsCheckBoxMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:234
+msgid "Display Source Segments"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:234
+msgid "viewDisplaySegmentSourceCheckBoxMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:236
+msgid "Mark Non-Unique Segments"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:236
+msgid "viewMarkNonUniqueSegmentsCheckBoxMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:238
+msgid "Mark Segments with Notes"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:238
+msgid "viewMarkNotedSegmentsCheckBoxMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:240
+msgid "Mark Non-breakable Spaces"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:240
+msgid "viewMarkNBSPCheckBoxMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:242
+msgid "Mark Whitespace"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:242
+msgid "viewMarkWhitespaceCheckBoxMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:244
+msgid "Mark Bidirectional Algorithm Control Characters"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:244
+msgid "viewMarkBidiCheckBoxMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:246
+msgid "Mark Auto-Populated Segments"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:246
+msgid "viewMarkAutoPopulatedCheckBoxMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:248
+msgid "Modification Info/Display None"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:248
+msgid "viewDisplayModificationInfoNoneRadioButtonMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:250
+msgid "Modification Info/Display Selected"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:250
+msgid "viewDisplayModificationInfoSelectedRadioButtonMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:252
+msgid "Modification Info/Display All"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:252
+msgid "viewDisplayModificationInfoAllRadioButtonMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:255
+msgid "Table: View Menu"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:258
+msgid "Tools Menu"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:263
+msgid "Validate Tags"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:263
+msgid "Ctrl+Shift+V"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:263
+msgid "toolsValidateTagsMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:265
+msgid "Validate Tags for Current Document"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:265
+msgid "toolsSingleValidateTagsMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:267
+msgid "Statistics"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:267
+msgid "toolsShowStatisticsStandardMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:269
+msgid "Match Statistics"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:269
+msgid "toolsShowStatisticsMatchesMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:271
+msgid "Match Statistics per File"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:271
+msgid "toolsShowStatisticsMatchesPerFileMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:274
+msgid "Table: Tools Menu"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:277
+msgid "Options Menu"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:282
+msgid "Use TAB To Advance"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:282
+msgid "optionsTabAdvanceCheckBoxMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:284
+msgid "Always Confirm Quit"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:284
+msgid "optionsAlwaysConfirmQuitCheckBoxMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:286
+msgid "Glossary/Display Context Description for TBX Glossaries"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:286
+msgid "optionsGlossaryTBXDisplayContextCheckBoxMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:288
+msgid "Use Terms Appearing Separately in the Source Text"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:288
+msgid "optionsGlossaryExactMatchCheckBoxMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:290
+msgid "Glossary/Use Stemming for Glossary Entries"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:290
+msgid "optionsGlossaryStemmingCheckBoxMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:292
+msgid "TransTips/Enable Transtips"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:292
+msgid "optionsTransTipsEnableMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:294
+msgid "Auto-completion/Show Relevant Suggestions Automatically"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:294
+msgid "optionsAutoCompleteShowAutomaticallyItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:296
+msgid "Auto-completion/Glossary..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:296
+msgid "optionsAutoCompleteGlossaryMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:298
+msgid "Auto-completion/Auto-text..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:298
+msgid "optionsAutoCompleteAutoTextMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:300
+msgid "Auto-completion/Character Table..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:300
+msgid "optionsAutoCompleteCharTableMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:302
+msgid "Font..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:302
+msgid "optionsFontSelectionMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:304
+msgid "Custom Colours..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:304
+msgid "optionsColorsSelectionMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:306
+msgid "File Filters..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:306
+msgid "optionsSetupFileFiltersMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:308
+msgid "Segmentation..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:308
+msgid "optionsSentsegMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:310
+msgid "Spell checking..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:310
+msgid "optionsSpellCheckMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:312
+msgid "Editing Behavior..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:312
+msgid "optionsWorkflowMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:314
+msgid "Tag Processing..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:314
+msgid "optionsTagValidationMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:316
+msgid "Team..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:316
+msgid "optionsTeamMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:318
+msgid "External TMXs..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:318
+msgid "optionsExtTMXMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:320
+msgid "View..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:320
+msgid "optionsViewOptionsMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:322
+msgid "Saving and Output..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:322
+msgid "optionsSaveOptionsMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:324
+msgid "Proxy Login..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:324
+msgid "optionsViewOptionsMenuLoginItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:326
+msgid "Restore Main Window"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:326
+msgid "optionsRestoreGUIMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:328
+msgid "Access Configuration Folder"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:328
+msgid "optionsAccessConfigDirMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:331
+msgid "Table: Options Menu"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:334
+msgid "Help Menu"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:339
+msgid "User Manual..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:339
+msgid "F1"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:339
+msgid "helpContentsMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:341
+msgid "About..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:341
+msgid "helpAboutMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:343
+msgid "Last Changes..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:343
+msgid "helpLastChangesMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:345
+msgid "Log..."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:345
+msgid "helpLogMenuItem"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:348
+msgid "Table: Help Menu"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:351
+msgid ""
+"The full syntax for keystrokes (shortcuts) is defined in the following "
+"Java 1.6 documentation from Oracle (bottom of page): `Java 1.6 keystrokes"
+" shortcuts "
+"<http://docs.oracle.com/javase/6/docs/api/javax/swing/KeyStroke.html>`__"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:357
+msgid "On the Mac, the modifier *meta* must be used to specify the *command* key."
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:361
+msgid ""
+"The possible keyevents (keys) are listed in the following Java 1.6 "
+"documentation from Oracle: `Java 1.6 keyEvents description "
+"<http://docs.oracle.com/javase/6/docs/api/java/awt/event/KeyEvent.html>`__"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:366
+msgid ""
+"The default OmegaT shortcuts are available from Sourceforge: `Default "
+"OmegaT Shortcuts "
+"<https://sourceforge.net/p/omegat/svn/HEAD/tree/trunk/src/org/omegat/gui/main/MainMenuShortcuts.properties>`__"
+msgstr ""
+
+#: ../../source/App_ShortCutCustomization.rst:370
+msgid ""
+"The default OmegaT shortcuts for the Mac are also available from "
+"Sourceforge, they all use \"meta\" instead of \"ctrl\": `Default OmegaT "
+"Shortcuts for the Mac "
+"<https://sourceforge.net/p/omegat/svn/HEAD/tree/trunk/src/org/omegat/gui/main/MainMenuShortcuts.mac.properties>`__"
+msgstr ""
+

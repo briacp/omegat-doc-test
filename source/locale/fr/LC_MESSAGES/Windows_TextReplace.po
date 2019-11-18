@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OmegaT team
+# This file is distributed under the same license as the OmegaT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: OmegaT \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/Windows_TextReplace.rst:2
+msgid "Text Replace"
+msgstr ""
+
+#: ../../source/Windows_TextReplace.rst:4
+msgid ""
+"Open the Search and replace window with +Ctrl+ +K+ and enter the word or "
+"expression you wish to replace in the *Search for* box."
+msgstr ""
+
+#: ../../source/Windows_TextReplace.rst:7
+msgid ""
+"Then click on *Search* button to display all the corresponding "
+"occurrences."
+msgstr ""
+
+#: ../../source/Windows_TextReplace.rst:10
+msgid ""
+"Enter the new word or phrase (regular expressions are not supported) in "
+"the *Replace with* box, then click one of the following options:"
+msgstr ""
+
+#: ../../source/Windows_TextReplace.rst:13
+msgid ""
+"**Replace All:** operates replacement of all occurrences (after "
+"displaying a confirmation window where the number of occurrences is "
+"shown)."
+msgstr ""
+
+#: ../../source/Windows_TextReplace.rst:17
+msgid ""
+"**Replace:** operates a \"one by one\" replacement, by the mean of "
+"buttons in the **header of the Editor pane**. Click *Replace Next* or "
+"*Skip*, then end the replacement session with *Finish*."
+msgstr ""
+
+#: ../../source/Windows_TextReplace.rst:21
+msgid "**Close:** close the window without any change."
+msgstr ""
+
+#: ../../source/Windows_TextReplace.rst:24
+msgid "Search options"
+msgstr ""
+
+#: ../../source/Windows_TextReplace.rst:26
+msgid ""
+"Search options are similar to the ones displayed in `Search window "
+"<#windows.textsearch>`__."
+msgstr ""
+
+#: ../../source/Windows_TextReplace.rst:29
+msgid ""
+"Except one: check **Untranslated** in order to operate Search and replace"
+" also on segments that have not been translated yet."
+msgstr ""
+
+#: ../../source/Windows_TextReplace.rst:32
+msgid ""
+"To make it possible (although Search and replace operates only on "
+"memory), OmegaT will copy the source segment to the target segment before"
+" the replace operation occurs. If no replacement is done to a given "
+"segment, the target segment will be “emptied”, i.e., it will remain "
+"untranslated."
+msgstr ""
+

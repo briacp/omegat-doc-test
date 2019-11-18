@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OmegaT team
+# This file is distributed under the same license as the OmegaT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: OmegaT \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/Menus_GoTo.rst:2
+msgid "Go To"
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:4
+msgid "This menu displays entries only when a project is open."
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:8
+msgid "Next Untranslated Segment"
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:7
+msgid ""
+"Moves to the next segment that has no equivalent in the translation "
+"memory."
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:12
+msgid "Next Translated Segment"
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:11
+msgid ""
+"Moves to the next already translated segment, ignoring untranslated "
+"segments."
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:20
+msgid "Next Segment"
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:15
+msgid ""
+"Moves to the next segment. If the current segment is the last segment in "
+"a file, it moves to the first segment of the next file."
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:18
+msgid ""
+"Note: Enter is an alternate shortcut if `Use TAB to Advance "
+"<#dialogs.preferences.general.usetabtoadvance>`__ option is not selected."
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:28
+msgid "Previous Segment"
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:23
+msgid ""
+"Moves to the previous segment. If the current segment is the first one in"
+" a file, it moves to the last segment of the previous file."
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:26
+msgid ""
+"Note: +Ctrl+ +Enter+ is an alternate shortcut if `Use TAB to Advance "
+"<#dialogs.preferences.general.usetabtoadvance>`__ option is not selected."
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:32
+msgid "Segment number..."
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:31
+msgid ""
+"The segment is opened when either its segment call-out or segment number "
+"is entered."
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:35
+msgid "Next Note"
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:35
+msgid "The next segment with a note attached to it, will open."
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:38
+msgid "Previous Note"
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:38
+msgid "The previous segment with a note will open."
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:42
+msgid "Source of Selected Match"
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:41
+msgid ""
+"Moves to the segment that does correspond to the current selected match "
+"in the Fuzzy matches pane."
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:47
+msgid "Forward in history..."
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:45
+msgid ""
+"OmegaT remembers the segments executed. With this command you can step "
+"forward to the segment, you have previously left by the Back in "
+"history... command."
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:51
+msgid "Back in history..."
+msgstr ""
+
+#: ../../source/Menus_GoTo.rst:50
+msgid ""
+"With this command you can move backward one segment at a time, to return "
+"later to the current segment using Forward in history...command below."
+msgstr ""
+

@@ -1,0 +1,330 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OmegaT team
+# This file is distributed under the same license as the OmegaT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: OmegaT \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/Windows_TextSearch.rst:2
+msgid "Text Search"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:4
+msgid ""
+"Open the Search window with +Ctrl+ +F+ and enter the word or phrase you "
+"wish to search for in the *Search for* box."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:7
+msgid ""
+"Alternatively, you can select a word or phrase in the Editor pane, Fuzzy "
+"matches pane or Glossary pane and hit +Ctrl+ +F+ . The word or phrase is "
+"entered in the *Search for* box automatically. You can have several "
+"Search windows open at the same time, but close them when they are no "
+"longer needed so that they do not clutter your desktop."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:13
+msgid ""
+"Click the dropdown arrow of the *Search for* box to access the last 10 "
+"searches."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:16
+msgid "The Search window has its own menus:"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:18
+msgid ""
+"File > Search for selection ( +Ctrl+ +F+ ): refocus on the search field "
+"and select all its contents."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:21
+msgid ""
+"File > Close ( +Ctrl+ +W+ ): close the search window (in the same way as "
+"Esc)"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:24
+msgid ""
+"Edit > Insert source ( +Ctrl+ +Shift+ +I+ ): insert current segment "
+"source."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:27
+msgid ""
+"Edit > Replace with source ( +Ctrl+ +Shift+ +R+ ): replace with current "
+"segment source."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:30
+msgid ""
+"Edit > Create Glossary Entry ( +Ctrl+ +Shift+ +G+ ): add a new glossary "
+"item."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:34
+msgid "Using wild cards"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:36
+msgid ""
+"In both exact and keyword searches, the wild card search characters '\\*'"
+" and '?' can be used. They have the meaning, familiar to Word users:"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:39
+msgid ""
+"'\\*' matches zero or more characters, from the current position in a "
+"given word to its end. The search term ``'run*'`` for example would match"
+" words ``'run'``, ``'runs'`` and ``'running'``."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:43
+msgid ""
+"'?' matches any single character. For instance, ``'run?'`` would match "
+"the word ``'runs'`` and ``'runn'`` in the word ``'running'``."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:46
+msgid ""
+"The matches will be displayed in bold blue. Note that '\\*' and '?' have "
+"special meaning in regular expressions, so wild card search, as described"
+" here, applies to exact and keyword search only (see below)."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:51
+msgid "Search methods and options"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:53
+msgid ""
+"Select the method using the radio buttons. The following search methods "
+"are available:"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:64
+msgid "exact search"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:57
+msgid ""
+"Search for segments containing the exact string you specified. An exact "
+"search looks for a phrase, i.e. if several words are entered, they are "
+"found only if they occur in exactly that sequence. Searching for ``open "
+"file`` will thus find all occurrences of the string *``open"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:62
+msgid "file``*, but not *``file opened``* or *``open input file``*."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:76
+msgid "keyword search"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:67
+msgid ""
+"Search for segments containing all keywords you specified, in any order. "
+"Select keyword search to search for any number of individual full words, "
+"in any order. OmegaT displays a list of all segments containing all of "
+"the words specified. Keyword searches are similar to a search \"with all "
+"of the words\" in an Internet search engine such as Google (AND logic). "
+"Using keyword search with *``open file``* will thus find all occurrences "
+"of the string *``open"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:74
+msgid ""
+"file``,* as well as *``file opened``, ``open input file``, ``file may not"
+" be safe to open``*, etc."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:84
+msgid "**regular expressions**"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:79
+msgid ""
+"The search string will be treated as a regular expression. The search "
+"string - [a-zA-Z]+[öäüqwß] - in the example above for instance looks for "
+"words in the target segment, containing questionable characters from "
+"German keyboard. `Regular expressions <#appendix.regexp>`__ are a "
+"powerful way to look for instances of a string."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:86
+msgid "Additionally to one of the methods above you can select the following:"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:88
+msgid ""
+"**case sensitive**: the search will be performed for the exact string "
+"specified; i.e. capitalization is observed."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:91
+msgid ""
+"**Space matches nbsp**: when this option is checked, a space character "
+"put in search entry can match either a normal space character or a non-"
+"breacking space (\\\\u00A) character."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:95
+msgid "**in source:**\\ search in the source segments"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:97
+msgid "**in translations:**\\ search in the target segments"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:99
+msgid "**in notes:**\\ search in notes to segments"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:101
+msgid "**in comments:**\\ search in comments to segments"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:103
+msgid ""
+"**Translated or untranslated:**\\ search in both translated and "
+"untranslated segments."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:106
+msgid "**Translated:**\\ search only in translated segments."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:108
+msgid "**Untranslated:**\\ search only in untranslated segments."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:110
+msgid ""
+"**Display: all matching segments:**\\ if checked, all the segments are "
+"displayed one by one, even if they are present several times in the same "
+"document or in different documents."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:114
+msgid ""
+"**Display: file names:**\\ if checked, the name of the file where each "
+"segment is found is displayed above each result."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:117
+msgid ""
+"**Search in Project**: check *Memory* to include the project memory "
+"(project\\_save.tmx file) in the search. Check *TMs* to include the "
+"translation memories located in the ``tm`` folder in the search. Check "
+"*Glossaries* to include the glossaries located in the ``glossary`` folder"
+" in the search."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:123
+msgid ""
+"**Search in Files:**\\ search in a single file or a folder containing a "
+"set of files. When searching through files (as opposed to translation "
+"memories), OmegaT restricts the search to files in source file formats. "
+"Consequently, although OmegaT is quite able to handle\\ `` tmx`` files, "
+"it does not include them in the Search files search."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:130
+msgid ""
+"If you click on the button Advanced options additional criteria (author "
+"or changer of the translation, date translated, excluding orphan "
+"segments, etc) can be selected. When *Full/Half width char insensitive* "
+"option is checked, searches for fullwidth forms (CJK characters) will "
+"match halfwidth forms and vice versa."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:137
+msgid "Search results display"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:139
+msgid ""
+"Pressing the search button after entering a string in the search field "
+"displays all the segments in the project that include the entered string."
+" As OmegaT handles identical segments as one single entity, only the "
+"first unique segment is shown. The segments are displayed in order of "
+"appearance in the project. Translated segments are displayed with the "
+"original text at the top and the translated text at the bottom, "
+"untranslated segments are displayed as the source only."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:147
+msgid ""
+"Double-clicking on a segment opens it in the Editor for modifications "
+"(one single click does it when **Auto-sync with Editor** option is "
+"checked). You can then switch back to the Search window for the next "
+"segment found, for instance to check and, if necessary, correct the "
+"terminology."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:153
+msgid ""
+"In the Search window, you can use standard shortcuts ( +Ctrl+ +N+ , "
+"+Ctrl+ +P+ ) to move from one segment to another."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:156
+msgid ""
+"You may have several Search windows open at the same time. You can "
+"quickly see their contents by looking at their title: it will contain the"
+" search term used."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:161
+msgid "Filter entries in editor according to search"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:163
+msgid ""
+"For easier navigation in the search result set, you can apply the search "
+"to the editor. Press the **Filter** button on the bottom to limit the "
+"shown entries in the editor window to those that match the current "
+"search. You can use normal navigation to go to e.g. the next "
+"(untranslated) segment that matches the search criteria."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:169
+msgid "NB:"
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:171
+msgid ""
+"A search may be limited to 1000 items, so if you search on a common "
+"phrase, the editor then shows only those 1000 matching entries, and not "
+"all entries that match the search criteria."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:175
+msgid "A file might have no matching entries, so it will show empty."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:177
+msgid ""
+"If a search removes duplicates, those duplicates will not be in the "
+"Editor."
+msgstr ""
+
+#: ../../source/Windows_TextSearch.rst:180
+msgid ""
+"To remove a filter, press the **Remove filter** button, or reload a "
+"project."
+msgstr ""
+

@@ -1,0 +1,587 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OmegaT team
+# This file is distributed under the same license as the OmegaT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: OmegaT \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/App_Regexp.rst:2
+msgid "Regular expressions"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:4
+msgid ""
+"The regular expressions (or regex for short) used in searches and "
+"segmentation rules are those supported by Java. Should you need more "
+"specific information, consult the `Java Regex documentation "
+"<http://download.oracle.com/javase/1.6.0/docs/api/java/util/regex/Pattern.html>`__."
+" See additional references and examples below."
+msgstr ""
+
+#: ../../source/App_Regexp.rst:10 ../../source/App_Regexp.rst:144
+#: ../../source/App_Regexp.rst:161
+msgid "**Note**"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:12
+msgid ""
+"This chapter is intended for advanced users, who need to define their own"
+" variants of segmentation rules or devise more complex and powerful key "
+"search items."
+msgstr ""
+
+#: ../../source/App_Regexp.rst:17 ../../source/App_Regexp.rst:25
+#: ../../source/App_Regexp.rst:57 ../../source/App_Regexp.rst:71
+#: ../../source/App_Regexp.rst:87 ../../source/App_Regexp.rst:99
+#: ../../source/App_Regexp.rst:119 ../../source/App_Regexp.rst:133
+#: ../../source/App_Regexp.rst:150 ../../source/App_Regexp.rst:167
+msgid "The construct"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:17 ../../source/App_Regexp.rst:25
+msgid "... matches the following"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:19
+msgid "(?i)"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:19
+msgid ""
+"Enables case-insensitive matching (by default, the pattern is case-"
+"sensitive)."
+msgstr ""
+
+#: ../../source/App_Regexp.rst:22
+msgid "Table: Regex - Flags"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:27
+msgid "x"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:27
+msgid "The character x, except the following..."
+msgstr ""
+
+#: ../../source/App_Regexp.rst:29
+msgid "\\\\uhhhh"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:29
+msgid "The character with hexadecimal value 0xhhhh"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:31
+msgid "\\\\t"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:31
+msgid "The tab character ('\\\\u0009')"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:33
+msgid "\\\\n"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:33
+msgid "The newline (line feed) character ('\\\\u000A')"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:35
+msgid "\\\\r"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:35
+msgid "The carriage-return character ('\\\\u000D')"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:37
+msgid "\\\\f"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:37
+msgid "The form-feed character ('\\\\u000C')"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:39
+msgid "\\\\a"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:39
+msgid "The alert (bell) character ('\\\\u0007')"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:41
+msgid "\\\\e"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:41
+msgid "The escape character ('\\\\u001B')"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:43
+msgid "\\\\cx"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:43
+msgid "The control character corresponding to x"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:45
+msgid "\\\\0n"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:45
+msgid "The character with octal value 0n (0 <= n <= 7)"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:47
+msgid "\\\\0nn"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:47
+msgid "The character with octal value 0nn (0 <= n <= 7)"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:49
+msgid "\\\\0mnn"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:49
+msgid "The character with octal value 0mnn (0 <= m <= 3, 0 <= n <= 7)"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:51
+msgid "\\\\xhh"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:51
+msgid "The character with hexadecimal value 0xhh"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:54
+msgid "Table: Regex - Character"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:57 ../../source/App_Regexp.rst:71
+#: ../../source/App_Regexp.rst:87 ../../source/App_Regexp.rst:99
+#: ../../source/App_Regexp.rst:119 ../../source/App_Regexp.rst:133
+#: ../../source/App_Regexp.rst:150 ../../source/App_Regexp.rst:167
+msgid "...matches the following"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:59
+msgid "\\\\"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:59
+msgid ""
+"Nothing, but quotes the following character. This is required if you "
+"would like to enter any of the meta characters !$()\\*+.<>?[\\\\]^{\\|} "
+"to match as themselves."
+msgstr ""
+
+#: ../../source/App_Regexp.rst:61
+msgid "For example, this is the backslash character"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:63
+msgid "\\\\Q"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:63
+msgid "Nothing, but quotes all characters until \\\\E"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:65
+msgid "\\\\E"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:65
+msgid "Nothing, but ends quoting started by \\\\Q"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:68
+msgid "Table: Regex - Quotation"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:73
+msgid "\\\\p{InGreek}"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:73
+msgid ""
+"A character in the Greek block (simple `block "
+"<http://download.oracle.com/javase/1.6.0/docs/api/java/util/regex/Pattern.html#ubc>`__)"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:75
+msgid "\\\\p{Lu}"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:75
+msgid ""
+"An uppercase letter (simple `category "
+"<http://download.oracle.com/javase/1.6.0/docs/api/java/util/regex/Pattern.html#ubc>`__)"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:77
+msgid "\\\\p{Sc}"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:77
+msgid "A currency symbol"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:79
+msgid "\\\\P{InGreek}"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:79
+msgid "Any character except one in the Greek block (negation)"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:81
+msgid "[\\\\p{L}&&[^\\\\p{Lu}]]"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:81
+msgid "Any letter except an uppercase letter (subtraction)"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:84
+msgid "Table: Regex - Classes for Unicode blocks and categories"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:89
+msgid "[abc]"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:89
+msgid "a, b, or c (simple class)"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:91
+msgid "[^abc]"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:91
+msgid "Any character except a, b, or c (negation)"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:93
+msgid "[a-zA-Z]"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:93
+msgid "a through z or A through Z, inclusive (range)"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:96
+msgid "Table: Regex - Character classes"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:101
+msgid "."
+msgstr ""
+
+#: ../../source/App_Regexp.rst:101
+msgid "Any character (except for line terminators)"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:103
+msgid "\\\\d"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:103
+msgid "A digit: [0-9]"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:105
+msgid "\\\\D"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:105
+msgid "A non-digit: [^0-9]"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:107
+msgid "\\\\s"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:107
+msgid "A whitespace character: [ \\\\t\\\\n\\\\x0B\\\\f\\\\r]"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:109
+msgid "\\\\S"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:109
+msgid "A non-whitespace character: [^\\\\s]"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:111
+msgid "\\\\w"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:111
+msgid "A word character: [a-zA-Z\\_0-9]"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:113
+msgid "\\\\W"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:113
+msgid "A non-word character: [^\\\\w]"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:116
+msgid "Table: Regex - Predefined character classes"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:121
+msgid "^"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:121
+msgid "The beginning of a line"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:123
+msgid "$"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:123
+msgid "The end of a line"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:125
+msgid "\\\\b"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:125
+msgid "A word boundary"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:127
+msgid "\\\\B"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:127
+msgid "A non-word boundary"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:130
+msgid "Table: Regex - Boundary matchers"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:135
+msgid "X\\ *?*"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:135 ../../source/App_Regexp.rst:152
+msgid "X, once or not at all"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:137
+msgid "X\\ *\\**"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:137 ../../source/App_Regexp.rst:154
+msgid "X, zero or more times"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:139
+msgid "X\\ *+*"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:139 ../../source/App_Regexp.rst:156
+msgid "X, one or more times"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:142
+msgid "Table: Regex - Greedy quantifiers"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:146
+msgid ""
+"greedy quantifiers will match as much as they can. For example, *a+* will"
+" match the aaa in *aaabbb*"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:152
+msgid "X??"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:154
+msgid "X\\*?"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:156
+msgid "X+?"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:159
+msgid "Table: Regex - Reluctant (non-greedy) quantifiers"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:163
+msgid ""
+"non-greedy quantifiers will match as little as they can. For example, "
+"*a+?* will match the first *a* in *aaabbb*"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:169
+msgid "XY"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:169
+msgid "X followed by Y"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:171
+msgid "X\\|Y"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:171
+msgid "Either X or Y"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:173
+msgid "(XY)"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:173
+msgid "XY as a single group"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:176
+msgid "Table: Regex - Logical operators"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:179
+msgid "Regex tools and examples of use"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:181
+msgid ""
+"A number of interactive tools are available to develop and test regular "
+"expressions. They generally follow much the same pattern (for an example "
+"from the Regular Expression Tester see below): the regular expression "
+"(top entry) analyzes the search text (Text box in the middle) , yielding "
+"the hits, shown in the result Text box."
+msgstr ""
+
+#: ../../source/App_Regexp.rst:190
+msgid "Regex Tester"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:192
+msgid ""
+"See `The Regex Coach <http://weitz.de/regex-coach/>`__ for Windows,Linux,"
+" FreeBSD versions of a stand-alone tool. This is much the same as the "
+"above example."
+msgstr ""
+
+#: ../../source/App_Regexp.rst:196
+msgid ""
+"A nice collection of useful regex cases can be found in OmegaT itself "
+"(see Options > Segmentation). The following list includes expressions you"
+" may find useful when searching through the translation memory:"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:201
+msgid "Regular expression"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:201
+msgid "Finds the following:"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:203
+msgid "(\\\\b\\\\w+\\\\b)\\\\s\\\\1\\\\b"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:203
+msgid "double words"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:205
+msgid "[\\\\.,]\\\\s\\*[\\\\.,]+"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:205
+msgid "comma or a period, followed by spaces and yet another comma or period"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:207
+msgid "\\\\. \\\\s+$"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:207
+msgid "extra spaces after the period at the end of the line"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:209
+msgid "\\\\s+a\\\\s+[aeiou]"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:209
+msgid ""
+"English: words, beginning with vowels, should generally be preceded by "
+"\"an\", not \"a\""
+msgstr ""
+
+#: ../../source/App_Regexp.rst:211
+msgid "\\\\s+an\\\\s+[^aeiou]"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:211
+msgid ""
+"English: the same check as above, but concerning consonants (\"a\", not "
+"\"an\")"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:213
+msgid "\\\\s{2,}"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:213
+msgid "more than one space"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:215
+msgid "\\\\.[A-Z]"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:215
+msgid ""
+"Period, followed by an upper-case letter - possibly a space is missing "
+"between the period and the start of a new sentence?"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:217
+msgid "\\\\bis\\\\b"
+msgstr ""
+
+#: ../../source/App_Regexp.rst:217
+msgid "search for “is”, not “this” or “isn't” etc."
+msgstr ""
+
+#: ../../source/App_Regexp.rst:220
+msgid "Table: Regex - Examples of regular expressions in translations"
+msgstr ""
+

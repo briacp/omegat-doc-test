@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OmegaT team
+# This file is distributed under the same license as the OmegaT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: OmegaT \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/Menus_Tools.rst:2
+msgid "Tools"
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:30
+msgid "Check Issues..."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:5
+msgid ""
+"Quality assurance tool that carries out all the automatic checks in one "
+"go and displays the results in a window."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:8
+msgid "Four types of issues are detected:"
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:10
+msgid ""
+"missing or displaced tags, including `custom tags "
+"<#dialogs.preferences.tagprocessing>`__. The Tag Issues option is always "
+"selected."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:14
+msgid ""
+"Spelling Issues (optional). Only works if a spelling dictionary is "
+"installed."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:17
+msgid "Terminology Issues (optional)."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:19
+msgid "LanguageTool Issues (optional)."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:21
+msgid "The results window is laid out in the form of a table in which:"
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:23
+msgid ""
+"double-clicking a row activates the corresponding segment in the Editor "
+"pane,"
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:26
+msgid "clicking a column header changes the sort order for the column,"
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:28
+msgid ""
+"selecting or moving the mouse over a row displays a pop-up menu icon in "
+"the last column containing actions for correcting or ignoring the error."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:34
+msgid "Check Issues for Current Document"
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:33
+msgid ""
+"As above, but only for the document currently displayed in the Editor "
+"pane."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:38
+msgid "Statistics"
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:37
+msgid ""
+"Opens a new window and displays the project statistics, i.e. the project "
+"totals and totals for every file in the project."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:43
+msgid "Match Statistics"
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:41
+msgid ""
+"Displays the Match Statistics for the project: the number of repetitions,"
+" exact matches, fuzzy matches and no-matches for segments, words and "
+"characters."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:48
+msgid "Match Statistics per File"
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:46
+msgid ""
+"Displays the Match Statistics for each file of the project: the number of"
+" repetitions, exact matches, fuzzy matches and no-matches for segments, "
+"words and characters."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:59
+msgid "Align Files..."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:51
+msgid ""
+"Select the two files to be aligned (the source file and its translation) "
+"and click OK to open the `Align window <#windows.aligner>`__."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:55
+msgid ""
+"The supported file formats are those listed in Project > Properties > "
+"File Filters."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:58
+msgid ""
+"The source and target files can have different formats (for example, a "
+"``.docx`` file can be aligned with a ``.pdf`` file)."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:64
+msgid "Scripting..."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:62
+msgid ""
+"Opens the `Scripting window <#windows.scripts>`__, where the location of "
+"scripts can be set, and where scripts can be written, run and associated "
+"with a shortcut."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:76
+msgid "n - (script name)"
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:67
+msgid "Launches scripts that have been associated with a number."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:69
+msgid "To associate a script with a number:"
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:71
+msgid "Open the Scripting window"
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:73
+msgid "Select the script you want from the list on the left"
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:75
+msgid ""
+"At the bottom of the window, right-click on a free number and select Add "
+"Script."
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:80
+msgid "(external search commands)"
+msgstr ""
+
+#: ../../source/Menus_Tools.rst:79
+msgid ""
+"If commands to perform external searches have been defined in the "
+"`Preferences <#dialogs.preferences.externalsearch>`__, they are listed "
+"and accessible here."
+msgstr ""
+

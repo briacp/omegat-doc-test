@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OmegaT team
+# This file is distributed under the same license as the OmegaT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: OmegaT \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/Menus_Options.rst:2
+msgid "Options"
+msgstr ""
+
+#: ../../source/Menus_Options.rst:5
+msgid "Preferences..."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:5
+msgid "Opens the `Preferences <#dialogs.preferences>`__ dialog."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:12
+msgid "Machine Translate"
+msgstr ""
+
+#: ../../source/Menus_Options.rst:8
+msgid "Allows you to activate/deactivate the Machine Translation tools offered."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:11
+msgid ""
+"If several translation engines are selected, then +Ctrl+ +M+ is also used"
+" to switch between them and insert the last one selected."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:15
+msgid "Glossary"
+msgstr ""
+
+#: ../../source/Menus_Options.rst:15
+msgid "Select Taas Terminology Lookup to activate this lookup."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:19
+msgid "Dictionary"
+msgstr ""
+
+#: ../../source/Menus_Options.rst:18
+msgid ""
+"Check the Use Fuzzy Matching for Dictionary Entries option if you want "
+"dictionaries to display words that have the same root."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:30
+msgid "Auto-completion"
+msgstr ""
+
+#: ../../source/Menus_Options.rst:22
+msgid ""
+"If Show Relevant Suggestions Automatically option is checked, Auto-"
+"completer is launched automatically by typing the first letters of a "
+"translated glossary entry, or by typing \"<\" in case of tags."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:26
+msgid ""
+"Check History Completion to display suggested words as soon as their "
+"first letters are entered."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:29
+msgid ""
+"Check History Prediction to display suggested words that commonly follow "
+"the word that has just been entered."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:36
+msgid "File Filters..."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:33
+msgid ""
+"Opens the `File Filters <#dialogs.preferences.filefilters>`__ options in "
+"the Preferences dialog."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:36 ../../source/Menus_Options.rst:43
+#: ../../source/Menus_Options.rst:49
+msgid "These settings apply to OmegaT level, to all projects."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:43
+msgid "Segmentation..."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:39
+msgid ""
+"Opens the `Segmentation Setup <#dialogs.preferences.segmentationsetup>`__"
+" options in the Preferences dialog."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:49
+msgid "Editor..."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:46
+msgid ""
+"Opens the `Editor <#dialogs.preferences.editor>`__ options in the "
+"Preferences dialog."
+msgstr ""
+
+#: ../../source/Menus_Options.rst:52
+msgid "Access Configuration Folder"
+msgstr ""
+
+#: ../../source/Menus_Options.rst:52
+msgid ""
+"Opens the local directory where OmegaT configuration files are stored "
+"(depends on the Operating system)."
+msgstr ""
+

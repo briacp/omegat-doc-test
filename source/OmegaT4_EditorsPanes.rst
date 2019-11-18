@@ -38,8 +38,7 @@ accordingly.
 -  Editor pane: If an OmegaT project file (``omegat.project``) is
    dropped on this pane, the corresponding project will be opened,
    closing first any opened project. Other dropped files will be copied
-   to the ``source`` folder. This applies also to the `Project
-   files <#windows.projectfiles>`__ window.
+   to the ``source`` folder. This applies also to the `Project files <#windows.projectfiles>`__ window.
 
 -  Fuzzy Matches pane: Dropped ``.tmx`` files will be copied to the
    ``tm`` folder.
@@ -66,10 +65,8 @@ nnnn is a number of the segment in the project. Use the upper part as a
 reference and replace or modify the contents of the editing field with
 your translation.
 
-Note: the segment marker displays ``<segment
-    nnnn +yy more> when the segment is non-unique. In that case, yy is the
-    number of other occurrences of the segment in the
-    project.``
+.. note::
+  the segment marker displays ``<segment nnnn +yy more> when the segment is non-unique. In that case, yy is the number of other occurrences of the segment in the project.``
 
 Depending upon the preferred editing behavior, the editing field for the
 untranslated segment may be empty, contain the source text, or contain

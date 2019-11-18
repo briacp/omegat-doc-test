@@ -11,7 +11,7 @@ Computer Aided Translation tool. It also contains installation
 instructions.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Contents:
 
    InstallingAndRunning

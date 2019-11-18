@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OmegaT team
+# This file is distributed under the same license as the OmegaT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: OmegaT \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/Windows_Scripts.rst:2
+msgid "Scripts"
+msgstr ""
+
+#: ../../source/Windows_Scripts.rst:4
+msgid "This window is accessible by selecting Tools > Scripting..."
+msgstr ""
+
+#: ../../source/Windows_Scripts.rst:7
+msgid "Use"
+msgstr ""
+
+#: ../../source/Windows_Scripts.rst:9
+msgid ""
+"The Scripting window allows you to load an existing script into the text "
+"area and run it against the current opened project. To customize the "
+"scripting feature, do the following:"
+msgstr ""
+
+#: ../../source/Windows_Scripts.rst:13
+msgid ""
+"Load a script into the editor by clicking its name in the list in the "
+"left-hand panel."
+msgstr ""
+
+#: ../../source/Windows_Scripts.rst:16
+msgid ""
+"Right-click a button from <1> to <12> in the bottom panel and select Add "
+"Script."
+msgstr ""
+
+#: ../../source/Windows_Scripts.rst:19
+msgid ""
+"When you left-click the number, the selected script will run. You can "
+"also start the selected macros from the main menu by using their entries "
+"in the Toolsmenu or by pressing Ctrl+Alt+F# (# 1 to 12)."
+msgstr ""
+
+#: ../../source/Windows_Scripts.rst:23
+msgid ""
+"By default, scripts are stored in the ``scripts`` folder located in the "
+"OmegaT installation folder (the folder that contains the ``OmegaT.jar`` "
+"file)."
+msgstr ""
+
+#: ../../source/Windows_Scripts.rst:27
+msgid ""
+"If you add new scripts there, they will appear in the list of available "
+"scripts in the Scripting window."
+msgstr ""
+
+#: ../../source/Windows_Scripts.rst:30
+msgid ""
+"Some additional scripts can be found here: `OmegaT Scripts "
+"<https://sourceforge.net/projects/omegatscripts/>`__"
+msgstr ""
+
+#: ../../source/Windows_Scripts.rst:34
+msgid "Scripting languages"
+msgstr ""
+
+#: ../../source/Windows_Scripts.rst:36
+msgid "The following scripting languages have been implemented:"
+msgstr ""
+
+#: ../../source/Windows_Scripts.rst:38
+msgid ""
+"**Groovy** (http://groovy.codehaus.org): a dynamic language for the Java "
+"Virtual machine. It builds upon the strengths of Java but has additional "
+"power features inspired by languages like Python, Ruby and Smalltalk."
+msgstr ""
+
+#: ../../source/Windows_Scripts.rst:43
+msgid ""
+"**JavaScript** (sometimes abbreviated JS, not to be confused with Java): "
+"a prototype-based scripting language that is dynamic, weakly typed and "
+"has first-class functions. It is a multi-paradigm language, supporting "
+"object-oriented, imperative, and functional programming styles. Being the"
+" language behind popular software such as Firefox, it is a familiar and "
+"preferred programming tool in the open-source domain."
+msgstr ""
+
+#: ../../source/Windows_Scripts.rst:51
+msgid ""
+"All the languages have access to the OmegaT object model, with the "
+"project as the top object. For example, the following Groovy code snippet"
+" scans through all the segments in all the files in the current project "
+"and, if a translation exists, prints out the source and the target of the"
+" segment:"
+msgstr ""
+

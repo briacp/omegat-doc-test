@@ -1,0 +1,330 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OmegaT team
+# This file is distributed under the same license as the OmegaT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: OmegaT \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/HowTo_SetUpTeamProject.rst:2
+msgid "Set up a Team Project"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:4
+msgid ""
+"Setting up a team project requires some knowledge of servers and the SVN "
+"or Git versioning systems. It should thus be carried out by a project "
+"manager, a project leader or a localisation engineer."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:8
+msgid ""
+"As plenty of information about SVN and Git is easily available, we won't "
+"describe how they work here, but only how OmegaT works with them."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:12
+msgid "Step 1: Create an empty project on a server"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:14
+msgid "**Creating an empty project on a server**"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:16
+msgid ""
+"Create an SVN or Git repository on a server that will be accessible by "
+"the translators."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:20
+msgid "Create a local copy of the repository (``check"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:20
+msgid "out`` with SVN, ``clone`` with Git)."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:22
+msgid ""
+"Create a new, empty OmegaT project in the local repository. This can be "
+"done in two ways:"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:25
+msgid "Project > New..."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:28
+msgid "on the command line: ``java -jar OmegaT.jar team init"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:28
+msgid "[lang1] [lang2]``"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:30
+msgid ""
+"Add the new OmegaT project to the versioning system (``add`` with SVN and"
+" Git)"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:33
+msgid ""
+"Note: If the project was created with the command line in step 3, this "
+"step has already been done by the program."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:36
+msgid ""
+"Publish the new OmegaT project on the server (``commit`` with SVN, "
+"``commit`` followed by ``push`` with Git)."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:39
+msgid "**Specific parameters**"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:41
+msgid ""
+"If the project uses specific filters and segmentation parameters, both "
+"the ``filters.xml`` and ``segmentation.conf`` files must be added to the "
+"versioning system and published on the server."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:46
+msgid "Step 2: Add files to translate and other resources"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:48
+msgid "Use an SVN or Git client to add the files to translate."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:50
+msgid "This can also be done within OmegaT:"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:52
+msgid "copy the files to the ``/source`` folder"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:54
+msgid "use Project > Commit Source Files"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:56
+msgid ""
+"To add other resources (dictionaries, TMXs or glossaries), use an SVN or "
+"Git client."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:59
+msgid ""
+"To **delete files**, use an SVN or Git client. These files won't be "
+"deleted automatically on the translator's side: you must ask them to "
+"delete the files manually."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:63
+msgid "Note that only two files are modified by OmegaT during translation:"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:65
+msgid "``omegat/project_save.tmx``"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:67
+msgid "``glossary/glossary.txt``"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:69
+msgid ""
+"All other files are read-only. If the translator attempts to modify them,"
+" they will go back to their original state whenever the project is "
+"opened, closed, saved or reloaded."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:74
+msgid "Step 3: Send an invitation to the translator"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:76
+msgid ""
+"Once the project is set up on the server, the project manager can invite "
+"the translator to work on it in either of two different ways:"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:79
+msgid ""
+"sending the URL of the project and asking the translator to create a "
+"local copy with Project > Download Team Project."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:82
+msgid ""
+"sending an ``omegat.project`` file containing a reference to the URL and "
+"asking the translator to copy it into a dedicated folder and open it with"
+" OmegaT."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:86
+msgid "The reference to the URL is specified as below (here to a Git repository):"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:97
+msgid ""
+"In both cases, the project manager must send the translator their ID and "
+"password to access the repository."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:100
+msgid "**Checking statistics**"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:102
+msgid ""
+"The Project Manager should check with the translator that the statistics "
+"are identical on both sides (server side and translator side)."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:105
+msgid ""
+"If there are any differences, check that the ``filters.xml`` and "
+"``segmentation.conf`` files are under version control."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:109
+msgid "Special case: minimal sharing"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:111
+msgid ""
+"The process above describes the usual case, where the project manager "
+"wants to have full control of the project and where the files (and the "
+"statistics) are identical on both sides (server side and translator "
+"side)."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:116
+msgid ""
+"OmegaT team projects can also be set up in a different way, where several"
+" translators share the project\\_save.tmx file but not the source files."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:120
+msgid ""
+"In this case, the procedure is the same, but the project manager does not"
+" add files to the /source folder."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:124
+msgid "Mapping parameters"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:127
+msgid "repository type"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:127
+msgid "This can be either http (which includes https), svn or git."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:130
+msgid "repository url"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:130
+msgid "Remote location of the files to translate."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:134
+msgid "mapping local"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:133
+msgid ""
+"Name of the local folder or file, relative to the root of the OmegaT "
+"project."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:137
+msgid "mapping repository"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:137
+msgid "Name of the remote folder or file, relative to the repository url."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:142
+msgid "excludes"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:140
+msgid "Add patterns using wildcards (Apache Ant style): \\*, ?, \\*\\*"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:142
+msgid "Example: ``**/.ini/**``"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:150
+msgid "includes"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:145
+msgid "As above."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:147
+msgid ""
+"Example: ``**/*.docx`` to add all .docx files, wherever they are located "
+"in the project."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:150
+msgid "The inclusion rules take priority over the exclusion rules."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:153
+msgid "Example mappings"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:163
+msgid ""
+"All the contents of ``https://repo_for_OmegaT_team_project`` are mapped "
+"to the local OmegaT project"
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:174
+msgid ""
+"All the contents of ``https://repo_for_All_OmegaT_team_projects/En-"
+"US_DE_project`` are mapped to the local OmegaT project."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:184
+msgid ""
+"The remote file ``https://github.com/omegat-"
+"org/omegat/raw/master/src/org/omegat/Bundle.properties`` is mapped to the"
+" local file ``source/Bundle.properties``."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:195
+msgid ""
+"The remote file ``https://github.com/omegat-"
+"org/omegat/raw/master/release/readme.txt`` is mapped to the local file "
+"``source/readme_tr.txt``."
+msgstr ""
+
+#: ../../source/HowTo_SetUpTeamProject.rst:199
+msgid "This makes it possible to rename the file to be translated."
+msgstr ""
+

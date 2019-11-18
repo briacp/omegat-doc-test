@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OmegaT team
+# This file is distributed under the same license as the OmegaT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: OmegaT \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/HowTo_PreventDataLoss.rst:2
+msgid "Prevent data loss"
+msgstr ""
+
+#: ../../source/HowTo_PreventDataLoss.rst:4
+msgid ""
+"OmegaT is a robust application. However, you should take precautions "
+"against data loss when using OmegaT, just as with any other application. "
+"When you translate your files, OmegaT stores all your progress in the "
+"translation memory ``project_save.tmx`` that resides in the project's "
+"``/omegat`` subfolder."
+msgstr ""
+
+#: ../../source/HowTo_PreventDataLoss.rst:10
+msgid ""
+"OmegaT also backs up the translation memory to "
+"project\\_save.tmx.YEARMMDDHHNN.bak in the same subfolder each time a "
+"project is opened or reloaded. YEAR is the 4-digit year, MM is the month,"
+" DD the day of the month, and HH and NN are the hours and minutes when "
+"the previous translation memory was saved."
+msgstr ""
+
+#: ../../source/HowTo_PreventDataLoss.rst:16
+msgid ""
+"If you believe that you have lost translation data, you can use the "
+"following procedure to restore the project to its most recently saved "
+"state, usually not older than approximately 10 minutes or so:"
+msgstr ""
+
+#: ../../source/HowTo_PreventDataLoss.rst:20
+msgid "close the project"
+msgstr ""
+
+#: ../../source/HowTo_PreventDataLoss.rst:22
+msgid ""
+"rename the current ``project_save.tmx ``\\ file (e.g. to "
+"``project_save.tmx.temporary``)"
+msgstr ""
+
+#: ../../source/HowTo_PreventDataLoss.rst:25
+msgid ""
+"select the backup translation memory that is the most likely to contain "
+"the data you are looking for"
+msgstr ""
+
+#: ../../source/HowTo_PreventDataLoss.rst:28
+msgid "rename it ``project_save.tmx``"
+msgstr ""
+
+#: ../../source/HowTo_PreventDataLoss.rst:30
+msgid "open the project"
+msgstr ""
+
+#: ../../source/HowTo_PreventDataLoss.rst:32
+msgid "To avoid losing important data:"
+msgstr ""
+
+#: ../../source/HowTo_PreventDataLoss.rst:34
+msgid ""
+"Make regular copies of the file /omegat/project\\_save.tmx to backup "
+"media, such as CD or DVD."
+msgstr ""
+
+#: ../../source/HowTo_PreventDataLoss.rst:37
+msgid ""
+"Until you are familiar with OmegaT, create translated files at regular "
+"intervals and check that the translated file contains the latest version "
+"of your translation."
+msgstr ""
+
+#: ../../source/HowTo_PreventDataLoss.rst:41
+msgid ""
+"Take particular care when making changes to the files in ``/source`` "
+"while in the middle of a project. If the source file is modified after "
+"you have begun translating, OmegaT may be unable to find a segment that "
+"you have already translated."
+msgstr ""
+
+#: ../../source/HowTo_PreventDataLoss.rst:46
+msgid ""
+"Use these Help texts to get started. Should you run into problems, post a"
+" message in the `OmegaT user group "
+"<https://groups.yahoo.com/neo/groups/OmegaT/info>`__. Do not hesitate to "
+"post in the language you feel the most familiar with."
+msgstr ""
+

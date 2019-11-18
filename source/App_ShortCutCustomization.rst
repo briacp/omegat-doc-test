@@ -1,14 +1,23 @@
 Shortcuts customization
 =======================
 
-Shortcuts customization
-=======================
 
 Most of the items that appear in the main menu can have a new shortcut
 assigned. You can change the already assigned shortcuts and add new
 shortcuts by putting a shortcut definition file in your OmegaT
 preferences folder (accessible by Options > Access Configuration Folder
 menu).
+
+.. code-block:: javascript
+    :linenos:
+
+    var x = 1;
+    function foo(bar) {
+        if (bar == "foo") {
+            return 1;
+        }
+    }
+    console.log("Hello");
 
 The shortcut definition file must be named
 ``MainMenuShortcuts.properties`` and must contain at most one shortcut
@@ -18,8 +27,8 @@ start with "//". Anything after the "//" will be ignored.
 Once the ``MainMenuShortcuts.properties`` file is modified, OmegaT must
 be relaunched to take the new shortcuts into account.
 
-The shortcut definition syntax is the following: ``<menu item
-    code>=<shortcut>``, where *<menu item code>* is a code taken from
+The shortcut definition syntax is the following: ``<menu item code>=<shortcut>``, 
+where *<menu item code>* is a code taken from
 the tables below and *<shortcut>* is a combination of pressed keys
 specified by the user [1]_.
 
@@ -43,17 +52,15 @@ The first is the shortcut for Open Project, the second for Create
 Glossary Entry.
 
 If you want to use +Shift+ +Ctrl+ +O+ to open a project, modify your
-``MainMenuShortcuts.properties`` as follows:\ ``
-    ``
+``MainMenuShortcuts.properties`` as follows:
 
 ``projectOpenMenuItem=shift ctrl O``.
 
 If you are on a Mac and you want to add a +Shift+ +Command+ +S+ shortcut
 to Tools > Statistics, add the following line to your
-``MainMenuShortcuts.properties``:````
+``MainMenuShortcuts.properties``:
 
-`` toolsShowStatisticsStandardMenuItem=shift meta
-    S``
+``toolsShowStatisticsStandardMenuItem=shift meta S``
 
 Save then the file and relaunch OmegaT. Your new shortcuts should now
 appear next to the menu items you have modified. If they do not conflict

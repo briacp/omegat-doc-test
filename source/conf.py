@@ -66,3 +66,10 @@ html_theme_options = {
     'logo_only': True,
     'style_nav_header_background': '#88b14b',
 }
+
+
+# Intl
+locale_dirs = ['locale/'] # source/locale/fr
+# https://docs.readthedocs.io/en/stable/guides/manage-translations.html
+gettext_compact = False
+gettext_uuid = True

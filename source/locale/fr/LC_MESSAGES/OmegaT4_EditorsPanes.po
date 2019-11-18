@@ -1,0 +1,390 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OmegaT team
+# This file is distributed under the same license as the OmegaT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: OmegaT \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/OmegaT4_EditorsPanes.rst:2
+msgid "Panes"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:4
+msgid ""
+"The main window consists of several panes, the main menu and a status "
+"bar. You can change the position of any pane or even undock it to a "
+"separate window by clicking and dragging the pane by its name. Depending "
+"on the pane status, different signs can appear at its top right corner:"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:9
+msgid "**Note**"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:11
+msgid ""
+"If you can not see all the panes (be it opened or minimized), pressing "
+"Options > Restore Main Windowwill restore them to the state, defined in "
+"the installation."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:16
+msgid "|image0|"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:16
+msgid ""
+"minimizes the pane, so that only its name is shown at the bottom of the "
+"window"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:18
+msgid "|image1|"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:18
+msgid "maximizes the pane"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:20
+msgid "|image2|"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:20
+msgid "restores the layout before the maximizing step"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:22
+msgid "|image3|"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:22
+msgid "undocks the pane from the main window"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:24
+msgid "|image4|"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:24
+msgid "puts the pane back within the main window"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:27
+msgid "Table: Pane widgets"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:29
+msgid ""
+"You can overlap panes if desired. When this is done the panes display a "
+"tab at the top. The separators between the panes can be dragged to resize"
+" panes. Should you lose track of your changes to the user interface, you "
+"can use Options → Restore the main window any time to return to the "
+"original layout."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:35
+msgid ""
+"It is possible to drag and drop files to each pane, which will react "
+"accordingly."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:38
+msgid ""
+"Editor pane: If an OmegaT project file (``omegat.project``) is dropped on"
+" this pane, the corresponding project will be opened, closing first any "
+"opened project. Other dropped files will be copied to the ``source`` "
+"folder. This applies also to the `Project files "
+"<#windows.projectfiles>`__ window."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:43
+msgid ""
+"Fuzzy Matches pane: Dropped ``.tmx`` files will be copied to the ``tm`` "
+"folder."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:46
+msgid ""
+"Glossary pane: Dropped files with known glossary extensions (``.txt``, "
+"``.tab``, etc.) will be copied to the ``glossary`` folder."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:50
+msgid "Editor"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:52
+msgid ""
+"This is where you type and edit your translation. The Editor pane "
+"displays the text of the partially translated document: the text already "
+"translated is displayed in translation while the untranslated text is "
+"displayed in the original language. The displayed text is split into "
+"segments and you may scroll through the document and double-click on any "
+"segment to open and edit it. In the above case, the segments already "
+"translated are shown in yellow."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:60
+msgid ""
+"One of the above segments is the current segment. It is the segment that "
+"is displayed in two parts. The upper part is in the source language, in "
+"bold characters with a green background color, the lower part is the "
+"editing field, ended by a marker: the marker is ``<segment nnnn>`` where "
+"nnnn is a number of the segment in the project. Use the upper part as a "
+"reference and replace or modify the contents of the editing field with "
+"your translation."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:69
+msgid ""
+"the segment marker displays ``<segment nnnn +yy more> when the segment is"
+" non-unique. In that case, yy is the number of other occurrences of the "
+"segment in the project.``"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:71
+msgid ""
+"Depending upon the preferred editing behavior, the editing field for the "
+"untranslated segment may be empty, contain the source text, or contain "
+"the translation of the string most similar to the one to be translated. "
+"When you move to another segment, the translation is validated and "
+"stored. If you want the translation to be the same as the source, simply "
+"make the editing field empty by removing all the text (select all with "
+"Ctrl+A and delete with Del). OmegaT is able to store translations that "
+"are identical to the source. This is useful for documents that contain "
+"trade marks, names or other proper nouns, or parts in a third language "
+"that do not require translation. See *Translation editing* for more "
+"details."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:83
+msgid ""
+"If you right click on the Editor pane, a pop-up menu opens, offering\\ "
+"**Cut, Copy, Paste** (i.e. same functions as +Ctrl+ +X+ , +Ctrl+ +C+ and "
+"+Ctrl+ +V+ ), **GoTo segment** and **Add glossary entry** functions. In "
+"addition, when the right click occurs on an opened segment, other options"
+" concerning **Alternative translations** are proposed, for example to to "
+"jump to another instance of non-unique segments."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:91
+msgid ""
+"It is possible to drag text from anywhere in the main window and to drop "
+"it within the segment. Texted dragged from outside the target segment is "
+"copied, while text dragged from within the segment is moved."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:95
+msgid ""
+"By default, it is not possible to select words in the source segment "
+"using the keyboard rather than the mouse. Pressing F2 key allows to move "
+"the cursor into the source segment (or anywhere in the editor) with the "
+"keyboard arrows. In this mode, \"Cursor lock off\" is displayed at the "
+"bottom of the pane. To come back to the standard mode \"Cursor lock on\","
+" press F2 again."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:103
+msgid "Fuzzy Matches"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:105
+msgid ""
+"The match viewer shows the most similar segments from translation "
+"memories, both from internal project translation memory created in real "
+"time as you translate your project and from ancillary translation "
+"memories you have imported from your earlier jobs, or received from your "
+"client or translation agency."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:111
+msgid ""
+"When you move to the next segment, the first fuzzy match (the one with "
+"the best matching percentage) is automatically selected. You may select a"
+" different match by pressing Ctrl+2, 3, 4, or 5. Of course, pressing "
+"+Ctrl+ +5+ will have no effect, if there is no match #5. To use the "
+"selected match in your translation, use Ctrl+R to replace the target "
+"field with the match or use Ctrl+I to insert it at the cursor position."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:118
+msgid ""
+"The matching percentage is roughly equivalent to taking the number of "
+"common words in the matched and the matching segment and dividing by the "
+"number of words in the longer of the two. The selected fuzzy match is "
+"highlighted in bold, words that are missing in the segment you are "
+"translating are colored blue and words adjacent to the missing parts "
+"green. In the above example the source segment is **Context menu "
+"command**. The top match is 100%, because all words match. So do the next"
+" two matches, and the match #4 is similar, but different. The line with "
+"the matching percentage also includes the name of the translation memory "
+"containing the match. If there's no file name displayed, the source is "
+"the internal project translation memory. Orphan segments (the match #2) "
+"describe segments in the default project translation memory that have no "
+"corresponding source segment."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:133
+msgid "Glossary"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:135
+msgid ""
+"The Glossary pane allows you to access your own collection of expressions"
+" and specialist terminology which you have built up in your glossary "
+"files. It shows translation of terms found in the current segment. The "
+"source segment in the example below was “\\ *Context menu command*\\ ”, "
+"as in the Fuzzy Matches example above, and the terms shown were found in "
+"the glossaries, available (Microsoft's Term collection and Slovenian "
+"Linux User group Glossary)."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:143
+msgid ""
+"If you have TransTips option activated (Options → TransTips), you can "
+"right click on the highlighted word in the source segment to open a pop-"
+"up menu with suggested translation, as offered by your glossary. "
+"Selecting one of them will insert it at the current cursor position into "
+"the target segment. You can also highlight your preferred alternative in "
+"the glossary pane and insert it into the target by right clicking on the "
+"selection."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:152
+msgid "Dictionary"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:154
+msgid ""
+"Dictionaries are the electronic equivalents of printed dictionaries like "
+"Merriam Webster, Duden, Larousse etc., that you may have on your desk. "
+"See more about them in the chapter on `Dictionaries "
+"<#appendix.dictionaries>`__"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:160
+msgid "Machine Translation"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:162
+msgid ""
+"The machine translation pane, when opened, contains the suggestions by "
+"machine translation tools for the current segment. Press Ctrl+M to "
+"replace the translation of the current segment with the suggested "
+"translation."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:168
+msgid "Multiple Translations"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:170
+msgid ""
+"A given source segment may require several different translations, "
+"depending on the context. If the current translation of the segment does "
+"not fit, the user can select Edit → Create Alternative Translation. The "
+"target text entered after that will be treated as an alternative "
+"translation of the source segment. You can define one of the alternative "
+"- for instance the most probable among them - as default translation by "
+"selecting Edit → Use as Default Translation"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:179
+msgid "Notes"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:181
+msgid ""
+"The translator can add notes to the opened segment, for instance to come "
+"back later to the segment and redo the translation, check that "
+"alternative translations are correct or to ask colleagues for their "
+"opinion. You can browse through notes using GoTo → Next Note and GoTo → "
+"Previous Note."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:188
+msgid "Comments"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:190
+msgid ""
+"Some of the file formats, specialized for translation work, for instance "
+"PO, allow the inclusion of comments. This way the translator can be "
+"provided the context about the segment to be translated. In the example "
+"below, the author of the PO file included a warning for the translator to"
+" check the length of the translation:"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:197
+msgid "Status bar"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:199
+msgid ""
+"The status bar displays work-flow related messages at the bottom of the "
+"main window. This bar gives the user feedback on specific operations that"
+" are in progress. It also displays the number of fuzzy and glossary "
+"matches for the current segment."
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:204
+msgid ""
+"The counters in the lower right corner keep track of the progress of the "
+"translation (numbers in the left hand column refer to the figure above):"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:208
+msgid "27/27"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:208
+msgid "number of segments - translated vs total for the current file"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:210
+msgid "9319/16338"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:210
+msgid "number of unique segments - translated vs total in the project"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:212
+msgid "31175"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:212
+msgid "total number of segments (including repeats) in the project"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:214
+msgid "103/114"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:214
+msgid "number of source and target characters in the current segment"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:217
+msgid "Table: Main Window - counters"
+msgstr ""
+
+#: ../../source/OmegaT4_EditorsPanes.rst:219
+msgid ""
+"From a practical point of view, the most important pair of numbers is the"
+" second pair: it tells, how much you have done so far, in relation to the"
+" total or second number. The project in the example is evidently "
+"finished, as all the unique segments have been translated."
+msgstr ""
+

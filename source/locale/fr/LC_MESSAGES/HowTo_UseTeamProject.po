@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, OmegaT team
+# This file is distributed under the same license as the OmegaT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr "Project-Id-Version: OmegaT \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../source/HowTo_UseTeamProject.rst:2
+msgid "Use a Team Project"
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:4
+msgid ""
+"OmegaT team projects must first be `set up <#howto.setupteamproject>`__ "
+"on a server."
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:7
+msgid ""
+"To use a team project for the first time, follow the procedure provided "
+"by the project manager."
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:10
+msgid ""
+"Once the project has been opened, translation proceeds in the same way as"
+" for a non-team project, except the following points."
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:13
+msgid "**Automatic saving**"
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:15
+msgid ""
+"Every 3 minutes (by default), the local project is synchronised with the "
+"remote repository so that the project manager or other translators can "
+"see and use translations added during that period."
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:19
+msgid ""
+"The interval of 3 minutes can be changed in `Options > Preferences > "
+"Saving and Output <#dialogs.preferences.savingandoutput>`__."
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:22
+msgid "**Synchronised files**"
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:24
+msgid ""
+"Whenever the project is automatically saved, but also when it is opened, "
+"closed and reloaded, only two files are actually synchronised:"
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:27
+msgid "``omegat/project_save.tmx``"
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:29
+msgid "``glossary/glossary.txt``"
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:31
+msgid "All other files will be replaced by the files in the remote repository."
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:33
+msgid "**Adding new source files**"
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:35
+msgid "To add a new source file:"
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:37
+msgid "copy the files to the ``/source`` folder"
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:39
+msgid "use Project > Commit Source Files"
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:41
+msgid ""
+"Existing source files can be modified, but the commit operation must be "
+"carried out before an automatic save and before the project is reloaded "
+"or closed."
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:45
+msgid "**Deleting source files**"
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:47
+msgid "Files must be deleted first by the project manager, and then locally."
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:49
+msgid "**Changing segmentation rules or file filters**"
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:51
+msgid "Project parameters must be changed by the project manager."
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:53
+msgid "**Working offline**"
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:55
+msgid ""
+"A team project can be opened and translated offline. All the changes will"
+" be synchronised the next time a connection is available."
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:58
+msgid "To work offline:"
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:60
+msgid "Disconnect from the network before opening the project,"
+msgstr ""
+
+#: ../../source/HowTo_UseTeamProject.rst:62
+msgid "or open the project with the command line using the ``--no-team`` option."
+msgstr ""
+
