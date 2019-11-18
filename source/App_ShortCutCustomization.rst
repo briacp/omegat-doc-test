@@ -8,17 +8,6 @@ shortcuts by putting a shortcut definition file in your OmegaT
 preferences folder (accessible by Options > Access Configuration Folder
 menu).
 
-.. code-block:: javascript
-    :linenos:
-
-    var x = 1;
-    function foo(bar) {
-        if (bar == "foo") {
-            return 1;
-        }
-    }
-    console.log("Hello");
-
 The shortcut definition file must be named
 ``MainMenuShortcuts.properties`` and must contain at most one shortcut
 definition per line. Empty lines are accepted and comment lines should

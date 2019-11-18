@@ -1,13 +1,11 @@
 Learn to use OmegaT in 5 minutes!
-=================================
+#################################
 
-Set up a new project Project Create / open new
-==============================================
+Set up a new project
+********************
 
-Note: On an Apple Mac, use the Command key instead of the Control key.
+.. hint:: On an Apple Mac, use the Command key instead of the Control key.
 
-Menu Project
-New...
 To start using OmegaT, first create a project that will hold all your
 files, such as your source file, translation memories, glossaries, and
 eventually your translated file. In the Project menu, select New... and
@@ -20,7 +18,7 @@ the language that your translated file will be, and click OK to
 continue.
 
 If you are interested in other settings of this dialog, you can return
-to it any time by pressing Ctrl+E.
+to it any time by pressing ``Ctrl+E``.
 
 Next, the Project Files dialog opens. Click on Copy Files to Source
 Folder... to select your source files. OmegaT will then copy the
@@ -29,19 +27,19 @@ project. After the source files have loaded in the Editor pane, you can
 close the Project Files dialog.
 
 Translate the file
-==================
+******************
 
 OmegaT will present one segment at a time for you to translate. After
-you have translated each segment, press Ctrl+U to move to the next
-untranslated segment (or Ctrl+Shift+U to move to the next translated
+you have translated each segment, press ``Ctrl+U`` to move to the next
+untranslated segment (or ``Ctrl+Shift+U`` to move to the next translated
 segment). Whenever you want to see what your translation will look like
-in its final format, press Ctrl+D to generate the translated documents,
+in its final format, press ``Ctrl+D`` to generate the translated documents,
 which will be created in the ``/target/`` subfolder of your project
 folder. During translation, use the Edit and Go To menus to perform
 various useful functions.
 
 Validate your tags
-==================
+******************
 
 If your source files are formatted files, e.g. Microsoft Word,
 LibreOffice Writer or HTML, OmegaT will convert the formatting into tags
@@ -50,25 +48,29 @@ have tags that have nothing to do with formatting, but which are also
 important in the source files (and in the translated files). A source
 sentence might look like:
 
+OmegaT is an *easy to use* program for **eager** translators.
+
 OmegaT, however, will present this sentence in the following fashion:
+
+OmegaT is an <t0/>easy to use<t1/> program for <t2/>eager<t3/> translators.
 
 The tags in OmegaT are greyed, so they are easy to recognise. They are
 protected, so that you cannot modify their contents, but you can delete
 them, enter them by hand or move them around in the target sentence.
 However, if you made mistakes when you typed the formatting tags, your
-translated files might fail to open. Therefore, press Ctrl+Shift+V
+translated files might fail to open. Therefore, press ``Ctrl+Shift+V``
 before you generate your translated files, to validate that your tags
 are correct.
 
 Generate the translated file
-============================
+****************************
 
 Once you have made certain that there are no tag errors in your
-translation, press Ctrl+D to generate the target files, which will be
+translation, press ``Ctrl+D`` to generate the target files, which will be
 created in the ``/target/`` subfolder of your project folder.
 
 Few more things to remember
-===========================
+***************************
 
 -  If a file does not load into the Editor pane, then it could be that
    it is in a format that doesn't work in OmegaT. See Options >

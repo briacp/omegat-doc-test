@@ -59,11 +59,8 @@ requests French as the user language and Canada as the country:
     # Country
     -Duser.country=CA
 
-Advice: if OmegaT works slowly in Remote Desktop sessions under Windows,
-you may use this option:
-
-::
-
+.. hint:: If OmegaT works slowly in Remote Desktop sessions under Windows, you may use this option:
+  ::
     -Dsun.java2d.noddraw=false
 
 Upgrading OmegaT
@@ -103,8 +100,8 @@ version, since the new installation will use your existing JRE.
 Linux (Intel) Users
 *******************
 
-Downloading the right package
-=============================
+Downloading the right package for Linux
+=======================================
 
 Do you have a Java implementation compatible with Oracle's Java 8 JRE?
 
@@ -116,8 +113,8 @@ Do you have a Java implementation compatible with Oracle's Java 8 JRE?
    JRE will not interfere with other Java implementations that may
    already be installed on your system.
 
-Installing OmegaT
-=================
+Installing OmegaT on Linux
+==========================
 
 Unpack/untar the downloaded file. This will create an ``omegat/`` folder
 in the working folder in which you will find all the files needed to run
@@ -173,8 +170,8 @@ You can add OmegaT to your menus as follows:
    the folder is selected, the files should appear and ``OmegaT.png``
    can be selected.
 
-Running OmegaT
-==============
+Running OmegaT on Linux
+=======================
 
 You can launch OmegaT from the command line with a script that includes
 start-up options or you can click on ``OmegaT.jar`` to launch it
@@ -186,15 +183,15 @@ for more information.
 macOS Users
 ***********
 
-Downloading the package
-=======================
+Downloading the package for macOS
+=================================
 
 OmegaT contains the Java JRE 1.8
 
 Download ``OmegaT_4.n.n_Mac.zip``.
 
-Installing OmegaT
------------------
+Installing OmegaT on macOS
+--------------------------
 
 Double click on ``OmegaT_4.n.n_Mac.zip`` to unpack it. This creates a
 folder called ``OmegaT``. The folder contains 2 files: ``index.html``
@@ -207,8 +204,8 @@ Adding OmegaT to the Dock
 
 Drag and drop ``OmegaT.app`` onto the Dock.
 
-Running OmegaT
---------------
+Running OmegaT on macOS
+-----------------------
 
 Double-click on ``OmegaT.app`` or click on its location in the Dock.
 
@@ -229,9 +226,8 @@ with the user interface in Japanese.
 
 To change the amount of memory available, edit
 *OmegaT.app/Contents/Info.plist* file and un-comment the line
-``<!-- <string>-Xmx6g</string>
-      -->`` by removing the ``<!--`` and ``-->``. This will launch
-OmegaT with 6 GB of memory; change the ``6g`` to the desired amount.
+``<!-- <string>-Xmx6g</string> -->`` by removing the ``<!--`` and ``-->``.
+This will launch OmegaT with 6GB of memory; change the ``6g`` to the desired amount.
 
 To launch multiple instances of ``OmegaT.app``, double-click the file
 *OmegaT* located in ``OmegaT.app/Contents/MacOS/``.
@@ -250,13 +246,13 @@ Automator to create Services or scripts that will automate frequent
 actions.
 
 Other Systems
-=============
+*************
 
 This information applies to systems such as Solaris SPARC/x86/x64, Linux
 x64/PowerPC, Windows x64.
 
 Downloading the right package
------------------------------
+=============================
 
 OmegaT is available bundled with a Oracle Java JRE for Linux (Intel x86)
 and Windows platforms. Users of other platforms (Linux PowerPC, Linux
@@ -278,15 +274,15 @@ Do you have a Java implementation compatible with Oracle's Java 8 JRE?
 
    Oracle provides JREs for Solaris SPARC/x86 (Java 8) and for Linux
    x64, Solaris x64, Windows x64 (Java 8) at
-   ` <http://www.oracle.com/technetwork/java/archive-139210.html>`__.
+   `<http://www.oracle.com/technetwork/java/archive-139210.html>`__.
 
    IBM provides JREs for Linux PowerPC at
-   ` <http://www.ibm.com/developerworks/java/jdk/linux/download.html>`__.
+   `<http://www.ibm.com/developerworks/java/jdk/linux/download.html>`__.
 
    Follow the installation instructions of the package you need.
 
-Installing OmegaT
------------------
+Installing OmegaT on other systems
+==================================
 
 To install OmegaT, simply unpack the ``OmegaT_4.n.n_Without_JRE.zip``
 file. This creates an ``./OmegaT_4.n.n_Without_JRE/`` folder in the
@@ -298,8 +294,8 @@ Installing convenient shortcuts
 Follow your system's instructions to install OmegaT shortcuts in
 convenient places of your choosing.
 
-Running OmegaT
---------------
+Running OmegaT on other systems
+===============================
 
 Once OmegaT is installed, you can launch it directly from the command
 line, you can create a script that includes launch parameters for the
@@ -310,7 +306,7 @@ associated with a Java launcher. Check "Command line launching" below
 for more information.
 
 Drag and drop
-=============
+*************
 
 In most systems, it is possible to open a project by dropping an
 ``omegat.project`` file onto the OmegaT icon on the desktop. It might
@@ -318,7 +314,7 @@ also be possible to open an OmegaT project by double-clicking on an
 ``omegat.project`` file.
 
 Using Java Web Start
-====================
+********************
 
 Java Web Start technology (part of Java 8 and above) can be used to
 deploy standalone Java software applications with a single click over
@@ -349,7 +345,7 @@ Note that if you need or wish to use any of the launch command arguments
 (see above), you must use the normal installation.
 
 Starting OmegaT from the command line
-=====================================
+*************************************
 
 Normally, it is not necessary to start OmegaT from the command line.
 However, the command-line alternative allows the user to control and
@@ -357,7 +353,7 @@ modify the program's behavior. There are two ways of launching OmegaT
 using the command line.
 
 Opening a command line window
------------------------------
+=============================
 
 A command line window is also referred to as a "terminal window". On
 Windows it is called an "MS-DOS window" and is available from the Start
@@ -420,12 +416,11 @@ carried out. Consequently, to make changes to the launch command, it is
 sufficient to modify the file.
 
 Launch command arguments
-------------------------
+========================
 
 The basic command has already been mentioned above. Changes to this
 command involve the addition of "arguments" to it. Arguments are added
-after the initial ``java``, and before the ``-jar
-      OmegaT.jar``. Note that in Windows you can change the
+after the initial ``java``, and before the ``-jar OmegaT.jar``. Note that in Windows you can change the
 ``OmegaT.l4J.ini`` file to reflect your preferences. In other platforms,
 you can modify ``Configuration.properties`` file on the Mac, or
 ``OmegaT`` launcher under Linux to do the same.
@@ -436,7 +431,7 @@ window.
 
 -  **User interface language**
 
-   **``-Duser.language=XX``** Normally, i.e. when OmegaT is launched
+   **-Duser.language=XX** Normally, i.e. when OmegaT is launched
    without any arguments, the program first detects the language of the
    user's operating system. If a user interface in this language is
    available, OmegaT uses it. So, if the user's operating system is
@@ -555,9 +550,7 @@ This can be achieved in two ways:
    installation on another machine to a specific folder. The location
    does not matter, since you can add it to the command line at startup.
    The relevant files are ``filters.conf`` and ``segmentation.conf`` and
-   can be found in the user home folder (e.g. ``C:\Documents and
-               Settings\user\OmegaT`` under Windows, ``~/.omegat/``
-   under Linux).
+   can be found in the user home folder (e.g. ``C:\Documents and Settings\user\OmegaT`` under Windows, ``~/.omegat/`` under Linux).
 
 Starting in console mode
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -606,8 +599,7 @@ Note that all parameters start with a double ``-`` character.
       on the source files only. You specify the TMX file to be created
       with
 
-      ``--pseudotranslatetmx=allsegments.tmx
-                      --pseudotranslatetype=equal|empty``
+      ``--pseudotranslatetmx=allsegments.tmx --pseudotranslatetype=equal|empty``
 
       The argument *pseudotranslatetype* specifies, whether the target
       segments are to be equal to the source, or left empty.
@@ -622,8 +614,7 @@ Note that all parameters start with a double ``-`` character.
       Additional parameter is required in this case, specifying the
       location of the target data:
 
-      ``--alignDir=<location of translated
-                      files>``
+      ``--alignDir=<location of translated files>``
 
       ``alignDir`` must contain a translation in the target language of
       the project. For instance, if the project is EN-to-FR,
@@ -678,16 +669,15 @@ An extra command line parameter specific to console mode: ``--quiet``.
 In the quiet mode, less info is logged to the screen. The messages you
 would usually find in the status bar are not displayed.
 
-Usage: ``java -jar OmegaT.jar /path/to/project
-        --mode=console-translate --quiet``
+Usage: ``java -jar OmegaT.jar /path/to/project --mode=console-translate --quiet``
 
 Building OmegaT From Source
 ===========================
 
 The sources of the current version can be retrieved with a SVN client
-from the repository ` <svn://svn.code.sf.net/p/omegat/svn/trunk>`__ or
+from the repository `svn://svn.code.sf.net/p/omegat/svn/trunk <svn://svn.code.sf.net/p/omegat/svn/trunk>`_ or
 directly on
-`SourceForge <https://sourceforge.net/p/omegat/svn/HEAD/tarball?path=/trunk>`__.
+`SourceForge <https://sourceforge.net/p/omegat/svn/HEAD/tarball?path=/trunk>`_.
 
 Once the code is downloaded, open a command in the source folder and
 type:

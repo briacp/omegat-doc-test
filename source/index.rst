@@ -26,11 +26,10 @@ instructions.
    App_Spellchecker
    App_Regexp
    App_ShortCutCustomization
+   InstantStartGuide
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
 * :ref:`search`
-.. * :ref:`modindex`
-

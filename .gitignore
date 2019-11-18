@@ -3,3 +3,4 @@ make.bat
 Makefile
 omt-fr/
 *.mo
+source/_build
