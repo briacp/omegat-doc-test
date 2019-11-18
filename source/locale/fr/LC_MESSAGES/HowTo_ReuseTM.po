@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid ""
 "Translation memories may also contain reference translations: "
 "multinational legislation, such as that of the European Community, is a "
 "typical example."
-msgstr ""
+msgstr "Initially, that is when the project is created, the main TM of the project, ``project_save.tmx`` is empty. Cette mémoire de traduction se remplit au fur et à mesure de la traduction. Pour accélérer ce processus, des traductions préexistantes peuvent être réutilisées. Si une phrase donnée a déjà été traduite une fois (et traduite correctement), elle n'a pas besoin d'être retraduite. Les mémoires de traduction peuvent également contenir des traductions de référence : les législations internationales comme celles de la Communauté européenne en sont un exemple type."
 
 #: ../../source/HowTo_ReuseTM.rst:13
 msgid ""
@@ -52,7 +52,7 @@ msgid ""
 " former case you will get hits from these translation memories in the "
 "fuzzy matches viewer, and in the latter case these TMs will be used to "
 "pre-translate your source text."
-msgstr ""
+msgstr "Si vous désirez réutiliser la mémoire de traduction d'un projet précédent (par ex, parce que le nouveau projet ressemble au projet précédent ou parce qu'il utilise une terminologie qui a déjà été rencontrée), il est possible d'utiliser ces mémoires de traduction en tant « qu'importation des mémoires de traduction », c'est-à-dire de les importer dans votre nouveau projet. In this case, place the translation memories you wish to use in the */tm* or */tm*/auto folder of your new project: in the former case you will get hits from these translation memories in the fuzzy matches viewer, and in the latter case these TMs will be used to pre-translate your source text."
 
 #: ../../source/HowTo_ReuseTM.rst:30
 msgid ""
@@ -62,21 +62,21 @@ msgid ""
 "translation memories produced in the past, for example because they are "
 "on the same subject or for the same customer. In this case, a useful "
 "procedure would be:"
-msgstr ""
+msgstr "By default, the /tm folder is below the project's root folder (e.g. ...\\ */MyProject/tm*), but you can choose a different folder in the project properties dialog if you wish. Cela est utile si vous utilisez régulièrement des mémoires de traduction produites préalablement (parce qu'elles traitent, par exemple, du même sujet ou qu'elles sont destinées au même client). Dans ce cas, la procédure utile serait :"
 
 #: ../../source/HowTo_ReuseTM.rst:37
 msgid ""
 "Create a folder (a \"repository folder\") in a convenient location on "
 "your hard drive for the translation memories for a particular customer or"
 " subject."
-msgstr ""
+msgstr "Créez un dossier (un « dossier référentiel ») à un emplacement pratique de votre disque dur qui soit destiné aux mémoires de traduction qui concernent un client ou un sujet en particulier."
 
 #: ../../source/HowTo_ReuseTM.rst:41
 msgid ""
 "Whenever you finish a project, copy one of the three \"export\" "
 "translation memory files from the root folder of the project to the "
 "repository folder."
-msgstr ""
+msgstr "Quand vous finissez un projet, copiez dans le dossier référentiel un des trois fichiers « exportés » de la mémoire de traduction (ceux-ci sont localisés dans le dossier racine du projet)."
 
 #: ../../source/HowTo_ReuseTM.rst:45
 msgid ""
@@ -92,11 +92,11 @@ msgid ""
 " this folder may unnecessarily slow OmegaT down. You may even consider "
 "removing those that are not required any more, once you have used their "
 "contents to fill up the ``project-save.tmx`` file."
-msgstr ""
+msgstr "Veuillez noter que tous les fichiers TMX localisés dans le référentiel /tm sont analysés lorsque le projet est ouvert. Placer toutes les mémoires de traduction dont vous disposez dans ce dossier risque donc de ralentir OmegaT inutilement. You may even consider removing those that are not required any more, once you have used their contents to fill up the ``project-save.tmx`` file."
 
 #: ../../source/HowTo_ReuseTM.rst:57
 msgid "Importing and exporting translation memories"
-msgstr ""
+msgstr "Importer et exporter des mémoires de traduction"
 
 #: ../../source/HowTo_ReuseTM.rst:59
 msgid ""
@@ -107,14 +107,14 @@ msgid ""
 "formatting). Level 2 tmx files will still be imported and their textual "
 "content can be seen in OmegaT, but the quality of fuzzy matches will be "
 "somewhat lower."
-msgstr ""
+msgstr "OmegaT prend en charge les versions importées TMX 1.1-1.4b (level1 et level2) Cela permet aux mémoires de traduction produites par d'autres outils d'être lues par OmegaT. Cependant, Omegat ne prend pas complètement en charge les fichiers importés tmx level 2 (ceux-ci ne contiennent pas seulement la traduction, mais aussi le formatage). Les fichiers tmx level 2 seront quand même importés et leur contenu textuel sera visible dans OmegaT, mais la qualité des correspondances sera quelque peu altérée."
 
 #: ../../source/HowTo_ReuseTM.rst:67
 msgid ""
 "OmegaT follows very strict procedures when loading translation memory "
 "(tmx) files. If an error is found in such a file, OmegaT will indicate "
 "the position within the defective file at which the error is located."
-msgstr ""
+msgstr "OmegaT respecte une procédure très stricte lorsqu'il charge les fichiers de mémoire de traduction (TMX). Si une erreur est détectée dans un de ces fichiers, OmegaT indiquera la position de celle-ci au sein du fichier défectueux."
 
 #: ../../source/HowTo_ReuseTM.rst:71
 msgid ""
@@ -124,7 +124,7 @@ msgid ""
 " load them. Fixes are trivial operations and OmegaT assists "
 "troubleshooting with the related error message. You can ask the user "
 "group for advice if you have problems."
-msgstr ""
+msgstr "Certains outils sont connus pour produire des fichiers TMX invalides sous certaines conditions. Pour utiliser ces fichiers comme traductions de référence dans OmegaT, il est nécessaire de les réparer. Dans le cas contraire, OmegaT signalera une erreur et n'arrivera pas à les ouvrir. Les réparations sont des opérations simples et OmegaT facilite le dépannage en affichant les messages d'erreur correspondants. En cas de problème, demandez conseil au groupe d'utilisateurs ."
 
 #: ../../source/HowTo_ReuseTM.rst:78
 msgid ""
@@ -134,11 +134,11 @@ msgid ""
 " memory tools supporting TMX Level 2. If you only need textual "
 "information (and not formatting information), use the level 1 file that "
 "OmegaT has created."
-msgstr ""
+msgstr "OmegaT exporte les fichiers TMX version 1.4 (level 1 et level 2). L'exportation level 2 n'est pas entièrement conforme au standard level 2 mais en est suffisamment proche et fournira des correspondances correctes dans les autres outils de mémoire de traduction qui prennent en charge les TMX level 2. Si vous n'avez besoin que d'informations textuelles (et pas d'informations de formatage), utilisez le fichier level 1 créé par OmegaT."
 
 #: ../../source/HowTo_ReuseTM.rst:86
 msgid "Creating a translation memory for selected documents"
-msgstr ""
+msgstr "Créer une mémoire de traduction pour les documents sélectionnés"
 
 #: ../../source/HowTo_ReuseTM.rst:88
 msgid ""
@@ -154,13 +154,13 @@ msgid ""
 "Create a project, separate for other projects, in the desired language "
 "pair, with an appropriate name - note that the TMXs created will include "
 "this name."
-msgstr ""
+msgstr "Créez un projet séparé des autres projets dans la paire de langues désirée et donnez-lui un nom approprié. Veuillez noter que les TMX créés incluront ce nom."
 
 #: ../../source/HowTo_ReuseTM.rst:98
 msgid ""
 "Copy the documents, you need the translation memory for, into the source "
 "folder of the project."
-msgstr ""
+msgstr "Copiez les documents pour lesquels vous avez besoin de mémoires de traduction dans le dossier source du projet."
 
 #: ../../source/HowTo_ReuseTM.rst:101
 msgid ""
@@ -174,7 +174,7 @@ msgid ""
 "untranslated segments with Ctrl+U. To check everything is as expected, "
 "you may press Ctrl+D to create the target documents and check their "
 "contents."
-msgstr ""
+msgstr "Démarrez le projet. Check for possible Tag errors with Ctrl+T and untranslated segments with Ctrl+U. To check everything is as expected, you may press Ctrl+D to create the target documents and check their contents."
 
 #: ../../source/HowTo_ReuseTM.rst:109
 msgid ""
@@ -182,24 +182,24 @@ msgid ""
 "above) now contain the translations in the selected language pair, for "
 "the files, you have copied into the source folder. Copy them to a safe "
 "place for future referrals."
-msgstr ""
+msgstr "Quand vous quittez le projet, the TMX files in the main project folder (see above) now contain the translations in the selected language pair, for the files, you have copied into the source folder. Copiez-les dans un endroit sûr pour les utiliser ultérieurement en tant que références."
 
 #: ../../source/HowTo_ReuseTM.rst:114
 msgid ""
 "To avoid reusing the project and thus possibly polluting future cases, "
 "delete the project folder or archive it away from your workplace."
-msgstr ""
+msgstr "Pour éviter de réutiliser le projet et donc ne pas risquer de corrompre les cas futurs, supprimez le dossier du projet ou archivez-le à un emplacement séparé de votre poste de travail."
 
 #: ../../source/HowTo_ReuseTM.rst:119
 msgid "Sharing translation memories"
-msgstr ""
+msgstr "Partager des mémoires de traduction"
 
 #: ../../source/HowTo_ReuseTM.rst:121
 msgid ""
 "In cases where a team of translators is involved, translators will prefer"
 " to share common translation memories rather than distribute their local "
 "versions."
-msgstr ""
+msgstr "Lorsqu'une équipe de traducteurs est impliquée dans un projet, les traducteurs préfèrent partager des mémoires de traduction communes plutôt que de s'échanger leurs versions locales."
 
 #: ../../source/HowTo_ReuseTM.rst:125
 msgid ""
@@ -208,7 +208,7 @@ msgid ""
 "In case of OmegaT complete project folders - in other words the "
 "translation memories involved as well as source folders, project settings"
 " etc - are managed by the selected RCS. see more in Chapter"
-msgstr ""
+msgstr "OmegaT communique avec SVN et Git, deux systèmes répandus de contrôle et de gestion de version (RCS) en équipe disponibles sous une licence à code source ouvert. Dans le cas d'OmegaT, la totalité des dossiers du projet (en d'autres termes, les mémoires de traduction impliquées ainsi que les dossiers source, les paramètres du projet, etc) est gérée par le logiciel de gestion de versions sélectionné. Voir le chapitre"
 
 #: ../../source/HowTo_ReuseTM.rst:132
 msgid "Using TMX with alternative language"
@@ -221,7 +221,7 @@ msgid ""
 "Chinese, but your translator does not understand Dutch; she, however, "
 "understands perfectly English. In this case, the NL-EN translation memory"
 " can serve as a go-between to help generate NL to ZH translation."
-msgstr ""
+msgstr "Il peut arriver que vous ayez effectué un projet avec, par exemple, des sources néerlandaises et une traduction en anglais. Ensuite, vous avez par exemple besoin d'une traduction en chinois, mais votre traductrice ne comprend pas le néerlandais. Cependant, elle comprend parfaitement l'anglais. Dans ce cas, la mémoire de traduction NL-EN peut être utilisée comme intermédiaire pour aider à générer la traduction NL vers ZH."
 
 #: ../../source/HowTo_ReuseTM.rst:141
 msgid ""
@@ -230,7 +230,7 @@ msgid ""
 "indicate the target language of the tmx. The translator will be shown "
 "English translations for source segments in Dutch and use them to create "
 "the Chinese translation."
-msgstr ""
+msgstr "The solution in our example is to copy the existing translation memory into the tm/tmx2source/ subfolder and rename it to ZH\\_CN.tmx to indicate the target language of the tmx. Le traducteur verra des traductions en anglais de segments sources néerlandais et les utilisera pour créer une traduction en chinois."
 
 #: ../../source/HowTo_ReuseTM.rst:147
 msgid ""
@@ -240,5 +240,5 @@ msgid ""
 " be identical - NL in our example. Note that only one TMX for a given "
 "language pair is possible, so if several translation memories should be "
 "involved, you will need to merge them all into the XX\\_YY.tmx."
-msgstr ""
+msgstr "**Important:**\\ the supporting TMX must be renamed XX\\_YY.tmx, where XX\\_YY is the target language of the tmx, for instance to ZH\\_CN.tmx in the example above. La langue source du projet et du TMX doivent bien sûr être identiques - NL dans notre exemple. Note that only one TMX for a given language pair is possible, so if several translation memories should be involved, you will need to merge them all into the XX\\_YY.tmx."
 

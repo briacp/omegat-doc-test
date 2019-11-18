@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr "Project-Id-Version: OmegaT \n"
 
 #: ../../source/App_Glossaries.rst:2
 msgid "Glossaries"
-msgstr ""
+msgstr "Glossaires"
 
 #: ../../source/App_Glossaries.rst:4
 msgid "Glossaries are files created and updated manually for use in OmegaT."
@@ -42,11 +42,11 @@ msgid ""
 "entries will always be in tab-separated format and UTF-8. As the existing"
 " content will not be touched, damage to an existing file would be "
 "limited."
-msgstr ""
+msgstr "Vous pouvez définir son emplacement et son nom dans la boite de dialogue des propriétés du projet. The extension must be ``.txt`` or ``.utf8`` (if not, it will be added). The location of the file must be within the ``/glossary`` folder, but it can be in a deeper folder (e.g., ``glossary/sub/glossary.txt``). Il n'est pas nécessaire que le fichier existe au moment de la configuration, il sera créé (si besoin est) au moment de l'ajout d'une entrée de glossaire. Si le fichier existe déjà, il n'y a pas de vérification du format ou du jeu caractères du fichier : les nouvelles entrées sont toujours présentées sous format texte séparé par des tabulations et en UTF-8. Dans la mesure où le contenu existant n'est pas touché, il y a peu de risque de commettre des erreurs dans le fichier existant."
 
 #: ../../source/App_Glossaries.rst:22
 msgid "Usage"
-msgstr ""
+msgstr "Utilisation"
 
 #: ../../source/App_Glossaries.rst:24
 msgid ""
@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../source/App_Glossaries.rst:33
 msgid "Glossary pane"
-msgstr ""
+msgstr "Volet Glossaires"
 
 #: ../../source/App_Glossaries.rst:35
 msgid ""
@@ -70,28 +70,28 @@ msgid ""
 "manually to the glossary file(s) during translation, for example in a "
 "text editor. Newly added terms will not be recognized once the changes in"
 " the text file have been saved."
-msgstr ""
+msgstr "Les mots écrits avant le signe « = » sont les termes source, et le ou les mots écrits après « = » correspondent à leurs traductions. L'entrée vocabulaire peut avoir un ou plusieurs commentaires ajoutés. La fonction glossaire ne trouve que les mots qui correspondent exactement aux entrées du glossaire (par exemple, il ne reconnaît pas les formes accordées). De nouveaux termes peuvent être ajoutés manuellement au(x) fichier(s) glossaire pendant la traduction en utilisant, par exemple, un éditeur de texte. Les termes nouvellement ajoutés ne sont reconnus qu'une fois les changements du fichier texte enregistrés."
 
 #: ../../source/App_Glossaries.rst:43
 msgid ""
 "The source term does not have to be a single-word item, as the next "
 "example shows:"
-msgstr ""
+msgstr "Un terme source ne doit pas nécessairement être un mot seul. Comme dans cet exemple :"
 
 #: ../../source/App_Glossaries.rst:49
 msgid "multiple words entries in glossaries - example"
-msgstr ""
+msgstr "Les entrées à plusieurs mots dans les glossaires – exemple"
 
 #: ../../source/App_Glossaries.rst:51
 msgid ""
 "The underlined item \"pop-up menu\" can be found in the glossary pane as "
 "\"pojavni menu\". Highlighting it in the Glossary pane and then "
 "rightclicking insets at the cursor position in the target segment. [1]_"
-msgstr ""
+msgstr "L'élément souligné « free software » figure dans le volet Glossaires face à « logiciel libre ». Surlignez ce mot dans le volet Glossaires et faites un clic droit dessus après avoir placé le curseur à la bonne position dans le segment cible. [1]_"
 
 #: ../../source/App_Glossaries.rst:56
 msgid "File format"
-msgstr ""
+msgstr "Format de fichier"
 
 #: ../../source/App_Glossaries.rst:58
 msgid ""
@@ -100,14 +100,14 @@ msgid ""
 "columns respectively. The third column can be used for additional "
 "information. You can have entries with the target column missing, i.e. "
 "just containing the source term and the comment."
-msgstr ""
+msgstr "Les fichiers glossaire sont de simples fichiers texte brut contenant trois colonnes, formant des listes délimitées par tabulation avec les termes source et cible situés respectivement dans la première et la deuxième colonne. La troisième colonne peut être utilisée pour insérer des informations complémentaires. Il est possible de créer des entrées avec une colonne cible vide, c.-à-d. contenant seulement le terme source et le commentaire."
 
 #: ../../source/App_Glossaries.rst:64
 msgid ""
 "The encoding of glossaries is determined automatically. Of course, the "
 "encoding must be compatible with both the languages contained, so Unicode"
 " is recommended."
-msgstr ""
+msgstr "L'encodage des glossaires est déterminé automatiquement. Comme il faut bien sûr qu'il soit compatible avec les deux langues impliquées, Unicode est recommandé."
 
 #: ../../source/App_Glossaries.rst:68
 msgid ""
@@ -115,7 +115,7 @@ msgid ""
 "separated one: source term, target term. Comment fields are separated by "
 "a comma ','. Strings can be enclosed by quotes \", which allows having a "
 "comma inside a string:"
-msgstr ""
+msgstr "Le format CSV est également pris en charge. Ce format est le même que celui à séparation par tabulation : terme source, terme cible. Les champs de commentaire sont séparés par une virgule. Les chaînes de caractères peuvent être encadrées par des guillemets, ce qui permet d'inclure des virgules à l'intérieur des chaînes de caractères :"
 
 #: ../../source/App_Glossaries.rst:73
 msgid ""
@@ -141,7 +141,7 @@ msgid ""
 "<http://www.microsoft.com/Language/en-US/Terminology.aspx>`__ can be "
 "downloaded in nearly 100 languages and can serve as a cornerstone IT "
 "glossary."
-msgstr ""
+msgstr "Le TBX (Term Base eXchange), est le standard libre basé sur XML utilisé pour l'échange de données terminologiques structurées. TBX a été approuvé, en tant que standard international, par LISA et ISO. Si vous possédez déjà un système de gestion de la terminologie, il est possible que celui-ci propose une exportation des données terminologiques via le format TBX. `Microsoft Terminology Collection <http://www.microsoft.com/Language/en-US/Terminology.aspx>`__ can be downloaded in nearly 100 languages and can serve as a cornerstone IT glossary."
 
 #: ../../source/App_Glossaries.rst:89
 msgid ""
@@ -151,7 +151,7 @@ msgstr ""
 
 #: ../../source/App_Glossaries.rst:94
 msgid "How to create glossaries"
-msgstr ""
+msgstr "Création des glossaires"
 
 #: ../../source/App_Glossaries.rst:96
 msgid ""
@@ -159,7 +159,7 @@ msgid ""
 "file (see beginning of this chapter). Right-click in the glossary pane or"
 " press Ctrl+Shift+G to add a new entry. A dialog opens, allowing you to "
 "enter the source term, target term and any comments you may have:"
-msgstr ""
+msgstr "Le paramétrage du projet vous permet d'entrer un nom de fichier glossaire modifiable (voir début de ce chapitre). Right-click in the glossary pane or press Ctrl+Shift+G to add a new entry. Une boite de dialogue s'ouvre, vous permettant d'entrer le terme source, le terme cible et tous les commentaires que vous pourriez avoir :"
 
 #: ../../source/App_Glossaries.rst:101
 msgid "|image0|"
@@ -173,7 +173,7 @@ msgid ""
 "any comments you may have (ensuring you press tab between the fields) and"
 " save the file. The contents of the glossary pane will be updated "
 "accordingly."
-msgstr ""
+msgstr "Le contenu des fichiers glossaire est gardé en mémoire et chargé lorsque le projet est ouvert ou rechargé. Updating a glossary file is thus rather simple: press Ctrl+Shift+G and enter the new term, its translation and any comments you may have (ensuring you press tab between the fields) and save the file. Le contenu du volet Glossaires sera mis à jour en conséquence."
 
 #: ../../source/App_Glossaries.rst:110
 msgid ""
@@ -193,24 +193,24 @@ msgstr ""
 
 #: ../../source/App_Glossaries.rst:121
 msgid "Priority glossary"
-msgstr ""
+msgstr "Glossaire prioritaire"
 
 #: ../../source/App_Glossaries.rst:123
 msgid ""
 "The results from the priority glossary (by default, "
 "glossary/glossary.txt) appear in first places in the Glossary pane and in"
 " TransTips."
-msgstr ""
+msgstr "Les résultats du glossaire prioritaire (par défaut, glossary/glossary.txt) apparaissent en premier dans l'onglet Glossaires et dans les TransTips."
 
 #: ../../source/App_Glossaries.rst:127
 msgid ""
 "As entries can mix words from priority and non priority glossaries, the "
 "words from the priority glossary are displayed in bold."
-msgstr ""
+msgstr "Les entrées pouvant mélanger des mots de glossaires prioritaires et non prioritaires, les mots du glossaire prioritaires sont affichés en gras."
 
 #: ../../source/App_Glossaries.rst:131
 msgid "Common glossary problems"
-msgstr ""
+msgstr "Problèmes de glossaire les plus courants"
 
 #: ../../source/App_Glossaries.rst:133
 msgid "**Problem: No glossary terms are displayed - possible causes:**"
@@ -218,43 +218,43 @@ msgstr ""
 
 #: ../../source/App_Glossaries.rst:135
 msgid "No glossary file found in the \"glossary\" folder."
-msgstr ""
+msgstr "Aucun fichier glossaire n'a été trouvé dans le dossier « glossary »."
 
 #: ../../source/App_Glossaries.rst:137
 msgid "The glossary file is empty."
-msgstr ""
+msgstr "Le fichier glossaire est vide."
 
 #: ../../source/App_Glossaries.rst:139
 msgid "The items are not separated with a TAB character."
-msgstr ""
+msgstr "Les éléments ne sont pas séparés par le caractère TAB."
 
 #: ../../source/App_Glossaries.rst:141
 msgid ""
 "The glossary file does not have the correct extension (.tab, .utf8 or "
 ".txt)."
-msgstr ""
+msgstr "Le fichier glossaire ne possède pas la bonne extension (.tab, .utf8 ou .txt)."
 
 #: ../../source/App_Glossaries.rst:144
 msgid ""
 "There is no EXACT match between the glossary entry and the source text in"
 " your document - for instance plurals."
-msgstr ""
+msgstr "Il n'y a pas de correspondance EXACTE entre l'entrée glossaire et le texte source de votre document (exemple : différence singulier/pluriel)."
 
 #: ../../source/App_Glossaries.rst:147
 msgid "The glossary file does not have the correct encoding."
-msgstr ""
+msgstr "Le fichier glossaire ne possède pas l'encodage adéquat."
 
 #: ../../source/App_Glossaries.rst:149
 msgid ""
 "There are no terms in the current segment which match any terms in the "
 "glossary."
-msgstr ""
+msgstr "Aucun terme dans le segment en cours ne correspond à un terme du glossaire."
 
 #: ../../source/App_Glossaries.rst:152
 msgid ""
 "One or more of the above problems may have been fixed, but the project "
 "has not been reloaded."
-msgstr ""
+msgstr "Un ou plusieurs des problèmes ci-dessus ont été résolus mais le projet n'a pas été rechargé."
 
 #: ../../source/App_Glossaries.rst:155
 msgid ""
@@ -266,7 +266,7 @@ msgstr ""
 msgid ""
 "...but the same characters are displayed properly in the Editing pane: "
 "the extension and the file encoding do not match."
-msgstr ""
+msgstr "...mais les mêmes caractères sont affichés correctement dans le volet Éditeur : l'extension et le codage du fichier ne correspondent pas."
 
 #: ../../source/App_Glossaries.rst:162
 msgid ""
@@ -276,5 +276,5 @@ msgid ""
 "\"pojavnem meniju\" , i.e. to the locative. So it is probably faster to "
 "type the term correctly right away without bothering with the glossary "
 "and its shortcuts."
-msgstr ""
+msgstr "Pour insérer des termes du glossaire, il est également possible d'effectuer un clic droit sur la partie soulignée en bleu dans le segment source et de choisir le terme correspondant.  "
 

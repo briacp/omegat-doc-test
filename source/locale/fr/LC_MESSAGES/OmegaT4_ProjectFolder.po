@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,7 +35,7 @@ msgid ""
 " structure (as in a website), you need only specify the top-level "
 "subfolder and OmegaT will maintain the entire contents, while keeping the"
 " tree structure intact."
-msgstr ""
+msgstr "Le sous-dossier source contient les fichiers à traduire. Les fichiers peuvent être ajoutés ultérieurement dans le sous-dossier. Veuillez noter que la structure du sous-dossier source peut prendre la forme que vous souhaitez. Si les fichiers à traduire font partie d'une structure arborescente (comme celle d'un site web), il suffit de spécifier le sous-dossier racine et OmegaT conservera l'ensemble des contenus en gardant cette structure intacte."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:17
 msgid "target"
@@ -51,7 +51,7 @@ msgid ""
 "in the project translation memory, saved in the current "
 "**/omegat/project\\_save.tmx**. Untranslated segments will hereby remain "
 "in the source language."
-msgstr ""
+msgstr "À l'origine, ce sous-dossier est vide. To add contents to it, select Project > Create Translated Documents. Files within the ``source`` folder, whether translated or not, are then generated here, with the same hierarchy as present in the source subfolder. The contents of the target subfolder will reflect the current state of the translation, as present in the project translation memory, saved in the current **/omegat/project\\_save.tmx**. Les segments non traduits resteront donc dans la langue source."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:29
 msgid "tm"
@@ -65,7 +65,7 @@ msgid ""
 "well) tmx files, usually in all three forms. The best thing of course is "
 "to use OmegaT-specific TMX files (see above), so that the in-line "
 "formatting within the segment is retained."
-msgstr ""
+msgstr "Le dossier /tm/ peut contenir un nombre illimité de mémoires de traduction secondaires - c'est-à-dire de fichiers TMX. De tels fichiers peuvent être créés dans n'importe lequel des trois types cités ci-dessus. Veuillez noter que les autres outils de TAO peuvent exporter (et aussi importer) des fichiers TMX, généralement dans les trois formes. Bien sûr, la meilleure chose à faire est d'utiliser des fichiers TMX spécifiques à OmegaT (voir ci-dessus), afin que le formatage intégré soit conservé à l'intérieur des segments."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:38
 msgid ""
@@ -74,7 +74,7 @@ msgid ""
 "translated and stored in those files, will appear among the fuzzy "
 "matches, if it is sufficiently similar to the text currently being "
 "translated."
-msgstr ""
+msgstr "Le contenu des mémoires de traduction du sous-dossier tm sert à créer des suggestions pour le(s) texte(s) à traduire. Tout texte déjà traduit et sauvegardé dans ces fichiers apparaîtra dans les correspondances s'il est suffisamment proche du texte en cours de traduction."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:44
 msgid ""
@@ -95,11 +95,11 @@ msgid ""
 "given TMX file line by line. The last segment with the identical source "
 "text will thus prevail (Note: of course it makes more sense to avoid this"
 " to happen in the first place)."
-msgstr ""
+msgstr "It may happen, that translation memories, available in the ``tm`` subfolder, contain segments with identical source text, but differing targets. Les fichiers TMX sont triés en fonction de leurs noms et de leurs segments (à l'intérieur d'un fichier TMX donné). Ils sont ensuite lus ligne par ligne. Le dernier segment ayant un texte source identique va donc prédominer (Veuillez noter qu'il est bien sûr plus intéressant d'éviter que ce genre de choses arrive)."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:59
 msgid "Note that the TMX files in the tm folder can be compressed with gzip."
-msgstr ""
+msgstr "Veuillez noter que les fichiers TMX du dossier tm peuvent être compressés par gzip."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:62
 msgid "tm/auto"
@@ -114,25 +114,25 @@ msgstr ""
 
 #: ../../source/OmegaT4_ProjectFolder.rst:68
 msgid "Put the TMX in /tm/auto."
-msgstr ""
+msgstr "Placez la TMX dans /tm/auto."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:70
 #: ../../source/OmegaT4_ProjectFolder.rst:88
 msgid "Open the project. The changes are displayed."
-msgstr ""
+msgstr "Ouvrez le projet. Les modifications sont affichées."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:72
 msgid ""
 "Make a slight change anywhere in the project. This modifies "
 "``project_save.tmx`` (by adding proper Translation Units from \"auto\" "
 "TMX)"
-msgstr ""
+msgstr "Effectuez une légère modification à un emplacement quelconque du projet. This modifies ``project_save.tmx`` (by adding proper Translation Units from \"auto\" TMX)"
 
 #: ../../source/OmegaT4_ProjectFolder.rst:76
 msgid ""
 "Note: if TMX is removed from /tm/auto before step 3, no extra Translation"
 " Unit is added."
-msgstr ""
+msgstr "Note : si la TMX est supprimée de /tm/auto avant l'étape 3, no aucune traduction supplémentaire n'est ajoutée."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:80
 msgid "tm/enforce"
@@ -147,17 +147,17 @@ msgstr ""
 
 #: ../../source/OmegaT4_ProjectFolder.rst:86
 msgid "Put the TMX in /tm/enforce."
-msgstr ""
+msgstr "Placez la TMX dans /tm/enforce."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:90
 msgid ""
 "Make a slight change anywhere in the project. This modifies "
 "``project_save.tmx``."
-msgstr ""
+msgstr "Effectuez une légère modification à un emplacement quelconque du projet. This modifies ``project_save.tmx``."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:93
 msgid "Make decision about immunity of the enforced segments:"
-msgstr ""
+msgstr "Prenez une décision sur la pérennité des segments forcés :"
 
 #: ../../source/OmegaT4_ProjectFolder.rst:95
 msgid ""
@@ -175,7 +175,7 @@ msgstr ""
 msgid ""
 "Note: if TMX is removed from /tm/enforce before step 3, enforcements "
 "aren't kept at all."
-msgstr ""
+msgstr "Note : si la TMX est supprimée de /tm/enforce avant l'étape 3, les segments forcés ne sont pas conservés."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:105
 msgid "tm/mt"
@@ -186,7 +186,7 @@ msgid ""
 "In the editor pane, when a match is inserted from a TMX contained in a "
 "folder named ``mt``, the background of the active segment is changed to "
 "red. The background is restored to normal when the segment is left."
-msgstr ""
+msgstr "In the editor pane, when a match is inserted from a TMX contained in a folder named ``mt``, the background of the active segment is changed to red. L'arrière-plan revient à la normale lorsque l'utilisateur quitte le segment."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:112
 msgid "tm/penalty-xxx"
@@ -203,7 +203,7 @@ msgid ""
 "lowered to a 70% match. The penalty applies to all three match "
 "percentages: matches 75, 80, 90 will in this case be lowered to 45, 50, "
 "60."
-msgstr ""
+msgstr "Il peut s'avérer intéressant de distinguer les mémoires de traduction de très bonne qualité de celles qui sont moins fiables en raison du sujet, du client, du statut de la révision, etc. For translation memories in folders with a name ``penalty-xxx`` (with xxx between 0 and 100), matches will be degraded according to the name of the folder: a 100% match in any of TMs, residing in a folder called ``penalty-30`` for instance, will be lowered to a 70% match. La pénalité s'applique aux trois pourcentages de correspondance : les correspondances à 75, 80 et 90 seront dans ce cas abaissées à 45, 50 et 60."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:125
 msgid "dictionary"
@@ -214,7 +214,7 @@ msgid ""
 "Initially empty, this folder will contain dictionaries you have added to "
 "the project. See `Dictionaries <#appendix.dictionaries>`__ for more on "
 "this subject."
-msgstr ""
+msgstr "Vide à l'origine, ce dossier contiendra les dictionnaires que vous aurez ajoutés au projet. See `Dictionaries <#appendix.dictionaries>`__ for more on this subject."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:132
 msgid "glossary"
@@ -225,11 +225,11 @@ msgid ""
 "This folder is initially empty. It will contain glossaries you will be "
 "using in the project. See `Glossaries <#appendix.glossaries>`__ for more "
 "on this subject."
-msgstr ""
+msgstr "À l'origine, ce dossier est vide. Il contiendra les glossaires que vous utiliserez pour le projet. See `Glossaries <#appendix.glossaries>`__ for more on this subject."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:139
 msgid "omegat"
-msgstr ""
+msgstr "omegat"
 
 #: ../../source/OmegaT4_ProjectFolder.rst:141
 msgid ""
@@ -239,23 +239,23 @@ msgid ""
 "(with extension bak) are added progressively to this subfolder, first at "
 "the beginning of the translation session, at its end, and while the "
 "translation progresses."
-msgstr ""
+msgstr "The **omegat** subfolder contains at least one and possibly several other files. The most important file here is the ``project_save.tmx, ``\\ that is the working translation memory for the project. Des sauvegardes de ce fichier (avec l'extension bak) sont ajoutées progressivement au sous-dossier : au début, pendant et à la fin de la session de traduction."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:148
 msgid ""
 "During translation additional files may get created in this subfolder as "
 "follows"
-msgstr ""
+msgstr "Au cours de la traduction, il est possible que des fichiers supplémentaires soient créés dans ce dossier comme suit"
 
 #: ../../source/OmegaT4_ProjectFolder.rst:153
 msgid "stats.txt"
-msgstr ""
+msgstr "stats.txt"
 
 #: ../../source/OmegaT4_ProjectFolder.rst:152
 msgid ""
 "contains the current statistics of the current project. You can view it "
 "by selecting Tools > Statistics"
-msgstr ""
+msgstr "contient les dernières statistiques du projet en cours. You can view it by selecting Tools > Statistics"
 
 #: ../../source/OmegaT4_ProjectFolder.rst:159
 msgid "ignored\\_words.txt.; learned\\_words.txt"
@@ -267,7 +267,7 @@ msgid ""
 "words you wish the spell checker to ignore / accept, you just need to "
 "copy the corresponding two files into the ``omegat``\\ subfolder of your "
 "current project."
-msgstr ""
+msgstr "sont créés et utilisés par le vérificateur orthographique. If you already have collected words you wish the spell checker to ignore / accept, you just need to copy the corresponding two files into the ``omegat``\\ subfolder of your current project."
 
 #: ../../source/OmegaT4_ProjectFolder.rst:163
 msgid "project\\_stats\\_match.txt"
@@ -281,7 +281,7 @@ msgstr ""
 
 #: ../../source/OmegaT4_ProjectFolder.rst:166
 msgid "segmentation.conf"
-msgstr ""
+msgstr "Le fichier segmentation.conf"
 
 #: ../../source/OmegaT4_ProjectFolder.rst:166
 msgid "if existing, it contains project-specific segmentation rules."
@@ -289,7 +289,7 @@ msgstr ""
 
 #: ../../source/OmegaT4_ProjectFolder.rst:169
 msgid "filters.xml"
-msgstr ""
+msgstr "Le fichier filters.xml"
 
 #: ../../source/OmegaT4_ProjectFolder.rst:169
 msgid "if existing, it contains project-specific file filters."
@@ -297,7 +297,7 @@ msgstr ""
 
 #: ../../source/OmegaT4_ProjectFolder.rst:172
 msgid "uiLayout.xml"
-msgstr ""
+msgstr "uiLayout.xml"
 
 #: ../../source/OmegaT4_ProjectFolder.rst:172
 msgid "if existing, it contains project-specific GUI settings."

@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +25,13 @@ msgid ""
 "but such information cannot be reused by OmegaT in order to create target"
 " files. Thus, PDF files are handled as plain text files, and output files"
 " are plain text files."
-msgstr ""
+msgstr "Les fichiers PDF sont un cas particulier. They contain text formatting information, but such information cannot be reused by OmegaT in order to create target files. Les fichiers PDF sont donc traités comme des fichiers de texte brut et les fichiers de sortie sont aussi au format texte brut."
 
 #: ../../source/HowTo_TranslatePDF.rst:9
 msgid ""
 "If you need to reproduce text formatting (as well as other things such as"
 " drawings) in your translation, there are three ways to try:"
-msgstr ""
+msgstr "Pour reproduire la mise en forme du texte et d'autres éléments, par exemple des graphiques, dans votre traduction, suivez une des trois méthodes suivantes :"
 
 #: ../../source/HowTo_TranslatePDF.rst:12
 msgid ""
@@ -44,7 +44,7 @@ msgstr ""
 msgid ""
 "Use the Iceni Infix filter. See `Howto - Translating PDF files with Iceni"
 " Infix and OmegaT <https://omegat.org/howtos/iceni_infix.html>`__."
-msgstr ""
+msgstr "Utilisez le filtre Iceni Infix. See `Howto - Translating PDF files with Iceni Infix and OmegaT <https://omegat.org/howtos/iceni_infix.html>`__."
 
 #: ../../source/HowTo_TranslatePDF.rst:20
 msgid ""
@@ -60,17 +60,17 @@ msgid ""
 " are referred to as ‘dead’ PDFs), you need to use an OCR (optical "
 "character recognition) program to recognize the text and convert it to a "
 "format that can be handled by OmegaT."
-msgstr ""
+msgstr "**Note:** the above information applies only to PDF files with a text layer. Si votre fichier PDF se compose de pages numérisées, vous devrez utiliser un programme de reconnaissance optique de caractères (ROC ou, en anglais, OCR) pour reconnaître et convertir le texte dans un format pris en charge par OmegaT."
 
 #: ../../source/HowTo_TranslatePDF.rst:31
 msgid "Other file formats"
-msgstr ""
+msgstr "Autres formats de fichier"
 
 #: ../../source/HowTo_TranslatePDF.rst:33
 msgid ""
 "Other plain text or formatted text file formats suitable for processing "
 "in OmegaT may also exist."
-msgstr ""
+msgstr "Il est également possible de trouver d'autres fichiers texte brut ou fichiers texte formaté susceptibles d'être pris en charge par OmegaT."
 
 #: ../../source/HowTo_TranslatePDF.rst:36
 msgid ""
@@ -79,27 +79,27 @@ msgid ""
 "format. For example, if you have an outdated Microsoft Word version, that"
 " does not handle the ODT format, here's a round trip for Word files with "
 "the DOC extension:"
-msgstr ""
+msgstr "Des outils externes peuvent être utilisés pour convertir les fichiers dans des formats pris en charge. Les fichiers traduits devront alors être reconvertis dans le format original. Par exemple, si vous possédez une ancienne version de Microsoft Word, qui ne prend pas en charge le format ODT, vous trouverez ici le moyen de permettre aux fichiers Word portant l'extension DOC de faire l'aller-retour :"
 
 #: ../../source/HowTo_TranslatePDF.rst:42
 msgid "import the file into ODF writer"
-msgstr ""
+msgstr "Importez le fichier dans ODF writer"
 
 #: ../../source/HowTo_TranslatePDF.rst:44
 msgid "save the file in ODT format"
-msgstr ""
+msgstr "Enregistrez le fichier dans un format ODT"
 
 #: ../../source/HowTo_TranslatePDF.rst:46
 msgid "translate it into the target ODT file"
-msgstr ""
+msgstr "Traduisez-le dans un fichier ODT cible"
 
 #: ../../source/HowTo_TranslatePDF.rst:48
 msgid "load the target file in ODF writer"
-msgstr ""
+msgstr "Ouvrez le fichier cible dans ODF Writer"
 
 #: ../../source/HowTo_TranslatePDF.rst:50
 msgid "save the file as a DOC file"
-msgstr ""
+msgstr "Enregistrez le fichier en tant que fichier DOC"
 
 #: ../../source/HowTo_TranslatePDF.rst:52
 msgid ""
@@ -108,5 +108,5 @@ msgid ""
 "conversions, be sure to test all options. Check the `OmegaT home page "
 "<http://www.omegat.org>`__ for an up-to-date listing of auxiliary "
 "translation tools."
-msgstr ""
+msgstr "La qualité du formatage du fichier traduit va dépendre de la qualité de la conversion aller-retour. Avant de procéder à une telle conversion, assurez-vous d'avoir testé toutes les options. Check the `OmegaT home page <http://www.omegat.org>`__ for an up-to-date listing of auxiliary translation tools."
 

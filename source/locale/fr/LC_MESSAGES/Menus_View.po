@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,23 +17,23 @@ msgstr "Project-Id-Version: OmegaT \n"
 
 #: ../../source/Menus_View.rst:2
 msgid "View"
-msgstr ""
+msgstr "Affichage"
 
 #: ../../source/Menus_View.rst:5
 msgid "Mark Translated Segments"
-msgstr ""
+msgstr ".Marquer les segments traduits"
 
 #: ../../source/Menus_View.rst:5
 msgid "If checked, the translated segments will be marked in yellow."
-msgstr ""
+msgstr "S'il est coché, les segments déjà traduits seront surlignés en jaune."
 
 #: ../../source/Menus_View.rst:8
 msgid "Mark Untranslated Segments"
-msgstr ""
+msgstr "Marquer les segments non traduits"
 
 #: ../../source/Menus_View.rst:8
 msgid "If checked, the untranslated segments will be marked in violet."
-msgstr ""
+msgstr "S'il est coché, les segments non traduits seront surlignés en violet."
 
 #: ../../source/Menus_View.rst:12
 msgid "Mark Paragraph delimitations"
@@ -47,51 +47,51 @@ msgstr ""
 
 #: ../../source/Menus_View.rst:16
 msgid "Display Source Segments"
-msgstr ""
+msgstr "Afficher les segments sources"
 
 #: ../../source/Menus_View.rst:15
 msgid ""
 "If checked, source segments will be shown and marked in green. If not "
 "checked, source segments will not be shown."
-msgstr ""
+msgstr "S'il est coché, les segments source seront affichés et surlignés en vert. Par défaut, les segments source ne sont pas affichés."
 
 #: ../../source/Menus_View.rst:19
 msgid "Mark Non-Unique Segments"
-msgstr ""
+msgstr "Marquer les segments non uniques"
 
 #: ../../source/Menus_View.rst:19
 msgid "If checked, non-unique segments will be marked in pale grey."
-msgstr ""
+msgstr "S'il est coché, les segments non uniques seront écrits en gris clair."
 
 #: ../../source/Menus_View.rst:24
 msgid "Mark Segments with Notes"
-msgstr ""
+msgstr "Marquer les segments annotés"
 
 #: ../../source/Menus_View.rst:22
 msgid ""
 "If checked, segments with notes will be marked in cyan. This marking has "
 "priority over Mark Translated Segments and Mark Untranslated Segments."
-msgstr ""
+msgstr "S'il est coché, les segments annotés seront surlignés en cyan. OmegaT marque en priorité les segments traduits et les segments non traduits."
 
 #: ../../source/Menus_View.rst:28
 msgid "Mark Non-breakable Spaces"
-msgstr ""
+msgstr "Marquer les espaces insécables"
 
 #: ../../source/Menus_View.rst:27
 msgid "If checked, non-breakable spaces will be displayed with a grey background."
-msgstr ""
+msgstr "S'il est coché, les espaces insécables seront signalés par un fond gris."
 
 #: ../../source/Menus_View.rst:31
 msgid "Mark Whitespace"
-msgstr ""
+msgstr "Marquer les caractères d'espacement"
 
 #: ../../source/Menus_View.rst:31
 msgid "If checked, white spaces will be displayed with a small dot."
-msgstr ""
+msgstr "S'il est coché, les caractères d'espacement seront affichés avec un petit point."
 
 #: ../../source/Menus_View.rst:35
 msgid "Mark Bidirectional Algorithm Control Characters"
-msgstr ""
+msgstr "Marquer les caractères de contrôle de bidirectionnalité"
 
 #: ../../source/Menus_View.rst:34
 msgid ""
@@ -101,7 +101,7 @@ msgstr ""
 
 #: ../../source/Menus_View.rst:47
 msgid "Mark Auto-Populated Segments"
-msgstr ""
+msgstr "Marquer les segments traduits à partir du dossier auto"
 
 #: ../../source/Menus_View.rst:38
 msgid ""
@@ -114,11 +114,11 @@ msgid ""
 "TMX, can be displayed using different colours. For technical details, see"
 " the `Request For Enhancement <http://sourceforge.net/p/omegat/feature-"
 "requests/963/>`__."
-msgstr ""
+msgstr "If checked, the background of all segments where the target segment has been auto-populated (from TMXs placed in ``/tm/auto`` for example) are displayed in colour. The colours are displayed as long as the `Save auto-populated status <#dialogs.preferences.editor.saveautopopulatedstatus>`__ option is checked. Les traductions habituelles insérées depuis le dossier auto sont affichées en orange. D'autres traductions, identifiées spécifiquement dans la TMX, peuvent être affichées avec différentes couleurs. For technical details, see the `Request For Enhancement <http://sourceforge.net/p/omegat/feature-requests/963/>`__."
 
 #: ../../source/Menus_View.rst:55
 msgid "Aggressive Font Fallback"
-msgstr ""
+msgstr "Utilisation intensive des polices de repli"
 
 #: ../../source/Menus_View.rst:50
 msgid ""
@@ -127,11 +127,11 @@ msgid ""
 "machine). Note: on Windows it seems that this manual font fallback "
 "mechanism can interfere with standard font fallback, causing undesirable "
 "font substitution. For that reason, it is OFF by default."
-msgstr ""
+msgstr "Cochez cette option si OmegaT n'affiche par certains glyphes correctement (même si les polices contenant les glyphes appropriés sont installées sur votre machine). Note : sous Windows, ce mécanisme manuel de polices de repli peut interférer avec la méthode de repli standard, provoquant ainsi une substitution de polices non souhaitée. Pour cette raison, il est désactivé par défaut."
 
 #: ../../source/Menus_View.rst:60
 msgid "Modification Info"
-msgstr ""
+msgstr "Informations de modification"
 
 #: ../../source/Menus_View.rst:58
 msgid ""

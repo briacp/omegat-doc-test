@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr "Project-Id-Version: OmegaT \n"
 
 #: ../../source/Windows_TextSearch.rst:2
 msgid "Text Search"
-msgstr ""
+msgstr "Recherche textuelle"
 
 #: ../../source/Windows_TextSearch.rst:4
 msgid ""
@@ -32,7 +32,7 @@ msgid ""
 "entered in the *Search for* box automatically. You can have several "
 "Search windows open at the same time, but close them when they are no "
 "longer needed so that they do not clutter your desktop."
-msgstr ""
+msgstr "Alternatively, you can select a word or phrase in the Editor pane, Fuzzy matches pane or Glossary pane and hit +Ctrl+ +F+ . The word or phrase is entered in the *Search for* box automatically. Il est possible d'avoir plusieurs fenêtres de recherche ouvertes en même temps mais il est préférable de les fermer lorsqu'elles ne sont plus utiles afin de ne pas encombrer le bureau."
 
 #: ../../source/Windows_TextSearch.rst:13
 msgid ""
@@ -42,7 +42,7 @@ msgstr ""
 
 #: ../../source/Windows_TextSearch.rst:16
 msgid "The Search window has its own menus:"
-msgstr ""
+msgstr "La fenêtre de recherche dispose de ses propres menus :"
 
 #: ../../source/Windows_TextSearch.rst:18
 msgid ""
@@ -76,13 +76,13 @@ msgstr ""
 
 #: ../../source/Windows_TextSearch.rst:34
 msgid "Using wild cards"
-msgstr ""
+msgstr "Utilisation de caractères génériques"
 
 #: ../../source/Windows_TextSearch.rst:36
 msgid ""
 "In both exact and keyword searches, the wild card search characters '\\*'"
 " and '?' can be used. They have the meaning, familiar to Word users:"
-msgstr ""
+msgstr "In both exact and keyword searches, the wild card search characters '\\*' and '?' can be used. Leur signification est familière pour les utilisateurs de Word :"
 
 #: ../../source/Windows_TextSearch.rst:39
 msgid ""
@@ -95,28 +95,28 @@ msgstr ""
 msgid ""
 "'?' matches any single character. For instance, ``'run?'`` would match "
 "the word ``'runs'`` and ``'runn'`` in the word ``'running'``."
-msgstr ""
+msgstr "« ? » correspond à n'importe quel caractère unique. For instance, ``'run?'`` would match the word ``'runs'`` and ``'runn'`` in the word ``'running'``."
 
 #: ../../source/Windows_TextSearch.rst:46
 msgid ""
 "The matches will be displayed in bold blue. Note that '\\*' and '?' have "
 "special meaning in regular expressions, so wild card search, as described"
 " here, applies to exact and keyword search only (see below)."
-msgstr ""
+msgstr "Les correspondances seront affichées en bleu et en gras. Note that '\\*' and '?' have special meaning in regular expressions, so wild card search, as described here, applies to exact and keyword search only (see below)."
 
 #: ../../source/Windows_TextSearch.rst:51
 msgid "Search methods and options"
-msgstr ""
+msgstr "Méthodes de recherche et options"
 
 #: ../../source/Windows_TextSearch.rst:53
 msgid ""
 "Select the method using the radio buttons. The following search methods "
 "are available:"
-msgstr ""
+msgstr "Sélectionnez la méthode en utilisant les boutons d'option. Les méthodes de recherches suivantes sont disponibles :"
 
 #: ../../source/Windows_TextSearch.rst:64
 msgid "exact search"
-msgstr ""
+msgstr "recherche exacte"
 
 #: ../../source/Windows_TextSearch.rst:57
 msgid ""
@@ -124,7 +124,7 @@ msgid ""
 "search looks for a phrase, i.e. if several words are entered, they are "
 "found only if they occur in exactly that sequence. Searching for ``open "
 "file`` will thus find all occurrences of the string *``open"
-msgstr ""
+msgstr "Recherche les segments contenant exactement la chaîne de caractères spécifiée. Une recherche exacte recherche une expression, c.-à.-d. que si plusieurs mots sont saisis, ils ne sont trouvés que s'ils apparaissent exactement dans l'ordre dans lequel ils ont été saisis. Searching for ``open file`` will thus find all occurrences of the string *``open"
 
 #: ../../source/Windows_TextSearch.rst:62
 msgid "file``*, but not *``file opened``* or *``open input file``*."
@@ -132,7 +132,7 @@ msgstr ""
 
 #: ../../source/Windows_TextSearch.rst:76
 msgid "keyword search"
-msgstr ""
+msgstr "recherche par mot clé"
 
 #: ../../source/Windows_TextSearch.rst:67
 msgid ""
@@ -143,7 +143,7 @@ msgid ""
 "of the words\" in an Internet search engine such as Google (AND logic). "
 "Using keyword search with *``open file``* will thus find all occurrences "
 "of the string *``open"
-msgstr ""
+msgstr "Recherche les segments contenant tous les mots clés spécifiés, sans tenir compte de l'ordre. Sélectionnez la recherche par mot clé pour rechercher des mots entiers uniques, quel que soit le nombre de fois où ils apparaissent et l'ordre de leur apparition. OmegaT affiche une liste de tous les segments contenant l'ensemble des mots spécifiés. Les recherches par mot clé sont similaires à des recherches sur les moteurs de recherche (comme Google) incluant « tous les mots suivants » (équivalent au « ET » logique). Using keyword search with *``open file``* will thus find all occurrences of the string *``open"
 
 #: ../../source/Windows_TextSearch.rst:74
 msgid ""
@@ -162,11 +162,11 @@ msgid ""
 "words in the target segment, containing questionable characters from "
 "German keyboard. `Regular expressions <#appendix.regexp>`__ are a "
 "powerful way to look for instances of a string."
-msgstr ""
+msgstr "La chaîne de caractères recherchée sera traitée comme une expression régulière. La chaîne de caractères recherchée - [a-zA-Z] + [öäüqwß] - dans l'exemple ci-dessus, cherche dans le segment cible des mots contenant des caractères du clavier allemand. `Regular expressions <#appendix.regexp>`__ are a powerful way to look for instances of a string."
 
 #: ../../source/Windows_TextSearch.rst:86
 msgid "Additionally to one of the methods above you can select the following:"
-msgstr ""
+msgstr "Outre les méthodes ci-dessus, il est possible d'utiliser les options suivantes :"
 
 #: ../../source/Windows_TextSearch.rst:88
 msgid ""
@@ -240,7 +240,7 @@ msgid ""
 "memories), OmegaT restricts the search to files in source file formats. "
 "Consequently, although OmegaT is quite able to handle\\ `` tmx`` files, "
 "it does not include them in the Search files search."
-msgstr ""
+msgstr "**Search in Files:**\\ search in a single file or a folder containing a set of files. Pour les recherches dans les fichiers (qui s'opposent à celles dans les mémoires de traduction), OmegaT restreint son champ de recherche aux fichiers qui possèdent les formats des fichiers source. Consequently, although OmegaT is quite able to handle\\ `` tmx`` files, it does not include them in the Search files search."
 
 #: ../../source/Windows_TextSearch.rst:130
 msgid ""
@@ -253,7 +253,7 @@ msgstr ""
 
 #: ../../source/Windows_TextSearch.rst:137
 msgid "Search results display"
-msgstr ""
+msgstr "Affichage des résultats de la recherche"
 
 #: ../../source/Windows_TextSearch.rst:139
 msgid ""
@@ -264,7 +264,7 @@ msgid ""
 "appearance in the project. Translated segments are displayed with the "
 "original text at the top and the translated text at the bottom, "
 "untranslated segments are displayed as the source only."
-msgstr ""
+msgstr "Presser le bouton Rechercher après avoir saisi une chaîne de caractères dans le champ de recherche permet d'afficher tous les segments du projet qui incluent la chaîne de caractères saisie. As OmegaT handles identical segments as one single entity, only the first unique segment is shown. Les segments sont affichés dans l'ordre de leur apparition dans le projet. Les segments traduits sont affichés avec le texte original au-dessus et le texte traduit en dessous, les segments non traduits n'affichent que la source."
 
 #: ../../source/Windows_TextSearch.rst:147
 msgid ""
@@ -273,7 +273,7 @@ msgid ""
 "checked). You can then switch back to the Search window for the next "
 "segment found, for instance to check and, if necessary, correct the "
 "terminology."
-msgstr ""
+msgstr "Double-clicking on a segment opens it in the Editor for modifications (one single click does it when **Auto-sync with Editor** option is checked). Il est ensuite possible de retourner à la fenêtre de recherche pour voir le segment trouvé suivant, le vérifier et effectuer, si nécessaire, des corrections terminologiques."
 
 #: ../../source/Windows_TextSearch.rst:153
 msgid ""
@@ -286,11 +286,11 @@ msgid ""
 "You may have several Search windows open at the same time. You can "
 "quickly see their contents by looking at their title: it will contain the"
 " search term used."
-msgstr ""
+msgstr "Plusieurs fenêtres de recherche peuvent être ouvertes en même temps. On peut rapidement connaître leur contenu en regardant leur titre : il contient les termes de recherche utilisés."
 
 #: ../../source/Windows_TextSearch.rst:161
 msgid "Filter entries in editor according to search"
-msgstr ""
+msgstr "Filtrer le contenu de l'éditeur en fonction de la recherche"
 
 #: ../../source/Windows_TextSearch.rst:163
 msgid ""
@@ -299,28 +299,28 @@ msgid ""
 "shown entries in the editor window to those that match the current "
 "search. You can use normal navigation to go to e.g. the next "
 "(untranslated) segment that matches the search criteria."
-msgstr ""
+msgstr "Pour une navigation plus facile dans les résultats de recherche, vous pouvez appliquer la recherche à l'Éditeur. Press the **Filter** button on the bottom to limit the shown entries in the editor window to those that match the current search. Vous pouvez utiliser la navigation habituelle pour, par exemple, atteindre le segment (non traduit) suivant correspondant aux critères de recherche."
 
 #: ../../source/Windows_TextSearch.rst:169
 msgid "NB:"
-msgstr ""
+msgstr "N.B. :"
 
 #: ../../source/Windows_TextSearch.rst:171
 msgid ""
 "A search may be limited to 1000 items, so if you search on a common "
 "phrase, the editor then shows only those 1000 matching entries, and not "
 "all entries that match the search criteria."
-msgstr ""
+msgstr "Il est possible qu'une recherche soit limitée à 1000 éléments. Dans ce cas, si vous rechercher une expression courante, l'Éditeur ne vous montre que les 1000 entrées correspondantes, et non pas toutes les entrées correspondant aux critères de recherche."
 
 #: ../../source/Windows_TextSearch.rst:175
 msgid "A file might have no matching entries, so it will show empty."
-msgstr ""
+msgstr "Si un fichier ne contient aucune entrée correspondante, il sera affiché vide."
 
 #: ../../source/Windows_TextSearch.rst:177
 msgid ""
 "If a search removes duplicates, those duplicates will not be in the "
 "Editor."
-msgstr ""
+msgstr "Si une recherche supprime les doublons, ceux-ci ne seront pas présentes dans l'Éditeur."
 
 #: ../../source/Windows_TextSearch.rst:180
 msgid ""

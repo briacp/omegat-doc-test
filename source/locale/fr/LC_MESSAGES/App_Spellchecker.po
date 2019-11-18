@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr "Project-Id-Version: OmegaT \n"
 
 #: ../../source/App_Spellchecker.rst:2
 msgid "Spell checker"
-msgstr ""
+msgstr "Vérificateur orthographique"
 
 #: ../../source/App_Spellchecker.rst:4
 msgid ""
@@ -25,18 +25,18 @@ msgid ""
 " Apache OpenOffice, LibreOffice, Firefox and Thunderbird. It is "
 "consequently able to use the huge range of free spelling dictionaries "
 "available for these applications."
-msgstr ""
+msgstr "OmegaT possède un vérificateur orthographique intégré basé sur le vérificateur d'orthographe utilisée dans Apache OpenOffice, LibreOffice, Firefox et Thunderbird. Il est donc en mesure d'utiliser la vaste gamme de dictionnaires orthographiques gratuits utilisés par ces applications."
 
 #: ../../source/App_Spellchecker.rst:10
 msgid "Installing spelling dictionaries"
-msgstr ""
+msgstr "Installation des dictionnaires orthographiques"
 
 #: ../../source/App_Spellchecker.rst:12
 msgid ""
 "Before the spell check function can be used, a suitable dictionary or "
 "dictionaries (i.e. for your target language) must be installed. To "
 "install spelling dictionaries, follow this procedure:"
-msgstr ""
+msgstr "Avant de pouvoir utiliser la fonction vérificateur orthographique, il est nécessaire d'installer un ou plusieurs dictionnaires (c.-à.-d. concernant votre langue cible). Pour installer les dictionnaires orthographiques, appliquez la procédure suivante :"
 
 #: ../../source/App_Spellchecker.rst:16
 msgid ""
@@ -50,7 +50,7 @@ msgid ""
 "In OmegaT, select Options > Spell Checking, then click Choose beside the "
 "Dictionary file folder field. Navigate to and select the folder you "
 "created for dictionaries."
-msgstr ""
+msgstr "In OmegaT, select Options > Spell Checking, then click Choose beside the Dictionary file folder field. Trouvez et sélectionnez le dossier de dictionnaires que vous avez préalablement créé."
 
 #: ../../source/App_Spellchecker.rst:24
 msgid ""
@@ -62,7 +62,7 @@ msgid ""
 "\"Install\" function requires an Internet connection. The selected "
 "languages will then be installed and will eventually appear in your spell"
 " checker setup window (this may take a while)."
-msgstr ""
+msgstr "Placez les fichiers dictionnaire de votre choix à l'intérieur de ce dossier. Il existe principalement deux façons de réaliser ceci. You can either copy files manually, i.e. from elsewhere on your system, using your file manager; or you can use OmegaT's **\"Install new dictionary\"** function to provide a list of available dictionaries to select from. Veuillez noter que la fonction « Installer » requiert une connexion Internet. Les langues sélectionnées seront ainsi installées et pourront donc apparaître dans la fenêtre de configuration du vérificateur orthographique (cela peut prendre un certain temps)."
 
 #: ../../source/App_Spellchecker.rst:33
 msgid ""
@@ -71,11 +71,11 @@ msgid ""
 "OpenOffice, LibreOffice, Firefox or Thunderbird installation. It is "
 "simpler, however, to look for dictionaries online, using the **URL of "
 "online dictionaries** field:"
-msgstr ""
+msgstr "Copier manuellement les fichiers est intéressant lorsque vous possédez déjà les fichiers dictionnaire adéquats sur votre ordinateur, par exemple, s'ils font partie d'une installation OpenOffice, LibreOffice, Firefox ou Thunderbird. It is simpler, however, to look for dictionaries online, using the **URL of online dictionaries** field:"
 
 #: ../../source/App_Spellchecker.rst:42
 msgid "Spellchecker setup"
-msgstr ""
+msgstr "Configuration du vérificateur orthographique"
 
 #: ../../source/App_Spellchecker.rst:44
 msgid ""
@@ -95,11 +95,11 @@ msgid ""
 "these files to es\\_MX.dic and es\\_MX.aff, and the spelling dictionary "
 "will work. Note that this will of course check for the standard "
 "(Castillian) rather than for Mexican Spanish."
-msgstr ""
+msgstr "The names of the files must correspond to the language code of your target language as defined in the project properties dialog (Project > Properties). For example, if you have selected ES-MX (Mexican Spanish) as the target language, the dictionary files must be named es\\_MX.dic and es\\_MX.aff. If you only have a standard Spanish dictionary available, with file names es\\_es.dic and es\\_es.aff for instance, you can copy these files to es\\_MX.dic and es\\_MX.aff, and the spelling dictionary will work. Veuillez noter que celui-ci fera des corrections correspondant évidemment bien plus à l'espagnol standard (Castillan) qu'à l'espagnol mexicain."
 
 #: ../../source/App_Spellchecker.rst:59
 msgid "Using spelling dictionaries"
-msgstr ""
+msgstr "Utilisation des dictionnaires orthographiques"
 
 #: ../../source/App_Spellchecker.rst:61
 msgid ""
@@ -109,7 +109,7 @@ msgid ""
 " are exactly the same: an FR-FR dictionary will not work with an FR "
 "target setting, for example. If necessary, edit the file names of the "
 "dictionary or change your project's language settings."
-msgstr ""
+msgstr "Il n'est pas nécessaire de préciser à OmegaT quel dictionnaire orthographique utiliser ; OmegaT utilisera automatiquement le bon dictionnaire en se basant sur les codes de langue de votre projet. Assurez-vous toutefois que les codes soient exactement les mêmes : un dictionnaire FR-FR ne fonctionnera pas si vous avez utilisé le code FR pour définir la langue cible. Si nécessaire, modifiez les noms de fichier des dictionnaires ou modifiez les paramètres qui concernent la langue du projet."
 
 #: ../../source/App_Spellchecker.rst:68
 msgid ""
@@ -119,7 +119,7 @@ msgstr ""
 
 #: ../../source/App_Spellchecker.rst:74
 msgid "Using spellchecker"
-msgstr ""
+msgstr "Utilisation du vérificateur orthographique"
 
 #: ../../source/App_Spellchecker.rst:76
 msgid ""
@@ -127,11 +127,11 @@ msgid ""
 " drop-down menu listing suggestions for the correction (Art und). You can"
 " also instruct the spell checker to ignore all the occurrences of the "
 "mis-spelled word, or add it to the dictionary."
-msgstr ""
+msgstr "Un clic-droit sur un mot souligné (Artund dans l'image ci-dessus) ouvre un menu déroulant affichant une liste de suggestions pour la correction (Art und). Il est également possible de demander au correcteur orthographique d'ignorer toutes les occurrences du mot mal orthographié ou de l'ajouter au dictionnaire."
 
 #: ../../source/App_Spellchecker.rst:82
 msgid "Hints"
-msgstr ""
+msgstr "Conseils"
 
 #: ../../source/App_Spellchecker.rst:84
 msgid ""
@@ -148,7 +148,7 @@ msgid ""
 " language is Brazilian Portuguese (PT\\_BR), the subfolder with "
 "vocabularies must contain the two vocabulary files, called *pt\\_br.aff* "
 "and *pt\\_br.dic*."
-msgstr ""
+msgstr "Vérifiez également que le code de la langue cible de votre projet est conforme aux lexiques disponibles dans la fenêtre de configuration. The spell checker uses the target language code to determine the language to be used : if the target language is Brazilian Portuguese (PT\\_BR), the subfolder with vocabularies must contain the two vocabulary files, called *pt\\_br.aff* and *pt\\_br.dic*."
 
 #: ../../source/App_Spellchecker.rst:95
 msgid ""
@@ -160,7 +160,7 @@ msgid ""
 "*pt\\_PT.dic* to *pt\\_BR.aff* and *pt\\_BR.dic*). Of course it is much "
 "wiser, to take a short break and download the correct versions of the "
 "spell checker."
-msgstr ""
+msgstr "If you have already translated a large body of text, and then realize the target language code of the project does not match the spell checker's language code (you specified pt\\_BR as the language, but there are no pt\\_BR vocabularies, for instance) you can simply copy the two corresponding files and rename them (e.g. from *pt\\_PT.aff* and *pt\\_PT.dic* to *pt\\_BR.aff* and *pt\\_BR.dic*). Il est évidemment plus simple de s'arrêter un moment et de télécharger les versions correctes du vérificateur orthographique."
 
 #: ../../source/App_Spellchecker.rst:104
 msgid ""
@@ -169,5 +169,5 @@ msgid ""
 "disappear from that application, too. If, for whatever reason, you need "
 "to do this from time to time, it may make sense to copy the files "
 "involved to a different folder, reserved just for use by OmegaT."
-msgstr ""
+msgstr "Note that ``Remove`` physically removes the selected vocabularies. Si ces lexiques sont utilisés par d'autres applications de votre système, ils disparaîtront également de ces applications. Si, pour quelle que raison que ce soit, vous deviez le faire à un moment ou un autre, il pourrait être utile de copier les fichiers concernés dans un dossier différent, spécialement réservé à OmegaT."
 

@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,47 +17,47 @@ msgstr "Project-Id-Version: OmegaT \n"
 
 #: ../../source/Menus_Project.rst:2
 msgid "Project"
-msgstr ""
+msgstr "Projet"
 
 #: ../../source/Menus_Project.rst:5
 msgid "New..."
-msgstr ""
+msgstr "Nouveau..."
 
 #: ../../source/Menus_Project.rst:5
 msgid "Creates and opens a new project."
-msgstr ""
+msgstr "Crée et ouvre un nouveau projet."
 
 #: ../../source/Menus_Project.rst:9
 msgid "Download Team Project..."
-msgstr ""
+msgstr "Télécharger projet en équipe..."
 
 #: ../../source/Menus_Project.rst:8
 msgid ""
 "Creates a local copy of a remote OmegaT project. See `How to use a team "
 "project <#howto.useteamproject>`__ for details."
-msgstr ""
+msgstr "Crée une copie locale d'un projet distant OmegaT. See `How to use a team project <#howto.useteamproject>`__ for details."
 
 #: ../../source/Menus_Project.rst:12
 msgid "Open..."
-msgstr ""
+msgstr "Ouvrir..."
 
 #: ../../source/Menus_Project.rst:12
 msgid "Opens a previously created project."
-msgstr ""
+msgstr "Ouvre un projet pré-existant."
 
 #: ../../source/Menus_Project.rst:16
 msgid "Open Recent Project"
-msgstr ""
+msgstr "Ou&vrir un projet récent"
 
 #: ../../source/Menus_Project.rst:15
 msgid ""
 "Give access to the ten last edited projects. Clicking on one will save "
 "the current project, close it and open the other project."
-msgstr ""
+msgstr "Give access to the ten last edited projects. Cliquer sur l'un d'entre eux enregistrera le projet actuel, le fermera ou ouvrira l'autre projet."
 
 #: ../../source/Menus_Project.rst:20
 msgid "Copy Files to Source Folder..."
-msgstr ""
+msgstr "Copier des fichiers dans le dossier source"
 
 #: ../../source/Menus_Project.rst:19
 msgid ""
@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../source/Menus_Project.rst:36
 msgid "Download MediaWiki Page..."
-msgstr ""
+msgstr "Télécharger une page MediaWiki..."
 
 #: ../../source/Menus_Project.rst:23
 msgid "To translate the contents of a Wikipedia page (for example):"
@@ -99,7 +99,7 @@ msgstr ""
 
 #: ../../source/Menus_Project.rst:44
 msgid "Reload"
-msgstr ""
+msgstr "Recharger"
 
 #: ../../source/Menus_Project.rst:39
 msgid ""
@@ -116,22 +116,22 @@ msgstr ""
 
 #: ../../source/Menus_Project.rst:47
 msgid "Close"
-msgstr ""
+msgstr "Fermer"
 
 #: ../../source/Menus_Project.rst:47
 msgid "Saves the translation and closes the project."
-msgstr ""
+msgstr "Enregistre la traduction et ferme le projet."
 
 #: ../../source/Menus_Project.rst:55
 msgid "Save"
-msgstr ""
+msgstr "Enregistrer"
 
 #: ../../source/Menus_Project.rst:50
 msgid ""
 "Saves the internal translation memory to the hard disk. OmegaT "
 "automatically saves translations every 3 minutes as well as when you "
 "close the project or quit OmegaT."
-msgstr ""
+msgstr "Enregistre la mémoire de traduction interne sur le disque dur. OmegaT automatically saves translations every 3 minutes as well as when you close the project or quit OmegaT."
 
 #: ../../source/Menus_Project.rst:54
 msgid ""
@@ -141,7 +141,7 @@ msgstr ""
 
 #: ../../source/Menus_Project.rst:61
 msgid "Commit Source Files"
-msgstr ""
+msgstr "Envoyer les fichiers source"
 
 #: ../../source/Menus_Project.rst:58
 msgid ""
@@ -155,7 +155,7 @@ msgstr ""
 
 #: ../../source/Menus_Project.rst:67
 msgid "Commit Target Files"
-msgstr ""
+msgstr "Envoyer les fichiers cible"
 
 #: ../../source/Menus_Project.rst:64
 msgid ""
@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../../source/Menus_Project.rst:71
 msgid "Create Translated Documents"
-msgstr ""
+msgstr "Créer les documents traduits"
 
 #: ../../source/Menus_Project.rst:70
 msgid ""
@@ -175,17 +175,17 @@ msgstr ""
 
 #: ../../source/Menus_Project.rst:75
 msgid "Create Current Translated Document"
-msgstr ""
+msgstr "Créer le document actuel traduit"
 
 #: ../../source/Menus_Project.rst:74
 msgid ""
 "Creates the target document corresponding to the current document in "
 "translation."
-msgstr ""
+msgstr "Crée le document cible correspondant au document actuel traduit."
 
 #: ../../source/Menus_Project.rst:79
 msgid "Open MED Project..."
-msgstr ""
+msgstr "Ouvrir projet MED..."
 
 #: ../../source/Menus_Project.rst:78
 msgid ""
@@ -203,7 +203,7 @@ msgstr ""
 
 #: ../../source/Menus_Project.rst:86
 msgid "Properties..."
-msgstr ""
+msgstr "Propriétés..."
 
 #: ../../source/Menus_Project.rst:85
 msgid ""
@@ -213,7 +213,7 @@ msgstr ""
 
 #: ../../source/Menus_Project.rst:89
 msgid "Project Files..."
-msgstr ""
+msgstr "Fichiers du projet..."
 
 #: ../../source/Menus_Project.rst:89
 msgid "Opens the `Project files window <#windows.projectfiles>`__."
@@ -221,11 +221,11 @@ msgstr ""
 
 #: ../../source/Menus_Project.rst:97
 msgid "Access Project Contents"
-msgstr ""
+msgstr "Accéder au contenu du projet"
 
 #: ../../source/Menus_Project.rst:92
 msgid "Gives access to the project folders."
-msgstr ""
+msgstr "Donne accès aux dossiers du projet"
 
 #: ../../source/Menus_Project.rst:94
 msgid ""
@@ -233,15 +233,15 @@ msgid ""
 "and target documents and the writable glossary. The documents are opened "
 "by the application chosen by the operating system. If the documents are "
 "not available, the entry is greyed out."
-msgstr ""
+msgstr "De plus, deux entrées de menu permettent d'ouvrir directement les documents source et cible actuels ainsi que le glossaire en écriture. Les documents sont ouverts par l'application choisie par le système d'exploitation. Si les documents ne sont pas disponibles, l'entrée est grisée."
 
 #: ../../source/Menus_Project.rst:100
 msgid "Quit"
-msgstr ""
+msgstr "Quitter"
 
 #: ../../source/Menus_Project.rst:100
 msgid ""
 "Saves the project and quits OmegaT. If you haven't yet saved the project,"
 " this manually confirms whether you really wish to quit."
-msgstr ""
+msgstr "Saves the project and quits OmegaT. Si le projet n'a pas encore été enregistré, il vous sera demandé de confirmer manuellement si vous voulez quitter."
 

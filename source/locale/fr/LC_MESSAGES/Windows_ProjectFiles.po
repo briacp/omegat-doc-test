@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid ""
 "Use Ctrl+L to open and Esc to close it. The Project Files Window displays"
 " the following information:"
-msgstr ""
+msgstr "Use Ctrl+L to open and Esc to close it. La fenêtre Fichiers du projet affiche les informations suivantes :"
 
 #: ../../source/Windows_ProjectFiles.rst:14
 msgid ""
@@ -45,53 +45,53 @@ msgid ""
 "files present in the /source folder in a format that OmegaT is able to "
 "recognize. This number is displayed in brackets, next to the \"Project "
 "file\" title"
-msgstr ""
+msgstr "le nombre total de fichiers traduisibles du projet. Il s'agit de tous les fichiers présents dans le dossier /source qui sont écrit dans un format qu'OmegaT est en mesure de traiter. Ce nombre est affiché entre parenthèses, à côté du titre « Fichiers du projet »"
 
 #: ../../source/Windows_ProjectFiles.rst:19
 msgid ""
 "the list of all translatable files in the project. Clicking on any file "
 "will open it for translation."
-msgstr ""
+msgstr "La liste de tous les fichiers traduisibles du projet. Cliquer sur n'importe lequel de ces fichiers provoquera l'ouverture de celui-ci (dans l'Éditeur, ce qui permet d'effectuer sa traduction)."
 
 #: ../../source/Windows_ProjectFiles.rst:22
 msgid ""
 "Typing any text will open a Filter field where parts of filenames can be "
 "entered. You can select a file with Up and Down keys, and open it for "
 "translation by pressing Enter"
-msgstr ""
+msgstr "Taper un texte quelconque ouvrira un champ de filtrage dans lequel il est possible d'entrer des noms de fichiers partiels. You can select a file with Up and Down keys, and open it for translation by pressing Enter"
 
 #: ../../source/Windows_ProjectFiles.rst:26
 msgid ""
 "Note: filenames (in first column) can be sorted alphabetically by "
 "clicking in the header. It also possible to change the position of a "
 "filename, by clicking on it and pressing *Move ...* buttons."
-msgstr ""
+msgstr "Note : les noms des fichiers (dans la première colonne) peuvent être triés par ordre alphabétique en cliquant sur l'en-tête. It also possible to change the position of a filename, by clicking on it and pressing *Move ...* buttons."
 
 #: ../../source/Windows_ProjectFiles.rst:30
 msgid ""
 "Right-clicking on a filename opens a popup that allows to open the source"
 " file and (if it exists) the target file."
-msgstr ""
+msgstr "Effectuer un clic droit sur un nom de fichier ouvre une fenêtre contextuelle qui permet d'ouvrir le fichier source et (s'il existe) le fichier cible."
 
 #: ../../source/Windows_ProjectFiles.rst:33
 msgid ""
 "File entries include their names, file filter types, their encoding and "
 "the number of segments each file contains"
-msgstr ""
+msgstr "Les entrées de fichier comprennent notamment leur nom, leurs types de filtres de fichier, leur encodage ainsi que le nombre de segments que chaque fichier contient"
 
 #: ../../source/Windows_ProjectFiles.rst:36
 msgid ""
 "the total number of segments, the number of unique segments in the whole "
 "project, and the number of unique segments already translated are shown "
 "at the bottom"
-msgstr ""
+msgstr "le nombre total de segments, le nombre de segments uniques (présents dans l'ensemble du projet), et le nombre de segments uniques déjà traduits sont affichés dans le bas de la fenêtre"
 
 #: ../../source/Windows_ProjectFiles.rst:40
 msgid ""
 "The set of **Unique**\\ segments is computed by taking all the segments "
 "and removing all duplicate segments. (The definition of “unique” is case-"
 "sensitive: \"Run\" and \"run\" are treated as being different)"
-msgstr ""
+msgstr "The set of **Unique**\\ segments is computed by taking all the segments and removing all duplicate segments. (La définition du mot « unique » est sensible à la casse : « Run » et « run » sont considérés comme étant deux mots différents)"
 
 #: ../../source/Windows_ProjectFiles.rst:44
 msgid ""
@@ -103,7 +103,7 @@ msgid ""
 "table of keywords (not so fortunate). The ``project_stats.txt`` located "
 "in the omegat folder of your project contains more detailed segment "
 "information, broken down by file."
-msgstr ""
+msgstr "La différence entre le « Nombre total de segments » et le « Nombre de segments uniques » donne une idée approximative du nombre de répétitions présentes dans le texte. Veuillez noter cependant que ces chiffres n'indiquent pas si les répétitions sont pertinentes ou non : ils peuvent se rapporter à des phrases relativement longues et répétées un certain nombre de fois (ce qui serait une bonne chose pour vous) ou à un tableau de mots clés (ce qui est moins utile). The ``project_stats.txt`` located in the omegat folder of your project contains more detailed segment information, broken down by file."
 
 #: ../../source/Windows_ProjectFiles.rst:53
 msgid ""
@@ -111,7 +111,7 @@ msgid ""
 "number of segments/unique segments. This, however, should generally be "
 "avoided once you have started translating the project. See the chapter "
 "*Segmentation rules* for more information."
-msgstr ""
+msgstr "Modifier les règles de segmentation peut avoir pour conséquence la modification du ratio segments/segments uniques. Il est cependant préférable que ceci soit évité une fois la traduction du projet commencée. See the chapter *Segmentation rules* for more information."
 
 #: ../../source/Windows_ProjectFiles.rst:58
 msgid ""

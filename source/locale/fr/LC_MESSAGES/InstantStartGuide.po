@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr "Project-Id-Version: OmegaT \n"
 
 #: ../../source/InstantStartGuide.rst:2
 msgid "Learn to use OmegaT in 5 minutes!"
-msgstr ""
+msgstr "Apprendre à utiliser OmegaT en cinq minutes !"
 
 #: ../../source/InstantStartGuide.rst:5
 msgid "Set up a new project Project Create / open new"
@@ -34,7 +34,7 @@ msgid ""
 " glossaries, and eventually your translated file. In the Project menu, "
 "select New... and type a name for your project. Remember where you are "
 "creating the project, because you will need to return to it later."
-msgstr ""
+msgstr "Menu Project New... Pour pouvoir travailler avec OmegaT, commencez par créer un projet qui contiendra tous vos fichiers, notamment le fichier source, les mémoires de traduction, les glossaires ainsi que le fichier traduit. In the Project menu, select New... and type a name for your project. Mémorisez bien l'emplacement du projet car vous devrez y accéder ultérieurement."
 
 #: ../../source/InstantStartGuide.rst:17
 msgid ""
@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../../source/InstantStartGuide.rst:32
 msgid "Translate the file"
-msgstr ""
+msgstr "Traduction du fichier"
 
 #: ../../source/InstantStartGuide.rst:34
 msgid ""
@@ -72,11 +72,11 @@ msgid ""
 "which will be created in the ``/target/`` subfolder of your project "
 "folder. During translation, use the Edit and Go To menus to perform "
 "various useful functions."
-msgstr ""
+msgstr "OmegaT vous propose un segment à traduire après l'autre. After you have translated each segment, press Ctrl+U to move to the next untranslated segment (or Ctrl+Shift+U to move to the next translated segment). Whenever you want to see what your translation will look like in its final format, press Ctrl+D to generate the translated documents, which will be created in the ``/target/`` subfolder of your project folder. During translation, use the Edit and Go To menus to perform various useful functions."
 
 #: ../../source/InstantStartGuide.rst:44
 msgid "Validate your tags"
-msgstr ""
+msgstr "Validation des balises"
 
 #: ../../source/InstantStartGuide.rst:46
 msgid ""
@@ -86,11 +86,11 @@ msgid ""
 " tags that have nothing to do with formatting, but which are also "
 "important in the source files (and in the translated files). A source "
 "sentence might look like:"
-msgstr ""
+msgstr "Si vos fichiers sources sont des fichiers formatés, par exemple au format Microsoft Word, LibreOffice Writer ou HTML, OmegaT convertit le formatage en balises qui encadrent le texte que vous traduisez. Souvent, les documents contiennent également un certain nombre de balises essentielles sans rapport direct avec le formatage mais qui sont importantes dans les fichiers sources (ainsi que dans les fichiers traduits). Une phrase peut se présenter comme ceci :"
 
 #: ../../source/InstantStartGuide.rst:53
 msgid "OmegaT, however, will present this sentence in the following fashion:"
-msgstr ""
+msgstr "OmegaT présenter cette phrase de la manière suivante :"
 
 #: ../../source/InstantStartGuide.rst:55
 msgid ""
@@ -101,11 +101,11 @@ msgid ""
 "translated files might fail to open. Therefore, press Ctrl+Shift+V before"
 " you generate your translated files, to validate that your tags are "
 "correct."
-msgstr ""
+msgstr "Les balises dans OmegaT sont grisées pour être facilement reconnaissables. Elles sont protégées pour que vous ne puissiez pas modifier leur contenu mais vous pouvez les supprimer, les entrer manuellement ou les déplacer dans la phrase cible. Toutefois, si vous avez fait des erreurs en saisissant les balises de formatage, l'ouverture des fichiers traduits pourra échouer. Therefore, press Ctrl+Shift+V before you generate your translated files, to validate that your tags are correct."
 
 #: ../../source/InstantStartGuide.rst:64
 msgid "Generate the translated file"
-msgstr ""
+msgstr "Création du fichier traduit"
 
 #: ../../source/InstantStartGuide.rst:66
 msgid ""
@@ -116,7 +116,7 @@ msgstr ""
 
 #: ../../source/InstantStartGuide.rst:71
 msgid "Few more things to remember"
-msgstr ""
+msgstr "Autres points à retenir"
 
 #: ../../source/InstantStartGuide.rst:73
 msgid ""
@@ -129,7 +129,7 @@ msgstr ""
 msgid ""
 "You can create a new project for each new job, and you can add new source"
 " files to a project at anytime."
-msgstr ""
+msgstr "Vous pouvez créer de nouveaux projets pour chaque nouveau travail et vous pouvez ajouter de nouveaux fichiers source à un même projet à n'importe quel moment."
 
 #: ../../source/InstantStartGuide.rst:81
 msgid ""

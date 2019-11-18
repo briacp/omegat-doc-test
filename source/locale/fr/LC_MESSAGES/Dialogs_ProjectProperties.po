@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../source/Dialogs_ProjectProperties.rst:7
 msgid "Languages"
-msgstr ""
+msgstr "Langues"
 
 #: ../../source/Dialogs_ProjectProperties.rst:9
 msgid ""
@@ -33,19 +33,19 @@ msgid ""
 "drop down menus. Bear in mind that changing the languages may render the "
 "currently used translation memories useless since their language pair may"
 " not longer match the new languages."
-msgstr ""
+msgstr "Vous pouvez entrer les langues cible et source à la main ou utiliser les menus déroulants. Gardez à l'esprit que la modification des langues peut rendre les mémoires de traduction actuellement utilisées inutiles puisque leurs paires de langues peuvent ne plus correspondre aux nouvelles langues."
 
 #: ../../source/Dialogs_ProjectProperties.rst:14
 msgid "Tokenizers corresponding to the selected languages are displayed."
-msgstr ""
+msgstr "Les lemmatiseurs correspondant aux langues sélectionnées sont affichés."
 
 #: ../../source/Dialogs_ProjectProperties.rst:17
 msgid "Options"
-msgstr ""
+msgstr "Options"
 
 #: ../../source/Dialogs_ProjectProperties.rst:39
 msgid "Enable Sentence-level segmentation"
-msgstr ""
+msgstr "Activer la segmentation par phrase"
 
 #: ../../source/Dialogs_ProjectProperties.rst:20
 msgid ""
@@ -53,7 +53,7 @@ msgid ""
 "handled by OmegaT. The predominant way of segmenting the sources is the "
 "sentence-level segmenting, so this check box should in a normal case be "
 "left checked."
-msgstr ""
+msgstr "The segmentation settings only address the way the source files are handled by OmegaT. La façon la plus courante de segmenter les fichiers est la segmentation par phrase. En temps normal, cette case doit donc rester cochée."
 
 #: ../../source/Dialogs_ProjectProperties.rst:25
 msgid ""
@@ -65,7 +65,7 @@ msgid ""
 "translation memories that did not use sentence segmentation, but not vice"
 " versa), but OmegaT will attempt to create paragraph fuzzy matches by "
 "gluing together existing sentence translations."
-msgstr ""
+msgstr "Mais dans certains cas isolés, l'alternative (soit la segmentation par paragraphe) peut être préférée. La modification de ce marqueur ne modifie pas la segmentation des mémoires de traduction déjà existantes. If you decide mid-translation to switch from sentence to paragraph translation, the internal translation memory of the project will not be changed (OmegaT may upgrade old translation memories that did not use sentence segmentation, but not vice versa), but OmegaT will attempt to create paragraph fuzzy matches by gluing together existing sentence translations."
 
 #: ../../source/Dialogs_ProjectProperties.rst:35
 msgid ""
@@ -74,11 +74,11 @@ msgid ""
 "\"untranslated\" status, as they will no longer match segments recorded "
 "in the project memory, even though their original translation is still "
 "there."
-msgstr ""
+msgstr "La modification des paramètres de segmentation peut entraîner la séparation ou la fusion de segments déjà traduits. Dans les faits, cela va les faire revenir au statut de « non traduits » puisqu'ils ne correspondront plus aux segments enregistrés dans la mémoire du projet, même si leur traduction de départ y est toujours présente."
 
 #: ../../source/Dialogs_ProjectProperties.rst:51
 msgid "Auto-propagation of Translations"
-msgstr ""
+msgstr "Propagation automatique des traductions"
 
 #: ../../source/Dialogs_ProjectProperties.rst:42
 msgid ""
@@ -91,11 +91,11 @@ msgid ""
 "Create Alternative Translation. If the Auto-propagation check box is not "
 "checked, the segments with alternative translations are left untranslated"
 " until the user has decided which translation is to be used."
-msgstr ""
+msgstr "Dans le cas où il existerait des segments non uniques dans les documents source, la case Propagation automatique des traductions donne à l'utilisateur les deux possibilités suivantes concernant la traduction automatique : si la case est cochée, le premier segment traduit sera considéré comme la traduction par défaut et son texte cible sera automatiquement utilisé pour les segments identiques suivants durant le processus de traduction. Mistranslated segments can of course be corrected later manually using Create Alternative Translation. Si la case Propagation automatique des traductions n'est pas cochée, les segments ayant des traductions alternatives ne seront pas traduits jusqu'à ce que l'utilisateur décide du choix de la traduction."
 
 #: ../../source/Dialogs_ProjectProperties.rst:60
 msgid "Remove Tags"
-msgstr ""
+msgstr "Supprimer les balises"
 
 #: ../../source/Dialogs_ProjectProperties.rst:54
 msgid ""
@@ -106,11 +106,11 @@ msgid ""
 "documents, as only inline tags are removed. Non-visible formatting (i.e.,"
 " which doesn't appear as tags in the OmegaT editor) is retained in target"
 " documents."
-msgstr ""
+msgstr "Lorsque cette option est activée, toutes les balises de formatage sont retirées des segments source. Cela est particulièrement utile pour des textes dont le formatage intégré n'est pas vraiment utile (par exemple des PDF passés par la reconnaissance optique de caractères, des documents .odt ou .docx mal convertis, etc). Normalement, il doit toujours être possible d'ouvrir les documents cibles puisque seuls les balises intégrées sont supprimées. Le formatage non visible (c'est-à-dire qui n'apparaît pas sous forme de balises dans l'Éditeur d'OmegaT) est conservé dans les documents cibles."
 
 #: ../../source/Dialogs_ProjectProperties.rst:66
 msgid "External Post-processing Command"
-msgstr ""
+msgstr "Commande de post-traitement externe"
 
 #: ../../source/Dialogs_ProjectProperties.rst:63
 msgid ""
@@ -118,11 +118,11 @@ msgid ""
 "instance, a script to rename files) that will be applied each time Create"
 " Translated Documents is used. This external command cannot include "
 "\"pipes\", etc., which is why calling a script is recommended."
-msgstr ""
+msgstr "Cette zone permet d'entrer une commande de post-traitement externe (par exemple, un script pour renommer des fichiers) qui sera appliquée à chaque utilisation de Créer les documents traduits. Cette commande externe ne pouvant pas comporter de « pipe », etc., l'appel d'un script est recommandé."
 
 #: ../../source/Dialogs_ProjectProperties.rst:81
 msgid "Segmentation..."
-msgstr ""
+msgstr "Segmentation..."
 
 #: ../../source/Dialogs_ProjectProperties.rst:69
 msgid ""
@@ -136,7 +136,7 @@ msgid ""
 "uncheck the check box. See `Segmentation Setup preferences "
 "<#dialogs.preferences.segmentationsetup>`__ for more information on "
 "segmentation rules."
-msgstr ""
+msgstr "Les règles de segmentation sont généralement valables pour l'ensemble des projets. Cependant, il est possible que l'utilisateur ait besoin de créer un nouvel ensemble de règles qui s'appliqueront spécifiquement au projet en question. Use this button to open a dialog, activate the check box Project specific segmentation rules, then proceed to adjust the segmentation rules as desired. Ce nouvel ensemble de règles sera sauvegardé avec le projet et n'interférera pas avec l'ensemble général de règles de segmentation. Pour supprimer les règles de segmentation spécifiques au projet, décochez la case. See `Segmentation Setup preferences <#dialogs.preferences.segmentationsetup>`__ for more information on segmentation rules."
 
 #: ../../source/Dialogs_ProjectProperties.rst:80
 msgid ""
@@ -146,7 +146,7 @@ msgstr ""
 
 #: ../../source/Dialogs_ProjectProperties.rst:98
 msgid "File Filters..."
-msgstr ""
+msgstr "Fichiers et filtres..."
 
 #: ../../source/Dialogs_ProjectProperties.rst:84
 msgid ""
@@ -160,7 +160,7 @@ msgid ""
 "menu Options->File Filters, the global user filters are changed, not the "
 "project filters. See `File Filters preferences "
 "<#dialogs.preferences.filefilters>`__ for more on the subject."
-msgstr ""
+msgstr "De manière similaire, l'utilisateur peut créer des filtres de fichiers spécifiques au projet qui seront sauvegardés avec le projet et ne seront donc valables que pour le projet en cours. To create a project-specific set of file filters, click on the File filter ...button, then activate Enable project specific filters check box in the window that opens. Une copie des modifications apportées à la configuration des filtres sera sauvegardée avec le projet. Pour supprimer les filtres de fichiers spécifiques au projet, décochez la case. Note that in the menu Options->File Filters, the global user filters are changed, not the project filters. See `File Filters preferences <#dialogs.preferences.filefilters>`__ for more on the subject."
 
 #: ../../source/Dialogs_ProjectProperties.rst:97
 msgid ""
@@ -170,7 +170,7 @@ msgstr ""
 
 #: ../../source/Dialogs_ProjectProperties.rst:103
 msgid "Repository Mapping..."
-msgstr ""
+msgstr "Mappage du référentiel..."
 
 #: ../../source/Dialogs_ProjectProperties.rst:101
 msgid ""
@@ -181,7 +181,7 @@ msgstr ""
 
 #: ../../source/Dialogs_ProjectProperties.rst:106
 msgid "External Search..."
-msgstr ""
+msgstr "Recherche externe..."
 
 #: ../../source/Dialogs_ProjectProperties.rst:106
 msgid "Defines the project-specific external search resources."
@@ -189,7 +189,7 @@ msgstr ""
 
 #: ../../source/Dialogs_ProjectProperties.rst:109
 msgid "File locations"
-msgstr ""
+msgstr "Emplacement des fichiers"
 
 #: ../../source/Dialogs_ProjectProperties.rst:111
 msgid ""
@@ -198,27 +198,27 @@ msgid ""
 "folders that do not exist yet, OmegaT creates them for you. In case you "
 "decide to modify project folders, keep in mind that this will not move "
 "existing files from old folders to the new location."
-msgstr ""
+msgstr "À cet endroit, vous pouvez sélectionner différents sous-dossiers, par exemple le sous-dossier contenant les fichiers source, le sous-dossier des fichiers cible, etc. If you enter names of folders that do not exist yet, OmegaT creates them for you. Si vous avez décidé de modifier les dossiers du projet, gardez à l'esprit que cela ne déplacera pas les fichiers existants dans les vieux dossiers vers le nouvel emplacement."
 
 #: ../../source/Dialogs_ProjectProperties.rst:117
 msgid ""
 "Clic on Exclusions... to define the files or folders that will be ignored"
 " by OmegaT. An ignored file or folder:"
-msgstr ""
+msgstr "Clic on Exclusions... to define the files or folders that will be ignored by OmegaT. Un fichier ou un dossier ignoré :"
 
 #: ../../source/Dialogs_ProjectProperties.rst:120
 msgid "is not displayed in the Editor pane,"
-msgstr ""
+msgstr "n'est pas affiché dans l'Éditeur,"
 
 #: ../../source/Dialogs_ProjectProperties.rst:122
 msgid "is not taken into account in statistics,"
-msgstr ""
+msgstr "n'est pas pris en compte dans les statistiques,"
 
 #: ../../source/Dialogs_ProjectProperties.rst:124
 msgid ""
 "is not copied in /target folder during the translated files creation "
 "process."
-msgstr ""
+msgstr "n'est pas copié dans le dossier /target durant le processus de création des fichiers traduits."
 
 #: ../../source/Dialogs_ProjectProperties.rst:127
 msgid ""
@@ -226,5 +226,5 @@ msgid ""
 "pattern, or edit one by selecting a line and pressing F2. It is possible "
 "to use wildcards, using the `ant syntax "
 "<https://ant.apache.org/manual/dirtasks.html#patterns>`__."
-msgstr ""
+msgstr "Dans le dialogue des masques d'exclusion, il est possible d'Ajouter ou de Supprimer un masque, ou d'en modifier un en sélectionnant une ligne et en appuyant sur F2. It is possible to use wildcards, using the `ant syntax <https://ant.apache.org/manual/dirtasks.html#patterns>`__."
 

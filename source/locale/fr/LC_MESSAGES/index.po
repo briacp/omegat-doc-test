@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,21 +17,21 @@ msgstr "Project-Id-Version: OmegaT \n"
 
 #: ../../source/index.rst:13
 msgid "Contents:"
-msgstr ""
+msgstr "Sommaire :"
 
 #: ../../source/index.rst:7
 msgid "OmegaT 4.2 - User's Guide"
-msgstr ""
+msgstr "OmegaT 4.2 – Guide de l'utilisateur"
 
 #: ../../source/index.rst:9
 msgid ""
 "This document is the official user's guide to OmegaT, the free Computer "
 "Aided Translation tool. It also contains installation instructions."
-msgstr ""
+msgstr "Ce document constitue le guide de l'utilisateur officiel d'OmegaT, l'outil libre de traduction assistée par ordinateur. Il contient également les instructions relatives à l'installation."
 
 #: ../../source/index.rst:31
 msgid "Indices and tables"
-msgstr ""
+msgstr "Index et tableaux"
 
 #: ../../source/index.rst:33
 msgid ":ref:`genindex`"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr "Project-Id-Version: OmegaT \n"
 
 #: ../../source/Menus_Help.rst:2
 msgid "Help"
-msgstr ""
+msgstr "Aide"
 
 #: ../../source/Menus_Help.rst:5
 msgid "User's Manual..."
@@ -29,32 +29,32 @@ msgstr ""
 
 #: ../../source/Menus_Help.rst:8
 msgid "About..."
-msgstr ""
+msgstr "À propos..."
 
 #: ../../source/Menus_Help.rst:8
 msgid "Displays copyright, credits and license information."
-msgstr ""
+msgstr "Affiche le copyright, les crédits et les informations sur la licence."
 
 #: ../../source/Menus_Help.rst:12
 msgid "Last Changes..."
-msgstr ""
+msgstr "Dernières modifications..."
 
 #: ../../source/Menus_Help.rst:11
 msgid ""
 "Displays the list of new functionalities, enhancements and bug fixes for "
 "each new release."
-msgstr ""
+msgstr "Affiche la liste des nouvelles fonctionnalités, des améliorations et des corrections de bogue pour chaque version."
 
 #: ../../source/Menus_Help.rst:17
 msgid "Log..."
-msgstr ""
+msgstr "Journal..."
 
 #: ../../source/Menus_Help.rst:15
 msgid ""
 "Displays the current log file. The title of the dialog reflects the file "
 "actually used (which depends on how many instances of OmegaT are running "
 "concurrently)."
-msgstr ""
+msgstr "Affiche le fichier journal actuel. Le titre du dialogue reflète le fichier réellement utilisé (qui dépend du nombre d'instances d'OmegaT actuellement en cours d'exécution)."
 
 #: ../../source/Menus_Help.rst:20
 msgid "Check for Updates..."

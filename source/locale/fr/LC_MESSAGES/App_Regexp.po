@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr "Project-Id-Version: OmegaT \n"
 
 #: ../../source/App_Regexp.rst:2
 msgid "Regular expressions"
-msgstr ""
+msgstr "Expressions régulières"
 
 #: ../../source/App_Regexp.rst:4
 msgid ""
@@ -26,7 +26,7 @@ msgid ""
 "specific information, consult the `Java Regex documentation "
 "<http://download.oracle.com/javase/1.6.0/docs/api/java/util/regex/Pattern.html>`__."
 " See additional references and examples below."
-msgstr ""
+msgstr "Les expressions régulières (ou regex) utilisées dans les recherches et les règles de segmentation sont celles prises en charge par Java.. Should you need more specific information, consult the `Java Regex documentation <http://download.oracle.com/javase/1.6.0/docs/api/java/util/regex/Pattern.html>`__. Voir les références supplémentaires et les exemples ci-dessous :"
 
 #: ../../source/App_Regexp.rst:10 ../../source/App_Regexp.rst:144
 #: ../../source/App_Regexp.rst:161
@@ -38,7 +38,7 @@ msgid ""
 "This chapter is intended for advanced users, who need to define their own"
 " variants of segmentation rules or devise more complex and powerful key "
 "search items."
-msgstr ""
+msgstr "Ce chapitre est destiné aux utilisateurs confirmés qui éprouvent le besoin de définir leurs propres règles de segmentation et de concevoir des éléments de recherche clé plus complexes et plus puissants."
 
 #: ../../source/App_Regexp.rst:17 ../../source/App_Regexp.rst:25
 #: ../../source/App_Regexp.rst:57 ../../source/App_Regexp.rst:71
@@ -46,21 +46,21 @@ msgstr ""
 #: ../../source/App_Regexp.rst:119 ../../source/App_Regexp.rst:133
 #: ../../source/App_Regexp.rst:150 ../../source/App_Regexp.rst:167
 msgid "The construct"
-msgstr ""
+msgstr "La construction"
 
 #: ../../source/App_Regexp.rst:17 ../../source/App_Regexp.rst:25
 msgid "... matches the following"
-msgstr ""
+msgstr "...correspond à ceci"
 
 #: ../../source/App_Regexp.rst:19
 msgid "(?i)"
-msgstr ""
+msgstr "(?i)"
 
 #: ../../source/App_Regexp.rst:19
 msgid ""
 "Enables case-insensitive matching (by default, the pattern is case-"
 "sensitive)."
-msgstr ""
+msgstr "Permet des correspondances qui ne respectent pas la casse (par défaut, le modèle respecte la casse)."
 
 #: ../../source/App_Regexp.rst:22
 msgid "Table: Regex - Flags"
@@ -68,11 +68,11 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:27
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #: ../../source/App_Regexp.rst:27
 msgid "The character x, except the following..."
-msgstr ""
+msgstr "Le caractère x, sauf pour les éléments suivants..."
 
 #: ../../source/App_Regexp.rst:29
 msgid "\\\\uhhhh"
@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:29
 msgid "The character with hexadecimal value 0xhhhh"
-msgstr ""
+msgstr "Le caractère ayant une valeur hexadécimale 0xhhhh"
 
 #: ../../source/App_Regexp.rst:31
 msgid "\\\\t"
@@ -136,7 +136,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:43
 msgid "The control character corresponding to x"
-msgstr ""
+msgstr "Le caractère de contrôle correspondant à x"
 
 #: ../../source/App_Regexp.rst:45
 msgid "\\\\0n"
@@ -144,7 +144,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:45
 msgid "The character with octal value 0n (0 <= n <= 7)"
-msgstr ""
+msgstr "Le caractère de valeur octale 0n (0 <= n <= 7)"
 
 #: ../../source/App_Regexp.rst:47
 msgid "\\\\0nn"
@@ -152,7 +152,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:47
 msgid "The character with octal value 0nn (0 <= n <= 7)"
-msgstr ""
+msgstr "Le caractère de valeur octale 0nn (0 <= n <= 7)"
 
 #: ../../source/App_Regexp.rst:49
 msgid "\\\\0mnn"
@@ -160,7 +160,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:49
 msgid "The character with octal value 0mnn (0 <= m <= 3, 0 <= n <= 7)"
-msgstr ""
+msgstr "Le caractère de valeur octale 0mnn (0 <= m <= 3, 0 <= n <= 7)"
 
 #: ../../source/App_Regexp.rst:51
 msgid "\\\\xhh"
@@ -168,7 +168,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:51
 msgid "The character with hexadecimal value 0xhh"
-msgstr ""
+msgstr "Le caractère de valeur hexadécimale 0xhh"
 
 #: ../../source/App_Regexp.rst:54
 msgid "Table: Regex - Character"
@@ -179,22 +179,22 @@ msgstr ""
 #: ../../source/App_Regexp.rst:119 ../../source/App_Regexp.rst:133
 #: ../../source/App_Regexp.rst:150 ../../source/App_Regexp.rst:167
 msgid "...matches the following"
-msgstr ""
+msgstr "...correspond à ceci"
 
 #: ../../source/App_Regexp.rst:59
 msgid "\\\\"
-msgstr ""
+msgstr "\\\\"
 
 #: ../../source/App_Regexp.rst:59
 msgid ""
 "Nothing, but quotes the following character. This is required if you "
 "would like to enter any of the meta characters !$()\\*+.<>?[\\\\]^{\\|} "
 "to match as themselves."
-msgstr ""
+msgstr "Rien, mais cite le caractère suivant. This is required if you would like to enter any of the meta characters !$()\\*+.<>?[\\\\]^{\\|} to match as themselves."
 
 #: ../../source/App_Regexp.rst:61
 msgid "For example, this is the backslash character"
-msgstr ""
+msgstr "Par exemple, ceci est le caractère d'antislash"
 
 #: ../../source/App_Regexp.rst:63
 msgid "\\\\Q"
@@ -242,7 +242,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:77
 msgid "A currency symbol"
-msgstr ""
+msgstr "Un symbole de devise"
 
 #: ../../source/App_Regexp.rst:79
 msgid "\\\\P{InGreek}"
@@ -250,7 +250,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:79
 msgid "Any character except one in the Greek block (negation)"
-msgstr ""
+msgstr "N'importe quel caractère à l'exception de ceux du bloc grec (négation)"
 
 #: ../../source/App_Regexp.rst:81
 msgid "[\\\\p{L}&&[^\\\\p{Lu}]]"
@@ -258,7 +258,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:81
 msgid "Any letter except an uppercase letter (subtraction)"
-msgstr ""
+msgstr "N'importe quelle lettre à l'exception d'une lettre majuscule (soustraction)"
 
 #: ../../source/App_Regexp.rst:84
 msgid "Table: Regex - Classes for Unicode blocks and categories"
@@ -266,27 +266,27 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:89
 msgid "[abc]"
-msgstr ""
+msgstr "[abc]"
 
 #: ../../source/App_Regexp.rst:89
 msgid "a, b, or c (simple class)"
-msgstr ""
+msgstr "a, b, ou c (classe simple)"
 
 #: ../../source/App_Regexp.rst:91
 msgid "[^abc]"
-msgstr ""
+msgstr "[^abc]"
 
 #: ../../source/App_Regexp.rst:91
 msgid "Any character except a, b, or c (negation)"
-msgstr ""
+msgstr "N'importe quel caractère à l'exception de a, b, ou c (négation)"
 
 #: ../../source/App_Regexp.rst:93
 msgid "[a-zA-Z]"
-msgstr ""
+msgstr "[a-zA-Z]"
 
 #: ../../source/App_Regexp.rst:93
 msgid "a through z or A through Z, inclusive (range)"
-msgstr ""
+msgstr "de a à z ou A à Z, inclus (plage)"
 
 #: ../../source/App_Regexp.rst:96
 msgid "Table: Regex - Character classes"
@@ -294,11 +294,11 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:101
 msgid "."
-msgstr ""
+msgstr "."
 
 #: ../../source/App_Regexp.rst:101
 msgid "Any character (except for line terminators)"
-msgstr ""
+msgstr "N'importe quel caractère (à l'exception des terminaisons de lignes)"
 
 #: ../../source/App_Regexp.rst:103
 msgid "\\\\d"
@@ -306,7 +306,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:103
 msgid "A digit: [0-9]"
-msgstr ""
+msgstr "Un chifffre : équivalent à  [0-9]"
 
 #: ../../source/App_Regexp.rst:105
 msgid "\\\\D"
@@ -314,7 +314,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:105
 msgid "A non-digit: [^0-9]"
-msgstr ""
+msgstr "Un caractère qui n'est pas un chiffre : équivalent à [^0-9]"
 
 #: ../../source/App_Regexp.rst:107
 msgid "\\\\s"
@@ -354,19 +354,19 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:121
 msgid "^"
-msgstr ""
+msgstr "^"
 
 #: ../../source/App_Regexp.rst:121
 msgid "The beginning of a line"
-msgstr ""
+msgstr "Le début d'une ligne"
 
 #: ../../source/App_Regexp.rst:123
 msgid "$"
-msgstr ""
+msgstr "$"
 
 #: ../../source/App_Regexp.rst:123
 msgid "The end of a line"
-msgstr ""
+msgstr "La fin d'une ligne"
 
 #: ../../source/App_Regexp.rst:125
 msgid "\\\\b"
@@ -374,7 +374,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:125
 msgid "A word boundary"
-msgstr ""
+msgstr "Extrémité de mot"
 
 #: ../../source/App_Regexp.rst:127
 msgid "\\\\B"
@@ -382,7 +382,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:127
 msgid "A non-word boundary"
-msgstr ""
+msgstr "N'est pas une extrémité de mot"
 
 #: ../../source/App_Regexp.rst:130
 msgid "Table: Regex - Boundary matchers"
@@ -394,7 +394,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:135 ../../source/App_Regexp.rst:152
 msgid "X, once or not at all"
-msgstr ""
+msgstr "X, une seule fois ou pas du tout"
 
 #: ../../source/App_Regexp.rst:137
 msgid "X\\ *\\**"
@@ -402,7 +402,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:137 ../../source/App_Regexp.rst:154
 msgid "X, zero or more times"
-msgstr ""
+msgstr "X, zéro fois ou plus"
 
 #: ../../source/App_Regexp.rst:139
 msgid "X\\ *+*"
@@ -410,7 +410,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:139 ../../source/App_Regexp.rst:156
 msgid "X, one or more times"
-msgstr ""
+msgstr "X, une seule fois ou plus"
 
 #: ../../source/App_Regexp.rst:142
 msgid "Table: Regex - Greedy quantifiers"
@@ -420,11 +420,11 @@ msgstr ""
 msgid ""
 "greedy quantifiers will match as much as they can. For example, *a+* will"
 " match the aaa in *aaabbb*"
-msgstr ""
+msgstr "les quantificateurs avides feront le plus de correspondances possible. For example, *a+* will match the aaa in *aaabbb*"
 
 #: ../../source/App_Regexp.rst:152
 msgid "X??"
-msgstr ""
+msgstr "X??"
 
 #: ../../source/App_Regexp.rst:154
 msgid "X\\*?"
@@ -432,7 +432,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:156
 msgid "X+?"
-msgstr ""
+msgstr "X+?"
 
 #: ../../source/App_Regexp.rst:159
 msgid "Table: Regex - Reluctant (non-greedy) quantifiers"
@@ -442,15 +442,15 @@ msgstr ""
 msgid ""
 "non-greedy quantifiers will match as little as they can. For example, "
 "*a+?* will match the first *a* in *aaabbb*"
-msgstr ""
+msgstr "les quantificateurs non-avides effectueront aussi peu de correspondances que possible. For example, *a+?* will match the first *a* in *aaabbb*"
 
 #: ../../source/App_Regexp.rst:169
 msgid "XY"
-msgstr ""
+msgstr "XY"
 
 #: ../../source/App_Regexp.rst:169
 msgid "X followed by Y"
-msgstr ""
+msgstr "X suivit de Y"
 
 #: ../../source/App_Regexp.rst:171
 msgid "X\\|Y"
@@ -458,15 +458,15 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:171
 msgid "Either X or Y"
-msgstr ""
+msgstr "Soit X soit Y"
 
 #: ../../source/App_Regexp.rst:173
 msgid "(XY)"
-msgstr ""
+msgstr "(XY)"
 
 #: ../../source/App_Regexp.rst:173
 msgid "XY as a single group"
-msgstr ""
+msgstr "XY en tant que groupe unique"
 
 #: ../../source/App_Regexp.rst:176
 msgid "Table: Regex - Logical operators"
@@ -474,7 +474,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:179
 msgid "Regex tools and examples of use"
-msgstr ""
+msgstr "Outils d'expressions régulières et exemples d'utilisation"
 
 #: ../../source/App_Regexp.rst:181
 msgid ""
@@ -483,33 +483,33 @@ msgid ""
 "from the Regular Expression Tester see below): the regular expression "
 "(top entry) analyzes the search text (Text box in the middle) , yielding "
 "the hits, shown in the result Text box."
-msgstr ""
+msgstr "Un grand nombre d'outils interactifs permettent de développer et de tester les expressions régulières. Généralement, ils suivent le même modèle (voir ci-dessous pour un exemple de Testeur d'Expressions Régulières) : l'expression régulière (l'entrée du haut) analyse le texte de recherche (Zone de texte au milieu), rassemble les correspondances trouvées et les affiche dans la zone de texte de résultat."
 
 #: ../../source/App_Regexp.rst:190
 msgid "Regex Tester"
-msgstr ""
+msgstr "Testeur d'Expressions Régulières"
 
 #: ../../source/App_Regexp.rst:192
 msgid ""
 "See `The Regex Coach <http://weitz.de/regex-coach/>`__ for Windows,Linux,"
 " FreeBSD versions of a stand-alone tool. This is much the same as the "
 "above example."
-msgstr ""
+msgstr "See `The Regex Coach <http://weitz.de/regex-coach/>`__ for Windows,Linux, FreeBSD versions of a stand-alone tool. Cela ressemble beaucoup à l'exemple ci-dessus."
 
 #: ../../source/App_Regexp.rst:196
 msgid ""
 "A nice collection of useful regex cases can be found in OmegaT itself "
 "(see Options > Segmentation). The following list includes expressions you"
 " may find useful when searching through the translation memory:"
-msgstr ""
+msgstr "A nice collection of useful regex cases can be found in OmegaT itself (see Options > Segmentation). Le liste suivante inclut des expressions qui pourront vous être utiles si vous effectuez des recherches dans la mémoire de traduction :"
 
 #: ../../source/App_Regexp.rst:201
 msgid "Regular expression"
-msgstr ""
+msgstr "Une expression régulière"
 
 #: ../../source/App_Regexp.rst:201
 msgid "Finds the following:"
-msgstr ""
+msgstr "Trouve les éléments suivants :"
 
 #: ../../source/App_Regexp.rst:203
 msgid "(\\\\b\\\\w+\\\\b)\\\\s\\\\1\\\\b"
@@ -517,7 +517,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:203
 msgid "double words"
-msgstr ""
+msgstr "mots doubles"
 
 #: ../../source/App_Regexp.rst:205
 msgid "[\\\\.,]\\\\s\\*[\\\\.,]+"
@@ -525,7 +525,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:205
 msgid "comma or a period, followed by spaces and yet another comma or period"
-msgstr ""
+msgstr "une virgule ou un point, suivis par des espaces puis par une autre virgule ou un autre point"
 
 #: ../../source/App_Regexp.rst:207
 msgid "\\\\. \\\\s+$"
@@ -533,7 +533,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:207
 msgid "extra spaces after the period at the end of the line"
-msgstr ""
+msgstr "des espaces supplémentaires après le point à la fin de la ligne"
 
 #: ../../source/App_Regexp.rst:209
 msgid "\\\\s+a\\\\s+[aeiou]"
@@ -543,7 +543,7 @@ msgstr ""
 msgid ""
 "English: words, beginning with vowels, should generally be preceded by "
 "\"an\", not \"a\""
-msgstr ""
+msgstr "Anglais : les mots commençant par une voyelle doivent généralement être précédés par un « an » et non un « a »"
 
 #: ../../source/App_Regexp.rst:211
 msgid "\\\\s+an\\\\s+[^aeiou]"
@@ -553,7 +553,7 @@ msgstr ""
 msgid ""
 "English: the same check as above, but concerning consonants (\"a\", not "
 "\"an\")"
-msgstr ""
+msgstr "Anglais : même vérification que ci-dessus mais pour les consonnes (« a », pas « an »)"
 
 #: ../../source/App_Regexp.rst:213
 msgid "\\\\s{2,}"
@@ -561,7 +561,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:213
 msgid "more than one space"
-msgstr ""
+msgstr "plus d'un seul espace"
 
 #: ../../source/App_Regexp.rst:215
 msgid "\\\\.[A-Z]"
@@ -571,7 +571,7 @@ msgstr ""
 msgid ""
 "Period, followed by an upper-case letter - possibly a space is missing "
 "between the period and the start of a new sentence?"
-msgstr ""
+msgstr "Point, suivit par une majuscule - il est possible qu'il manque un espace entre le point et le début de la nouvelle phrase."
 
 #: ../../source/App_Regexp.rst:217
 msgid "\\\\bis\\\\b"
@@ -579,7 +579,7 @@ msgstr ""
 
 #: ../../source/App_Regexp.rst:217
 msgid "search for “is”, not “this” or “isn't” etc."
-msgstr ""
+msgstr "recherche  « is », pas  « this » ou  « isn't », etc."
 
 #: ../../source/App_Regexp.rst:220
 msgid "Table: Regex - Examples of regular expressions in translations"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr "Project-Id-Version: OmegaT \n"
 
 #: ../../source/Menus_Tools.rst:2
 msgid "Tools"
-msgstr ""
+msgstr "Outils"
 
 #: ../../source/Menus_Tools.rst:30
 msgid "Check Issues..."
@@ -86,17 +86,17 @@ msgstr ""
 
 #: ../../source/Menus_Tools.rst:38
 msgid "Statistics"
-msgstr ""
+msgstr "Statistiques"
 
 #: ../../source/Menus_Tools.rst:37
 msgid ""
 "Opens a new window and displays the project statistics, i.e. the project "
 "totals and totals for every file in the project."
-msgstr ""
+msgstr "Ouvre une nouvelle fenêtre et affiche les statistiques du projet, c.-à-d. les totaux du projet et les totaux de chaque fichier du projet."
 
 #: ../../source/Menus_Tools.rst:43
 msgid "Match Statistics"
-msgstr ""
+msgstr "Statistiques des correspondances"
 
 #: ../../source/Menus_Tools.rst:41
 msgid ""
@@ -107,7 +107,7 @@ msgstr ""
 
 #: ../../source/Menus_Tools.rst:48
 msgid "Match Statistics per File"
-msgstr ""
+msgstr "Statistiques des correspondances par fichier"
 
 #: ../../source/Menus_Tools.rst:46
 msgid ""
@@ -140,7 +140,7 @@ msgstr ""
 
 #: ../../source/Menus_Tools.rst:64
 msgid "Scripting..."
-msgstr ""
+msgstr "Scripts..."
 
 #: ../../source/Menus_Tools.rst:62
 msgid ""

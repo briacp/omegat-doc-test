@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr "Project-Id-Version: OmegaT \n"
 
 #: ../../source/Windows_Scripts.rst:2
 msgid "Scripts"
-msgstr ""
+msgstr "Scripts"
 
 #: ../../source/Windows_Scripts.rst:4
 msgid "This window is accessible by selecting Tools > Scripting..."
@@ -25,14 +25,14 @@ msgstr ""
 
 #: ../../source/Windows_Scripts.rst:7
 msgid "Use"
-msgstr ""
+msgstr "Utilisation"
 
 #: ../../source/Windows_Scripts.rst:9
 msgid ""
 "The Scripting window allows you to load an existing script into the text "
 "area and run it against the current opened project. To customize the "
 "scripting feature, do the following:"
-msgstr ""
+msgstr "La fenêtre de Scripts vous permet de charger un script préexistant dans la zone de texte et de l'exécuter dans le projet en cours. To customize the scripting feature, do the following:"
 
 #: ../../source/Windows_Scripts.rst:13
 msgid ""
@@ -74,18 +74,18 @@ msgstr ""
 
 #: ../../source/Windows_Scripts.rst:34
 msgid "Scripting languages"
-msgstr ""
+msgstr "Langages de script"
 
 #: ../../source/Windows_Scripts.rst:36
 msgid "The following scripting languages have been implemented:"
-msgstr ""
+msgstr "Les langages de script suivants ont déjà été mis en place :"
 
 #: ../../source/Windows_Scripts.rst:38
 msgid ""
 "**Groovy** (http://groovy.codehaus.org): a dynamic language for the Java "
 "Virtual machine. It builds upon the strengths of Java but has additional "
 "power features inspired by languages like Python, Ruby and Smalltalk."
-msgstr ""
+msgstr "**Groovy** (http://groovy.codehaus.org): a dynamic language for the Java Virtual machine. Il s'appuie sur les ressources de Java mais possède de puissantes fonctions supplémentaires inspirées de langages tels que Python, Ruby et Smalltalk."
 
 #: ../../source/Windows_Scripts.rst:43
 msgid ""
@@ -95,7 +95,7 @@ msgid ""
 "object-oriented, imperative, and functional programming styles. Being the"
 " language behind popular software such as Firefox, it is a familiar and "
 "preferred programming tool in the open-source domain."
-msgstr ""
+msgstr "**JavaScript** (sometimes abbreviated JS, not to be confused with Java): a prototype-based scripting language that is dynamic, weakly typed and has first-class functions. C'est un langage multi-paradigme, orienté-objet, de genre impératif et fonctionnel. Being the language behind popular software such as Firefox, it is a familiar and preferred programming tool in the open-source domain."
 
 #: ../../source/Windows_Scripts.rst:51
 msgid ""
@@ -104,5 +104,5 @@ msgid ""
 " scans through all the segments in all the files in the current project "
 "and, if a translation exists, prints out the source and the target of the"
 " segment:"
-msgstr ""
+msgstr "Tous les langages ont accès au modèle objet d'OmegaT, le projet étant l'objet principal. For example, the following Groovy code snippet scans through all the segments in all the files in the current project and, if a translation exists, prints out the source and the target of the segment:"
 

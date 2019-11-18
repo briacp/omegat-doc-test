@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:9
 msgid "General"
-msgstr ""
+msgstr "Générales"
 
 #: ../../source/Dialogs_Preferences.rst:14
 msgid "Use TAB to Advance"
@@ -40,11 +40,11 @@ msgid ""
 "Sets the segment validation key to Tab instead of the default Enter. This"
 " option is useful for some Chinese, Japanese or Korean character input "
 "systems."
-msgstr ""
+msgstr "Sets the segment validation key to Tab instead of the default Enter. Cette option est utile pour certains systèmes d'entrée de caractères chinois, japonais ou coréen."
 
 #: ../../source/Dialogs_Preferences.rst:17
 msgid "Always Confirm Quit"
-msgstr ""
+msgstr "Quitter toujours confirmé"
 
 #: ../../source/Dialogs_Preferences.rst:17
 msgid "The program will seek confirmation before closing down."
@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:20
 msgid "Machine Translation"
-msgstr ""
+msgstr "Traduction automatique"
 
 #: ../../source/Dialogs_Preferences.rst:27
 msgid "Automatically fetch translations"
@@ -93,7 +93,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:41
 msgid "Glossary"
-msgstr ""
+msgstr "Glossaires"
 
 #: ../../source/Dialogs_Preferences.rst:45
 msgid "Display context description for TBX glossaries"
@@ -155,11 +155,11 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:71
 msgid "TaaS Terminology"
-msgstr ""
+msgstr "Terminologie TaaS"
 
 #: ../../source/Dialogs_Preferences.rst:79
 msgid "Get API Key"
-msgstr ""
+msgstr "Obtenir une clé d'API"
 
 #: ../../source/Dialogs_Preferences.rst:74
 msgid ""
@@ -193,7 +193,7 @@ msgid ""
 " for the project's source and target languages. Private collections are "
 "displayed in bold. The collections are downloaded as TBX glossaries and "
 "stored in the current glossary folder."
-msgstr ""
+msgstr "This button enables you to browse and download the collections that exist for the project's source and target languages. Les collections privées sont affichées en gras. The collections are downloaded as TBX glossaries and stored in the current glossary folder."
 
 #: ../../source/Dialogs_Preferences.rst:93
 msgid "Select TaaS Terminology Lookup Domain..."
@@ -207,7 +207,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:96
 msgid "Dictionary"
-msgstr ""
+msgstr "Dictionnaires"
 
 #: ../../source/Dialogs_Preferences.rst:100
 msgid "Automatically search segment text in dictionary"
@@ -231,11 +231,11 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:107
 msgid "Appearance"
-msgstr ""
+msgstr "Apparence"
 
 #: ../../source/Dialogs_Preferences.rst:114
 msgid "Restore Main Window"
-msgstr ""
+msgstr "Réinitialiser la fenêtre principale"
 
 #: ../../source/Dialogs_Preferences.rst:110
 msgid ""
@@ -244,22 +244,22 @@ msgid ""
 "components and you are unable to restore the desired arrangement. It can "
 "also be used when panes do not appear as expected following an OmegaT "
 "upgrade."
-msgstr ""
+msgstr "Ramène les composants de la fenêtre principale d'OmegaT à leur statut par défaut. Use this feature when you have undocked, moved or hidden one or more components and you are unable to restore the desired arrangement. Il peut également être utilisé lorsque les volets n'apparaissent plus comme prévu après une mise à jour d'OmegaT."
 
 #: ../../source/Dialogs_Preferences.rst:117
 msgid "Font"
-msgstr ""
+msgstr "Police"
 
 #: ../../source/Dialogs_Preferences.rst:119
 msgid ""
 "Shows the dialog to modify the text display font. Users of old computers "
 "who feel window resizing is very slow can try changing the font. See font"
 " settings in Miscellanea"
-msgstr ""
+msgstr "Affiche la boite de dialogue qui permet de modifier la police d'affichage du texte. Les utilisateurs de vieux ordinateurs qui sentent que le redimensionnement de la fenêtre est vraiment lent peuvent essayer de changer la police. See font settings in Miscellanea"
 
 #: ../../source/Dialogs_Preferences.rst:124
 msgid "Colours"
-msgstr ""
+msgstr "Couleurs"
 
 #: ../../source/Dialogs_Preferences.rst:126
 msgid ""
@@ -275,7 +275,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:133
 msgid "File Filters"
-msgstr ""
+msgstr "Fichiers et filtres"
 
 #: ../../source/Dialogs_Preferences.rst:135
 msgid ""
@@ -289,7 +289,7 @@ msgid ""
 " to reset the file filters to the default settings. To edit the files and"
 " encodings a filter is used for, select the filter in the list and click "
 "**Edit.**"
-msgstr ""
+msgstr "This dialog lists the file filters available. The filters used by the current project are displayed in bold. If you prefer not to use OmegaT to translate files of a certain type, you can turn off the corresponding filter by deactivating the check box beside its name. OmegaT will then omit the corresponding files when loading projects, and will copy them unmodified to the target folder when creating target documents. Si vous souhaitez réutiliser le filtre, re-cochez simplement la case correspondante. Click **Defaults** to reset the file filters to the default settings. To edit the files and encodings a filter is used for, select the filter in the list and click **Edit.**"
 
 #: ../../source/Dialogs_Preferences.rst:146
 msgid "The dialog allows you to enable or disable the following options:"
@@ -309,7 +309,7 @@ msgid ""
 "Remove leading and trailing whitespace in non-segmented projects: by "
 "default, OmegaT removes leading and trailing whitespace. In non-segmented"
 " projects, it is possible to keep it by unchecking this option."
-msgstr ""
+msgstr "Supprimer les espaces en début et fin de segment dans les projets non segmentés : par défaut, OmegaT supprime les caractères d'espacement de début et de fin de segment. Dans les projets non segmentés, il est possible de les conserver en décochant cette option."
 
 #: ../../source/Dialogs_Preferences.rst:159
 msgid ""
@@ -331,7 +331,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:172
 msgid "Filter options"
-msgstr ""
+msgstr "Les options de filtrage"
 
 #: ../../source/Dialogs_Preferences.rst:174
 msgid ""
@@ -339,7 +339,7 @@ msgid ""
 "OpenDocument files and Microsoft Open XML files) have one or more "
 "specific options. To modify the options, select the filter in the list "
 "and click **Options**. The available options are:"
-msgstr ""
+msgstr "Several filters (text files, XHTML files, HTML and XHTML files, OpenDocument files and Microsoft Open XML files) have one or more specific options. To modify the options, select the filter in the list and click **Options**. Les options disponibles sont :"
 
 #: ../../source/Dialogs_Preferences.rst:179
 msgid "**Text files**"
@@ -371,7 +371,7 @@ msgid ""
 "created, will be left empty. As this is the standard behaviour for PO "
 "files, it is selected by default. If the option is off, the source text "
 "will be copied to the target segment."
-msgstr ""
+msgstr "If selected, when a segment in a PO file (which may be a whole paragraph) is not translated, the translation will be empty in the target file. Technically speaking, the ``msgstr`` segment in the PO target file, if created, will be left empty. As this is the standard behaviour for PO files, it is selected by default. Si cette option est désactivée, le texte source sera copié dans le segment cible."
 
 #: ../../source/Dialogs_Preferences.rst:197
 msgid "*Skip PO header*"
@@ -452,7 +452,7 @@ msgstr ""
 msgid ""
 "You can select which elements are to be translated. They will appear as "
 "separate segments in the translation."
-msgstr ""
+msgstr "Vous pouvez sélectionner les éléments qui doivent être traduits. Ils apparaîtront en segments séparés dans la traduction."
 
 #: ../../source/Dialogs_Preferences.rst:237
 msgid ""
@@ -524,17 +524,17 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:299
 msgid "You can select which of the following items are to be translated:"
-msgstr ""
+msgstr "Vous pouvez sélectionner ce qui doit être traduit parmi les éléments suivants :"
 
 #: ../../source/Dialogs_Preferences.rst:301
 msgid ""
 "index entries, bookmarks, bookmark references, notes, comments, "
 "presentation notes, links (URL), sheet names"
-msgstr ""
+msgstr "Entrées d'index, signets (repère de texte), références aux signets, notes, commentaires, notes des présentations, liens (URL), noms des feuilles"
 
 #: ../../source/Dialogs_Preferences.rst:305
 msgid "Edit filter dialog"
-msgstr ""
+msgstr "Modification de la boite de dialogue du filtre"
 
 #: ../../source/Dialogs_Preferences.rst:307
 msgid ""
@@ -546,11 +546,11 @@ msgid ""
 "pattern, click **Add**. The same dialog is used to add a pattern or to "
 "edit a particular pattern. The dialog includes a special target filename "
 "pattern editor, which you can use to customize the names of output files."
-msgstr ""
+msgstr "This dialog enables you to specify the source filename patterns for files to be processed by the filter, customize the filenames of translated files and select which encodings should be used for loading the source file and saving the translation. To modify a file filter pattern, either modify the fields directly or click **Edit**. To add a new file filter pattern, click **Add**. La même boite de dialogue est utilisée pour ajouter un masque ou pour modifier un masque particulier. The dialog includes a special target filename pattern editor, which you can use to customize the names of output files."
 
 #: ../../source/Dialogs_Preferences.rst:318
 msgid "Source file type, filename pattern"
-msgstr ""
+msgstr "Type de fichier source, masque de nom de fichier"
 
 #: ../../source/Dialogs_Preferences.rst:320
 msgid ""
@@ -568,7 +568,7 @@ msgid ""
 "represent themselves. For example, if you wish the text filter to handle "
 "readme files (``readme, read.me``, and ``readme.txt``) you should use the"
 " pattern ``read*``."
-msgstr ""
+msgstr "Lorsqu'OmegaT rencontre un fichier dans le dossier source, il tente de sélectionner le filtre basé sur l'extension du fichier. Plus exactement, OmegaT tente de faire correspondre chaque masque de nom de fichier de fichier source avec le nom de fichier. For example, the pattern ``*.xhtml ``\\ matches any file with the ``.xhtml`` extension. Si le filtre approprié est trouvé, le fichier lui est attribué pour qu'il puisse le traiter. For example, by default, the XHTML filter is used to process files with the .xhtml extension. Vous pouvez changer ou ajouter des masques de nom de fichier pour spécifier les fichiers devant être traités par chaque filtre de fichiers. Source filename patterns use wild card characters similar to those used in **Searches.**\\ The '\\*' character matches zero or more characters. Le caractère « ? » correspond à exactement un caractère. Tous les autres caractères ne correspondent qu'à eux-même. For example, if you wish the text filter to handle readme files (``readme, read.me``, and ``readme.txt``) you should use the pattern ``read*``."
 
 #: ../../source/Dialogs_Preferences.rst:336
 msgid "Source and Translated file encoding"
@@ -586,7 +586,7 @@ msgid ""
 "source file encoding. The source and target encoding fields use drop-down"
 " menus containing all the supported encodings. <auto> leaves the choice "
 "of encoding to OmegaT. This is how it works:"
-msgstr ""
+msgstr "Seul un nombre limité de formats de fichier définissent un encodage obligatoire. Les formats de fichier qui ne définissent pas leur encodage utiliseront l'encodage que vous avez mis en place pour l'extension qui correspond à leur nom. For example, by default ``.txt`` files will be loaded using the default encoding of your operating system. You can change the source encoding for each different source filename pattern. Target files can also be written in any encoding. Par défaut, l'encodage du fichier traduit est le même que celui du fichier source. The source and target encoding fields use drop-down menus containing all the supported encodings. <auto> leaves the choice of encoding to OmegaT. Voici comment cela fonctionne :"
 
 #: ../../source/Dialogs_Preferences.rst:349
 msgid ""
@@ -602,7 +602,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:355
 msgid "OmegaT uses the default encoding of the operating system for text files."
-msgstr ""
+msgstr "OmegaT utilise l'encodage par défaut du système d'exploitation pour les fichiers texte."
 
 #: ../../source/Dialogs_Preferences.rst:359
 msgid "Translated filename"
@@ -618,7 +618,7 @@ msgid ""
 "**Defaults.** You can also modify the name directly in the target "
 "filename pattern field of the file filters dialog. The Edit Pattern "
 "Dialog offers among others the following options:"
-msgstr ""
+msgstr "Il peut arriver que vous ayez envie de renommer les fichiers que vous avez traduits automatiquement, en ajoutant, par exemple, un code de langue après le nom du fichier. The target filename pattern uses a special syntax, so if you want to edit this field, you must click **Edit...**\\ and use the Edit Pattern Dialog. If you want to revert to the filter's default configuration, click **Defaults.** You can also modify the name directly in the target filename pattern field of the file filters dialog. La boite de dialogue « Modifier le masque » propose ces options :"
 
 #: ../../source/Dialogs_Preferences.rst:370
 msgid ""
@@ -697,7 +697,7 @@ msgid ""
 "Additional variants are available for variables ${nameOnly} and "
 "${Extension}. In case the file name has ambivalent name, one can apply "
 "variables of the form ``${name"
-msgstr ""
+msgstr "Des variantes additionnelles sont disponibles pour les variables : ${nameOnly} et ${Extension}. In case the file name has ambivalent name, one can apply variables of the form ``${name"
 
 #: ../../source/Dialogs_Preferences.rst:410
 msgid "only``\\ *-extension number*} and ``${extension``-*extension"
@@ -707,7 +707,7 @@ msgstr ""
 msgid ""
 "number}*. If for example the original file is named Document.xx.docx, the"
 " following variables will give the following results:"
-msgstr ""
+msgstr "number}*. Si, par exemple, le fichier original est appelé Document.xx.docx, les variables suivantes auront pour résultat :"
 
 #: ../../source/Dialogs_Preferences.rst:414
 msgid "``${nameOnly-0}`` Document"
@@ -735,7 +735,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:427
 msgid "Segmentation Setup"
-msgstr ""
+msgstr "Configuration de la segmentation"
 
 #: ../../source/Dialogs_Preferences.rst:429
 msgid ""
@@ -751,7 +751,7 @@ msgid ""
 "matches from previous translations. If sentence segmentation has been "
 "selected, you can setup the rules by selecting Options > "
 "Segmentation...from the main menu."
-msgstr ""
+msgstr "Les outils à mémoire de traduction travaillent avec des unités textuelles appelées segments. OmegaT has two ways to segment a text: by paragraph or by sentence segmentation (also referred to as “rule-based segmentation”). In order to select the type of segmentation, select Project > Properties... from the main menu and tick or untick the check box provided. La segmentation par paragraphe est avantageuse dans certain cas, comme dans le cas de traduction de textes créatifs ou stylistiques pour lesquels le traducteur peut avoir besoin de modifier l'ordre de phrases entières ; la segmentation par phrase est néanmoins préférable pour la majorité des projets de traduction, dans la mesure où elle permet de mieux faire la correspondance avec les traductions antérieures. If sentence segmentation has been selected, you can setup the rules by selecting Options > Segmentation...from the main menu."
 
 #: ../../source/Dialogs_Preferences.rst:442
 msgid ""
@@ -760,7 +760,7 @@ msgid ""
 "own segmentation rules. On the other hand this functionality can be very "
 "useful in special cases, where you can increase your productivity by "
 "tuning the segmentation rules to the text to be translated."
-msgstr ""
+msgstr "Des règles de segmentation adaptées étant déjà disponibles pour de nombreuses langues, il est peu probable que vous ayez à créer vos propres règles de segmentation. Néanmoins, cette fonctionnalité peut vous être très utile dans certains cas, dans la mesure où la modification des règles de segmentation du texte à traduire peut vous permettre d'améliorer votre productivité."
 
 #: ../../source/Dialogs_Preferences.rst:448
 msgid ""
@@ -770,7 +770,7 @@ msgid ""
 "translation memory will turn into orphan segments. If you change "
 "segmentation options when a project is open, you must reload the project "
 "in order for the changes to take effect."
-msgstr ""
+msgstr "**Warning:**\\ because the text will segment differently after filter options have been changed, so you may have to start translating from scratch. En même temps, les segments déjà validés présents dans la mémoire de traduction du projet deviendront des segments orphelins. Si les modifications des options de segmentation s'effectuent alors que le projet est ouvert, il sera nécessaire de recharger le projet afin que celles-ci soient prises en compte."
 
 #: ../../source/Dialogs_Preferences.rst:455
 msgid "OmegaT uses the following sequence of steps:"
@@ -778,14 +778,14 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:466
 msgid "Structure level segmentation"
-msgstr ""
+msgstr "Segmentation au niveau de la structure"
 
 #: ../../source/Dialogs_Preferences.rst:458
 msgid ""
 "OmegaT first parses the text for structure-level segmentation. During "
 "this process it is only the structure of the source file that is used to "
 "produce segments."
-msgstr ""
+msgstr "OmegaT first parses the text for structure-level segmentation. Au cours de ce processus, seule la structure du fichier source est prise en compte pour la production des segments."
 
 #: ../../source/Dialogs_Preferences.rst:462
 msgid ""
@@ -794,11 +794,11 @@ msgid ""
 " documents, etc.) are segmented on the block-level (paragraph) tags. "
 "Translatable object attributes in XHTML or HTML files can be extracted as"
 " separate segments."
-msgstr ""
+msgstr "Par exemple, les fichiers texte peuvent être segmentés au niveau des sauts de lignes, des lignes vides ou ne présenter aucune forme de segmentation. Les fichiers contenant des formatages (documents ODF, HTML, etc.) sont segmentés en fonction des balises délimitant des blocs (paragraphes). Les attributs traduisibles des balises présents dans les fichiers XHTML ou HTML peuvent être extraits en tant que segments séparés."
 
 #: ../../source/Dialogs_Preferences.rst:470
 msgid "Sentence level segmentation"
-msgstr ""
+msgstr "Segmentation au niveau des phrases"
 
 #: ../../source/Dialogs_Preferences.rst:469
 msgid ""
@@ -808,7 +808,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:473
 msgid "Segmentation rules"
-msgstr ""
+msgstr "Règles de segmentation"
 
 #: ../../source/Dialogs_Preferences.rst:475
 msgid ""
@@ -821,15 +821,15 @@ msgid ""
 "moves on without inserting a segment break (for an exception rule) or a "
 "new segment break is created at the current cursor position (for the "
 "break rule)."
-msgstr ""
+msgstr "Le processus de segmentation peut être représenté comme ceci : le curseur se déplace le long du texte, un caractère à la fois. At each cursor position rules, consisting of a **Before**\\ and **After**\\ pattern, are applied in their given order to see if any of the\\ **Before** patterns are valid for the text on the left and the corresponding **After** pattern for the text on the right of the cursor. Si la règle correspond, soit le curseur continue sans créer de rupture de segment (règle d'exception), soit une nouvelle interruption de segment est créée là où se trouve le curseur (règle de segmentation)."
 
 #: ../../source/Dialogs_Preferences.rst:485
 msgid "The two types of rules behave as follows:"
-msgstr ""
+msgstr "Les deux types de règles se comportent comme suit :"
 
 #: ../../source/Dialogs_Preferences.rst:492
 msgid "Break rule"
-msgstr ""
+msgstr "Règle de segmentation"
 
 #: ../../source/Dialogs_Preferences.rst:488
 msgid ""
@@ -838,11 +838,11 @@ msgid ""
 "happen, there should be a break rule for \"?\", when followed by spaces "
 "and a capitalized word. To define a rule as a break rule, tick the "
 "Break/Exception check box."
-msgstr ""
+msgstr "Sépare le texte source en segments. For example, \"*Did it make sense? I was not sure*.\" should be split into two segments. Pour faire cela, il est nécessaire d'avoir une règle de segmentation s'appliquant à « ? », lorsqu'il est suivi d'une espace et d'un mot dont la première lettre est écrite en majuscule. Pour définir une règle comme étant une règle de segmentation, cochez la case Segmentation/Exception."
 
 #: ../../source/Dialogs_Preferences.rst:499
 msgid "Exception rule"
-msgstr ""
+msgstr "Règle d'exception"
 
 #: ../../source/Dialogs_Preferences.rst:495
 msgid ""
@@ -851,7 +851,7 @@ msgid ""
 "exception rule should be established for Mrs (and for Mr, for Dr, for "
 "prof etc), followed by a period. To define a rule as an exception rule, "
 "leave the Break/Exception check box unticked."
-msgstr ""
+msgstr "spécifie quelles parties du texte ne doivent PAS être séparées. In spite of the period, *\"Mrs. Dalloway \"* should not be split in two segments, so an exception rule should be established for Mrs (and for Mr, for Dr, for prof etc), followed by a period. Pour définir une règle comme étant une règle d'exception, décochez la case Segmentation/Exception."
 
 #: ../../source/Dialogs_Preferences.rst:501
 msgid ""
@@ -859,11 +859,11 @@ msgid ""
 "languages and Japanese. In view of the flexibility, you may consider "
 "defining more exception rules for your source language in order to "
 "provide more meaningful and coherent segments."
-msgstr ""
+msgstr "Les règles de segmentation prédéfinies devraient suffire pour la plupart des langues européennes et le japonais. Il est possible de définir de nouvelles règles d'exception pour votre langue source afin d'avoir des segments plus significatifs et plus cohérents."
 
 #: ../../source/Dialogs_Preferences.rst:507
 msgid "Rule priority"
-msgstr ""
+msgstr "Priorité de la règle"
 
 #: ../../source/Dialogs_Preferences.rst:509
 msgid ""
@@ -875,25 +875,25 @@ msgid ""
 "from Canadian French the rules for Canadian French - if any - will be "
 "applied first, followed by the rules for French and lastly, by the "
 "Default rules."
-msgstr ""
+msgstr "Tous les groupes de règles de segmentation s'appliquant à un masque de langue sont actifs et sont appliqués dans l'ordre de priorité donné, de sorte que les règles spécifiques à la langue pratiquée passent avant les règles par défaut. For example, rules for Canadian French (FR-CA) should be set higher than rules for French (FR.\\*), and higher than Default (.\\*) ones. Ainsi, lors de traduction partant de l'anglais américain, les règles relatives à l'anglais américain (s'il y en a) seront appliquées les premières, suivies par les règles relatives à l'anglais suivies, enfin, par les règles par défaut."
 
 #: ../../source/Dialogs_Preferences.rst:519
 msgid "Creating a new rule"
-msgstr ""
+msgstr "Créer une nouvelle règle"
 
 #: ../../source/Dialogs_Preferences.rst:521
 msgid ""
 "Major changes to the segmentation rules should be generally avoided, "
 "especially after completion of the first draft, but minor changes, such "
 "as the addition of a recognized abbreviation, can be advantageous."
-msgstr ""
+msgstr "Il est préférable d'éviter de trop modifier les règles de segmentation, surtout si le premier jet de la traduction a déjà été effectué. Néanmoins, des changements mineurs (comme l'ajout d'abréviations reconnues) peuvent s'avérer intéressants."
 
 #: ../../source/Dialogs_Preferences.rst:525
 msgid ""
 "In order to edit or expand an existing set of rules, simply click on it "
 "in the top table. The rules for that set will appear in the bottom half "
 "of the window."
-msgstr ""
+msgstr "Pour modifier ou élargir un ensemble de règles existant, cliquez simplement sur le nom de l'ensemble dans le tableau du haut. Les règles de cet ensemble apparaissent alors dans la partie inférieure de la fenêtre."
 
 #: ../../source/Dialogs_Preferences.rst:529
 msgid ""
@@ -905,7 +905,7 @@ msgid ""
 "regular expression syntax. If your set of rules handles a language-"
 "country pair, we advise you to move it to the top using the **Move Up** "
 "button."
-msgstr ""
+msgstr "In order to create an empty set of rules for a new language pattern click **Add**\\ in the upper half of the dialog. Une ligne vide apparaît dans le bas du tableau supérieur (vous devrez peut-être faire défiler le tableau vers le bas pour la voir - la ligne s'appelle « Nouvelle paire langue-pays _ LN-CO »). Change the name of the rule set and the language pattern to the language concerned and its code. La syntaxe du masque de langue est conforme à la syntaxe des expressions régulières. If your set of rules handles a language-country pair, we advise you to move it to the top using the **Move Up** button."
 
 #: ../../source/Dialogs_Preferences.rst:538
 msgid ""
@@ -913,31 +913,31 @@ msgid ""
 "their applicability, it is advisable to use tools which allow you to see "
 "their effect directly. See `Regular expressions <#appendix.regexp>`__. A "
 "good starting point will always be the existing rules."
-msgstr ""
+msgstr "Add the **Before** and\\ **After** patterns. Pour vérifier leur syntaxe et leur applicabilité, il est conseillé d'utiliser des outils qui vous permettent de voir leurs effets directement. See `Regular expressions <#appendix.regexp>`__. Les règles déjà existantes sont toujours un bon point de départ."
 
 #: ../../source/Dialogs_Preferences.rst:544
 msgid "A few simple examples"
-msgstr ""
+msgstr "Quelques exemples simples"
 
 #: ../../source/Dialogs_Preferences.rst:547
 msgid "Intention"
-msgstr ""
+msgstr "Intention"
 
 #: ../../source/Dialogs_Preferences.rst:547
 msgid "Before"
-msgstr ""
+msgstr "Avant"
 
 #: ../../source/Dialogs_Preferences.rst:547
 msgid "After"
-msgstr ""
+msgstr "Après"
 
 #: ../../source/Dialogs_Preferences.rst:547
 msgid "Note"
-msgstr ""
+msgstr "Remarque"
 
 #: ../../source/Dialogs_Preferences.rst:549
 msgid "Set the segment start after a period ('.') followed by a space, tab ..."
-msgstr ""
+msgstr "Définissez le segment comme commençant après un point (« . ») suivit d'un espace, d'une tabulation..."
 
 #: ../../source/Dialogs_Preferences.rst:549
 msgid "\\\\."
@@ -957,7 +957,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:551
 msgid "Do not segment after Mr."
-msgstr ""
+msgstr "Ne pas segmenter après M. (Monsieur)"
 
 #: ../../source/Dialogs_Preferences.rst:551
 msgid "Mr\\\\."
@@ -965,15 +965,15 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:551
 msgid "This an exception rule, so the rule check box must not be ticked"
-msgstr ""
+msgstr "Ceci étant une règle d'exception, la case Segmentation/Exception doit être décochée."
 
 #: ../../source/Dialogs_Preferences.rst:553
 msgid "Set a segment after \"。\" (Japanese period)"
-msgstr ""
+msgstr "Démarrer un segment après « 。 » (point japonais)"
 
 #: ../../source/Dialogs_Preferences.rst:553
 msgid "。"
-msgstr ""
+msgstr "。"
 
 #: ../../source/Dialogs_Preferences.rst:553
 msgid "Note that ``after`` is empty"
@@ -981,7 +981,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:555
 msgid "Do not segment after M. Mr. Mrs. and Ms."
-msgstr ""
+msgstr "Ne pas segmenter après M. Mr. Mrs. et Ms."
 
 #: ../../source/Dialogs_Preferences.rst:555
 msgid "Mr??s??\\\\."
@@ -989,11 +989,11 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:555
 msgid "Exception rule - see the use of ? in regular expressions"
-msgstr ""
+msgstr "Règle d'exception - voir l'utilisation de ? dans les expressions régulières"
 
 #: ../../source/Dialogs_Preferences.rst:559
 msgid "Auto-Completion"
-msgstr ""
+msgstr "Saisie automatique"
 
 #: ../../source/Dialogs_Preferences.rst:561
 msgid "Click on Glossary... to configure the Auto-completer Glossary View."
@@ -1026,7 +1026,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:577
 msgid "Spellchecker"
-msgstr ""
+msgstr "Vérificateur orthographique"
 
 #: ../../source/Dialogs_Preferences.rst:579
 msgid ""
@@ -1034,15 +1034,15 @@ msgid ""
 "<#appendix.spellchecker>`__ used in Apache OpenOffice, LibreOffice, "
 "Firefox and Thunderbird. It is consequently able to use the huge range of"
 " free spelling dictionaries available for these applications."
-msgstr ""
+msgstr "OmegaT has a built-in spell checker based on the `spelling checker <#appendix.spellchecker>`__ used in Apache OpenOffice, LibreOffice, Firefox and Thunderbird. Il est donc en mesure d'utiliser la vaste gamme de dictionnaires orthographiques gratuits utilisés par ces applications."
 
 #: ../../source/Dialogs_Preferences.rst:586
 msgid "LanguageTool plug-in"
-msgstr ""
+msgstr "LanguageTool"
 
 #: ../../source/Dialogs_Preferences.rst:593
 msgid "Service type"
-msgstr ""
+msgstr "Type de service"
 
 #: ../../source/Dialogs_Preferences.rst:589
 msgid "Select the location of the language checker."
@@ -1057,7 +1057,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:597
 msgid "Rules"
-msgstr ""
+msgstr "Règles"
 
 #: ../../source/Dialogs_Preferences.rst:596
 msgid ""
@@ -1067,11 +1067,11 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:600
 msgid "External Search"
-msgstr ""
+msgstr "Recherche externe"
 
 #: ../../source/Dialogs_Preferences.rst:609
 msgid "Enable project-specific commands"
-msgstr ""
+msgstr "Autoriser les commandes spécifiques aux projets"
 
 #: ../../source/Dialogs_Preferences.rst:603
 msgid ""
@@ -1090,7 +1090,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:616
 msgid "Context Menu Priority:"
-msgstr ""
+msgstr "Priorité du menu contextuel :"
 
 #: ../../source/Dialogs_Preferences.rst:612
 msgid ""
@@ -1105,7 +1105,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:619
 msgid "Editor"
-msgstr ""
+msgstr "Éditeur"
 
 #: ../../source/Dialogs_Preferences.rst:624
 msgid "Insert the source text"
@@ -1116,11 +1116,11 @@ msgid ""
 "You can have the source text inserted automatically into the editing "
 "field. This is useful for texts containing many trade marks or other "
 "proper nouns you which must be left unchanged."
-msgstr ""
+msgstr "Le texte source sera automatiquement inséré dans la ligne d'édition. Cette option est utile pour les textes contenant de nombreux noms de marque ou autres noms propres qui doivent rester inchangés."
 
 #: ../../source/Dialogs_Preferences.rst:635
 msgid "Leave the segment empty"
-msgstr ""
+msgstr "Laisse le segment vide"
 
 #: ../../source/Dialogs_Preferences.rst:627
 msgid ""
@@ -1132,11 +1132,11 @@ msgid ""
 "entry **Remove translation** in the same pop up menu also allows to "
 "delete the existing translation of the current segment. You achieve the "
 "same by clearing the target segment and pressing Enter."
-msgstr ""
+msgstr "OmegaT laisse la ligne d'édition vide. This option allows you to enter the translation without the need to remove the source text, thus saving you two keystrokes (**Ctrl+A**\\ and **Del).** Empty translations are now allowed. Elles sont affichées en tant que <VIDE> dans l'Éditeur. To create one, right-click in a segment, and select \"**Set empty translation**\". The entry **Remove translation** in the same pop up menu also allows to delete the existing translation of the current segment. You achieve the same by clearing the target segment and pressing Enter."
 
 #: ../../source/Dialogs_Preferences.rst:643
 msgid "Insert the best fuzzy match"
-msgstr ""
+msgstr "Insère la meilleure correspondance partielle"
 
 #: ../../source/Dialogs_Preferences.rst:638
 msgid ""
@@ -1145,17 +1145,17 @@ msgid ""
 " this dialog. The prefix (per default empty) can be used to tag "
 "translations, done via fuzzy matches. If you add a prefix (for instance "
 "[fuzzy]), you can trace those translations later to see they are correct."
-msgstr ""
+msgstr "OmegaT insère la traduction de la chaîne de caractères la plus proche du texte source en cours si celle-ci est au-dessus du niveau minimum de correspondance que vous avez sélectionné dans la boîte de dialogue. Le préfixe (vide par défaut) peut être utilisé dans la traduction de balises réalisée via les correspondances partielles. L'ajout d'un préfixe ([correspondance] par exemple), vous permet de contrôler ces traductions ultérieurement pour vous assurer que celles-ci sont correctes."
 
 #: ../../source/Dialogs_Preferences.rst:645
 msgid ""
 "The check boxes in the lower half of the dialog window serve the "
 "following purpose:"
-msgstr ""
+msgstr "Les cases à cocher situées dans la partie inférieure de la boîte de dialogue ont les fonctionnalités suivantes :"
 
 #: ../../source/Dialogs_Preferences.rst:661
 msgid "Attempt to convert numbers when inserting a fuzzy match"
-msgstr ""
+msgstr "Essaie de convertir les nombres lors de l'insertion d'une correspondance"
 
 #: ../../source/Dialogs_Preferences.rst:649
 msgid ""
@@ -1163,25 +1163,25 @@ msgid ""
 "manually or automatically, OmegaT attempts to convert the numbers in the "
 "fuzzy matches according to the source contents. There are a number of "
 "restrictions:"
-msgstr ""
+msgstr "Si une correspondance est insérée alors que cette case est cochée, OmegaT essaie, manuellement ou automatiquement, de convertir les nombres de la correspondance en fonction du contenu du texte source. Il existe néanmoins quelques restrictions :"
 
 #: ../../source/Dialogs_Preferences.rst:654
 msgid ""
 "The source segment and the fuzzy matches must contain the same list of "
 "numbers"
-msgstr ""
+msgstr "Le segment source et les correspondances doivent contenir la même liste de nombres"
 
 #: ../../source/Dialogs_Preferences.rst:657
 msgid ""
 "The numbers must be exactly the same between the source and the target "
 "matches."
-msgstr ""
+msgstr "Les nombres du texte source et des correspondances cible doivent être rigoureusement identiques."
 
 #: ../../source/Dialogs_Preferences.rst:660
 msgid ""
 "Only integers and simple floats (using the period as a decimal character,"
 " e.g. 5.4, but not 5,4 or 54E-01) are considered."
-msgstr ""
+msgstr "Seuls les nombres entiers et les nombres réels simples (utilisant le point comme caractère décimal, soit 5.4 mais pas 5,4 ou 54E-01) sont pris en compte."
 
 #: ../../source/Dialogs_Preferences.rst:673
 msgid "Allow translation to be equal to source"
@@ -1192,7 +1192,7 @@ msgid ""
 "Documents for translation may contain trade marks, names or other proper "
 "nouns that will be the same in translated documents. There are two "
 "strategies for segments that contain only such invariable text."
-msgstr ""
+msgstr "Les documents à traduire peuvent contenir des noms de marque ou autres noms propres qui resteront identiques dans les documents traduits. Il existe deux stratégies pour les segments contenant seulement ce genre de texte invariable."
 
 #: ../../source/Dialogs_Preferences.rst:669
 msgid ""
@@ -1201,11 +1201,11 @@ msgid ""
 "alternative is to enter a translation that is identical to the source "
 "text. OmegaT is able to recognize that you have done this. To make this "
 "possible, select this option."
-msgstr ""
+msgstr "Vous pouvez décider de ne pas traduire du tout ces segments. OmegaT affichera alors ces segments comme étant non traduits. Ceci est le paramètre par défaut. L'autre solution consiste à saisir une traduction identique au texte source. OmegaT arrive à reconnaître ce que vous avez fait. To make this possible, select this option."
 
 #: ../../source/Dialogs_Preferences.rst:694
 msgid "Export the segment to text files"
-msgstr ""
+msgstr "Exporter le segment dans des fichiers texte"
 
 #: ../../source/Dialogs_Preferences.rst:676
 msgid ""
@@ -1213,7 +1213,7 @@ msgid ""
 "project to plain text files. The data are exported when the segment is "
 "opened. The files appear in the /script subfolder in the OmegaT user "
 "files folder, and include:"
-msgstr ""
+msgstr "The text export function exports data from within the current OmegaT project to plain text files. Les données sont exportées lorsque le segment est ouvert. Les fichiers apparaissent dans le sous-dossier /script situé dans le dossier de fichiers utilisateur d'OmegaT et comprennent :"
 
 #: ../../source/Dialogs_Preferences.rst:681
 msgid "The content of the segment source text (``source.txt``)."
@@ -1238,13 +1238,13 @@ msgid ""
 "`Using the OmegaT text export function "
 "<http://www.omegat.org/en/howtos/text_export.html>`__ for specifics, "
 "examples and suggestions."
-msgstr ""
+msgstr "Le contenu des fichiers est écrasé lorsqu'un nouveau segment est ouvert (source.txt et target.txt) ou qu'une nouvelle sélection est exportée (selection.txt). Les fichiers sont des fichiers de texte brut non formaté. Ce processus peut être dirigé et contrôlé via le langage de script Tck/Tcl (Tool Command Language). See `Using the OmegaT text export function <http://www.omegat.org/en/howtos/text_export.html>`__ for specifics, examples and suggestions."
 
 #: ../../source/Dialogs_Preferences.rst:696
 msgid ""
 "Go To Next Untranslated Segment stops where there is at least one "
 "alternative translation"
-msgstr ""
+msgstr "Atteindre segment non traduit suivant s'arrête lorsqu'il y a au moins une traduction alternative"
 
 #: ../../source/Dialogs_Preferences.rst:698
 msgid ""
@@ -1256,7 +1256,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:709
 msgid "Allow tag editing"
-msgstr ""
+msgstr "Autoriser la modification des balises"
 
 #: ../../source/Dialogs_Preferences.rst:705
 msgid ""
@@ -1264,21 +1264,21 @@ msgid ""
 "deletion) during editing. Removing an entire tag remains possible in that"
 " case, by using Ctrl+Backspace/Delete or by selecting it completely "
 "(Ctrl+Shift+Left/Right) then deleting it (Delete or Ctrl+X)."
-msgstr ""
+msgstr "Décochez cette option pour empêcher les balises d'être endommagées (par exemple par une suppression partielle) durant les modifications. Supprimmer une balises entière reste possible dans ce cas, en utilisant Ctrl+Retour arrière/Suppr ou en la sélectionnant entièrement (Ctrl+Maj+Gauche/Droite) puis en la supprimant (Suppr ou Ctrl+X)."
 
 #: ../../source/Dialogs_Preferences.rst:713
 msgid "Validate tags when leaving a segment"
-msgstr ""
+msgstr "Valider les balises en quittant un segment"
 
 #: ../../source/Dialogs_Preferences.rst:712
 msgid ""
 "Check this option to be warned about differences between source and "
 "target segments tags each time you leave a segment."
-msgstr ""
+msgstr "Cochez cette option pour être prévenu des différences entre les balises des segments source et cible à chaque fois que vous quittez un segment."
 
 #: ../../source/Dialogs_Preferences.rst:719
 msgid "Save auto-populated status"
-msgstr ""
+msgstr "Enregistrer l'état des traductions issues du dossier auto"
 
 #: ../../source/Dialogs_Preferences.rst:716
 msgid ""
@@ -1290,7 +1290,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:725
 msgid "Initially load this many segments"
-msgstr ""
+msgstr "Nombre de segments à charger initialement"
 
 #: ../../source/Dialogs_Preferences.rst:722
 msgid ""
@@ -1298,11 +1298,11 @@ msgid ""
 "progressively loads more as you scroll up or down. If you have a powerful"
 " machine, and/or if you don't like how the scrollbar behaves during "
 "progressive loading, you can increase this number."
-msgstr ""
+msgstr "Par défaut, l'éditeur affiche 2000µ segments initiaux, et en charge progressivement davantage lorsque vous faites défiler l'affichage vers le haut ou vers le bas. Si vous disposez d'une machine puissante, ou que vous n'appréciez pas le comportement de la barre de défilement durant le chargement progressif, vous pouvez utiliser un nombre plus grand."
 
 #: ../../source/Dialogs_Preferences.rst:728
 msgid "Tag Processing"
-msgstr ""
+msgstr "Traitement des balises"
 
 #: ../../source/Dialogs_Preferences.rst:730
 msgid ""
@@ -1334,17 +1334,17 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:747
 msgid "Team"
-msgstr ""
+msgstr "Équipe"
 
 #: ../../source/Dialogs_Preferences.rst:749
 msgid ""
 "Enter your name here and it will be attached to all segments translated "
 "by you."
-msgstr ""
+msgstr "Une fois votre nom entré ici, il sera attaché à tous les segments que vous traduirez."
 
 #: ../../source/Dialogs_Preferences.rst:753
 msgid "Repository Credentials"
-msgstr ""
+msgstr "Informations d'identification du référentiel"
 
 #: ../../source/Dialogs_Preferences.rst:755
 msgid ""
@@ -1355,11 +1355,11 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:760
 msgid "TM Matches"
-msgstr ""
+msgstr "Correspondances"
 
 #: ../../source/Dialogs_Preferences.rst:767
 msgid "Sort fuzzy matches by:"
-msgstr ""
+msgstr "Trier les correspondances partielles par :"
 
 #: ../../source/Dialogs_Preferences.rst:763
 msgid ""
@@ -1385,7 +1385,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:797
 msgid "Match display template"
-msgstr ""
+msgstr "Modèle d'affichage d'une correspondance"
 
 #: ../../source/Dialogs_Preferences.rst:774
 msgid ""
@@ -1399,7 +1399,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:778
 msgid "Number of the match from 1 to 5"
-msgstr ""
+msgstr "Nombre de la correspondance compris entre 1 et 5"
 
 #: ../../source/Dialogs_Preferences.rst:780
 msgid "``${sourceText}``"
@@ -1407,7 +1407,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:780
 msgid "Source text of the match"
-msgstr ""
+msgstr "Texte source de la correspondance"
 
 #: ../../source/Dialogs_Preferences.rst:782
 msgid "``${targetText}``"
@@ -1415,7 +1415,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:782
 msgid "Target text of the match"
-msgstr ""
+msgstr "Texte cible de la correspondance"
 
 #: ../../source/Dialogs_Preferences.rst:784
 msgid "``${diff}``"
@@ -1435,7 +1435,7 @@ msgstr ""
 msgid ""
 "Same as ${diff}, but with the differences (what is to be inserted and "
 "deleted) inverted."
-msgstr ""
+msgstr "Identique à ${diff}, mais avec les différences (ce qui doit être inséré et supprimé) inversées."
 
 #: ../../source/Dialogs_Preferences.rst:788
 msgid "``${score}``"
@@ -1469,7 +1469,7 @@ msgstr ""
 msgid ""
 "Indicate that this match is fuzzy (currently only for translations from "
 "PO files with the #fuzzy mark)"
-msgstr ""
+msgstr "Indique que la correspondance est partielle (pour le moment, existe uniquement pour les fichiers PO possédant la marque #correspondance partielle)"
 
 #: ../../source/Dialogs_Preferences.rst:797
 msgid "Table: Match pane setup"
@@ -1477,13 +1477,13 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:800
 msgid "View"
-msgstr ""
+msgstr "Affichage"
 
 #: ../../source/Dialogs_Preferences.rst:802
 msgid ""
 "Contains options for displaying texts and modification information in "
 "different ways."
-msgstr ""
+msgstr "Contient les options pour afficher les textes et les informations de modification de différentes façons."
 
 #: ../../source/Dialogs_Preferences.rst:808
 msgid "Include the first non-unique segment when marking non-unique segments"
@@ -1498,13 +1498,13 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:811
 msgid "Saving and Output"
-msgstr ""
+msgstr "Enregistrement et exécution"
 
 #: ../../source/Dialogs_Preferences.rst:813
 msgid ""
 "Allows the user select the interval - in minutes and seconds - between "
 "consecutive automatic saves of the project."
-msgstr ""
+msgstr "Permet à l'utilisateur de sélectionner l'intervalle de temps - en minutes et en secondes - qui existe entre les enregistrements automatiques consécutifs du projet."
 
 #: ../../source/Dialogs_Preferences.rst:816
 msgid ""
@@ -1524,7 +1524,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:829
 msgid "External Post-processing Command"
-msgstr ""
+msgstr "Commande de post-traitement externe"
 
 #: ../../source/Dialogs_Preferences.rst:825
 msgid ""
@@ -1551,7 +1551,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:840
 msgid "Proxy Login"
-msgstr ""
+msgstr "Connexion par proxy"
 
 #: ../../source/Dialogs_Preferences.rst:842
 msgid ""
@@ -1573,7 +1573,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:854
 msgid "Plugins"
-msgstr ""
+msgstr "Modules d'extension"
 
 #: ../../source/Dialogs_Preferences.rst:856
 msgid ""
@@ -1583,7 +1583,7 @@ msgstr ""
 
 #: ../../source/Dialogs_Preferences.rst:860
 msgid "Updates"
-msgstr ""
+msgstr "Mises à jour"
 
 #: ../../source/Dialogs_Preferences.rst:862
 msgid "Enables automatic notification of OmegaT updates."

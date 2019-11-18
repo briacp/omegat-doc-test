@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,33 +25,33 @@ msgstr ""
 
 #: ../../source/Menus_GoTo.rst:8
 msgid "Next Untranslated Segment"
-msgstr ""
+msgstr "Segment non traduit suivant"
 
 #: ../../source/Menus_GoTo.rst:7
 msgid ""
 "Moves to the next segment that has no equivalent in the translation "
 "memory."
-msgstr ""
+msgstr "Passe au segment suivant non traduit ( = n'ayant pas d'équivalent dans la mémoire de traduction)."
 
 #: ../../source/Menus_GoTo.rst:12
 msgid "Next Translated Segment"
-msgstr ""
+msgstr "Segment traduit suivant"
 
 #: ../../source/Menus_GoTo.rst:11
 msgid ""
 "Moves to the next already translated segment, ignoring untranslated "
 "segments."
-msgstr ""
+msgstr "Se déplace au prochain segment déjà traduit, ignorant les segments non traduits."
 
 #: ../../source/Menus_GoTo.rst:20
 msgid "Next Segment"
-msgstr ""
+msgstr "Segment suivant"
 
 #: ../../source/Menus_GoTo.rst:15
 msgid ""
 "Moves to the next segment. If the current segment is the last segment in "
 "a file, it moves to the first segment of the next file."
-msgstr ""
+msgstr "Passe au segment suivant. Si le segment en cours est le dernier segment d'un fichier, on passe au premier segment du fichier suivant."
 
 #: ../../source/Menus_GoTo.rst:18
 msgid ""
@@ -61,13 +61,13 @@ msgstr ""
 
 #: ../../source/Menus_GoTo.rst:28
 msgid "Previous Segment"
-msgstr ""
+msgstr "Segment précédent"
 
 #: ../../source/Menus_GoTo.rst:23
 msgid ""
 "Moves to the previous segment. If the current segment is the first one in"
 " a file, it moves to the last segment of the previous file."
-msgstr ""
+msgstr "Revient au segment précédent. Si le segment en cours est le premier segment d'un fichier, on passe au dernier segment du fichier précédent."
 
 #: ../../source/Menus_GoTo.rst:26
 msgid ""
@@ -77,33 +77,33 @@ msgstr ""
 
 #: ../../source/Menus_GoTo.rst:32
 msgid "Segment number..."
-msgstr ""
+msgstr "Segment numéro..."
 
 #: ../../source/Menus_GoTo.rst:31
 msgid ""
 "The segment is opened when either its segment call-out or segment number "
 "is entered."
-msgstr ""
+msgstr "Le segment s'ouvre lorsque son numéro de segment est saisi ou que son raccourci est entré."
 
 #: ../../source/Menus_GoTo.rst:35
 msgid "Next Note"
-msgstr ""
+msgstr "Note suivante"
 
 #: ../../source/Menus_GoTo.rst:35
 msgid "The next segment with a note attached to it, will open."
-msgstr ""
+msgstr "Le segment suivant possédant une note rattachée s'ouvre."
 
 #: ../../source/Menus_GoTo.rst:38
 msgid "Previous Note"
-msgstr ""
+msgstr "Note précédente"
 
 #: ../../source/Menus_GoTo.rst:38
 msgid "The previous segment with a note will open."
-msgstr ""
+msgstr "Le segment précédent possédant une note rattachée s'ouvre."
 
 #: ../../source/Menus_GoTo.rst:42
 msgid "Source of Selected Match"
-msgstr ""
+msgstr "Source de la correspondance sélectionnée"
 
 #: ../../source/Menus_GoTo.rst:41
 msgid ""
@@ -113,7 +113,7 @@ msgstr ""
 
 #: ../../source/Menus_GoTo.rst:47
 msgid "Forward in history..."
-msgstr ""
+msgstr "Segment suivant dans l'historique..."
 
 #: ../../source/Menus_GoTo.rst:45
 msgid ""
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../../source/Menus_GoTo.rst:51
 msgid "Back in history..."
-msgstr ""
+msgstr "Segment précédent dans l'historique..."
 
 #: ../../source/Menus_GoTo.rst:50
 msgid ""

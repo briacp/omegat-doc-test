@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,8 +35,7 @@ msgid ""
 "Search for the required language combination - for instance on the "
 "`dictionary links given by the OmegaT Wiki "
 "<https://sourceforge.net/p/omegat/wiki/Reference%20Material/>`__."
-msgstr "Recherchez la combinaison de langue désirée – par exemple en suivant les `liens vers les dictionnaires donnés par le Wiki d'OmegaT "
-"<https://sourceforge.net/p/omegat/wiki/Reference%20Material/>`__."
+msgstr "Recherchez la combinaison de langue désirée – par exemple en suivant les `liens vers les dictionnaires donnés par le Wiki d'OmegaT<https://sourceforge.net/p/omegat/wiki/Reference%20Material/>`__."
 
 #: ../../source/App_Dictionaries.rst:15
 msgid ""

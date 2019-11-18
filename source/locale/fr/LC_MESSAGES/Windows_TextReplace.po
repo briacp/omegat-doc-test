@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr "Project-Id-Version: OmegaT \n"
 
 #: ../../source/Windows_TextReplace.rst:2
 msgid "Text Replace"
-msgstr ""
+msgstr "Remplacement de texte"
 
 #: ../../source/Windows_TextReplace.rst:4
 msgid ""
@@ -57,7 +57,7 @@ msgstr ""
 
 #: ../../source/Windows_TextReplace.rst:24
 msgid "Search options"
-msgstr ""
+msgstr "Options de recherche"
 
 #: ../../source/Windows_TextReplace.rst:26
 msgid ""
@@ -78,5 +78,5 @@ msgid ""
 " the replace operation occurs. If no replacement is done to a given "
 "segment, the target segment will be “emptied”, i.e., it will remain "
 "untranslated."
-msgstr ""
+msgstr "Pour rendre cela possible (bien que la recherche et remplacement ne fonctionne qu'en mémoire), OmegaT copiera le segment source dans le segment cible avant que l'opération de remplacement ne survienne. Si aucun remplacement n'est effectué dans un segment donné, le segment cible sera « vidé », c'est-à-dire qu'il restera non traduit."
 

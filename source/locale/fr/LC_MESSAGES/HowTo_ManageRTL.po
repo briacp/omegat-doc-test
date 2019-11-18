@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,19 +27,19 @@ msgid ""
 " can toggle between different display modes by pressing +Shift+ +Ctrl+ "
 "+O+ (this is the letter O and not the numeral 0). The +Shift+ +Ctrl+ +O+ "
 "toggle has three states:"
-msgstr ""
+msgstr "La justification des segments source et cible dépend des langues du projet. Par défaut, la justification à gauche est utilisée pour les langues qui se lisent de gauche à droite (LTR) et la justification à droite pour les langues qui se lisent de droite à gauche (RTL). You can toggle between different display modes by pressing +Shift+ +Ctrl+ +O+ (this is the letter O and not the numeral 0). The +Shift+ +Ctrl+ +O+ toggle has three states:"
 
 #: ../../source/HowTo_ManageRTL.rst:11
 msgid "default justification, that is as defined by the language"
-msgstr ""
+msgstr "La justification par défaut, qui est définie par la langue"
 
 #: ../../source/HowTo_ManageRTL.rst:13
 msgid "left justification"
-msgstr ""
+msgstr "La justification à gauche"
 
 #: ../../source/HowTo_ManageRTL.rst:15
 msgid "right justification"
-msgstr ""
+msgstr "La justification à droite"
 
 #: ../../source/HowTo_ManageRTL.rst:17
 msgid ""
@@ -53,7 +53,7 @@ msgid ""
 "and toggling the display mode. It can also be used in all the input "
 "fields found in OmegaT - in the search window, for segmentation rules "
 "etc."
-msgstr ""
+msgstr "Using the RTL mode in OmegaT has no influence whatsoever on the display mode of the translated documents created in OmegaT. Le mode d'affichage des documents traduits doit être modifié dans l'application (par exemple, Microsoft Word) qui est généralement utilisée pour les afficher ou les modifier (consultez les guides correspondants pour plus de détails). Using +Shift+ +Ctrl+ +O+ causes both text input and display in OmegaT to change. Ce mode peut être utilisé pour chacun des trois volets pris séparément (Éditeur, Correspondances et Glossaires) en cliquant sur le volet choisi et en faisant basculer le mode d'affichage. It can also be used in all the input fields found in OmegaT - in the search window, for segmentation rules etc."
 
 #: ../../source/HowTo_ManageRTL.rst:28
 msgid ""
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../../source/HowTo_ManageRTL.rst:32
 msgid "Mixing RTL and LTR strings in segments"
-msgstr ""
+msgstr "Mélange entre les chaînes RTL et LTR dans les segments"
 
 #: ../../source/HowTo_ManageRTL.rst:34
 msgid ""
@@ -78,7 +78,7 @@ msgid ""
 "and the target language is RTL, or vice versa, it may be necessary to "
 "toggle back and forth between RTL and LTR modes to view the source and "
 "enter the target easily in their respective modes."
-msgstr ""
+msgstr "Lors de la rédaction de texte purement RTL, l'affichage par défaut (LTR) peut être utilisé. Dans de nombreux cas, cependant, il est nécessaire d'intégrer le texte LTR dans un texte RTL. Par exemple, pour les balises OmegaT, pour les noms de produits qui doivent être laissés dans une langue source LTR, pour l'emplacement des supports dans les fichiers de localisation, et pour les numéros dans le texte. Dans des cas comme celui-ci, il est nécessaire de basculer en monde RTL, de sorte que le texte RTL (qui est en fait bidirectionnel) soit affiché correctement. It should be noted that when OmegaT is in RTL mode, both source and target are displayed in RTL mode. Ce qui signifie que si la langue source est une LTR et la langue cible une RTL, ou vice-versa, il sera peut-être nécessaire de basculer régulièrement entre les modes RTL et LTR afin de facilement voir la source et saisir la cible dans leur mode respectif."
 
 #: ../../source/HowTo_ManageRTL.rst:47
 msgid "OmegaT tags in RTL segments"
@@ -90,7 +90,7 @@ msgid ""
 "RTL and LTR languages, correctly reading the tags from the source and "
 "entering them properly in the target may require the translator to toggle"
 " between LTR and RTL modes numerous times."
-msgstr ""
+msgstr "Comme indiqué ci-dessus, les balises d'OmegaT sont des chaînes LTR. Pour les traductions entre langues RTL et LTR, il peut être nécessaire, pour lire correctement les balises de la source et les entrer correctement dans la cible, que le traducteur bascule un grand nombre de fois entre les modes LTR et RTL."
 
 #: ../../source/HowTo_ManageRTL.rst:54
 msgid ""
@@ -103,11 +103,11 @@ msgid ""
 "translating a plain text version of the text and adding the necessary "
 "style in the relevant application at a later stage may turn out to be "
 "less hassle."
-msgstr ""
+msgstr "Si le document le permet, le traducteur est vivement encouragé à retirer un maximum d'informations de style du document original de sorte que le moins de balises possible apparaissent dans l'interface d'OmegaT. Suivez les indications données dans Conseils pour la gestion des balises. De façon générale, validez les balises (voir Validation de balise) et enregistrez les documents traduits (voir ci-dessous et dans le Menu) à intervalles réguliers pour rendre plus facile la résolution des problèmes éventuels. Un conseil : traduire une version texte brut d'un texte et ajouter ultérieurement les styles nécessaires dans l'application appropriée peut s'avérer moins compliqué."
 
 #: ../../source/HowTo_ManageRTL.rst:65
 msgid "Creating translated RTL documents"
-msgstr ""
+msgstr "Création de documents traduits RTL(droite à gauche)"
 
 #: ../../source/HowTo_ManageRTL.rst:67
 msgid ""
@@ -117,19 +117,19 @@ msgid ""
 "manually to RTL in its viewing application. Each output format has "
 "specific ways of dealing with RTL display; check the relevant application"
 " manuals for details."
-msgstr ""
+msgstr "Lorsque le document traduit est créé, la direction qu'il affiche est la même que celle du document original. Si le document original était en LTR, la direction affichée par le document cible doit être basculée manuellement en RTL dans son application de lecture. Chaque format de sortie gère l'affichage RTL à sa façon ; consultez le guide de l'application appropriée pour plus de détails."
 
 #: ../../source/HowTo_ManageRTL.rst:74
 msgid "For .docx files, a number of changes are however done automatically:"
-msgstr ""
+msgstr "Pour les fichiers .docx, un certain nombre de changements sont cependant effectués automatiquement :"
 
 #: ../../source/HowTo_ManageRTL.rst:76
 msgid "Paragraphs, sections and tables are set to bidi"
-msgstr ""
+msgstr "Les paragraphes, les sections et les tableaux sont définis de façon bidirectionnelle"
 
 #: ../../source/HowTo_ManageRTL.rst:77
 msgid "Runs (text elements) are set to RTL"
-msgstr ""
+msgstr "Les exécutions (éléments textes) sont définies en RTL"
 
 #: ../../source/HowTo_ManageRTL.rst:79
 msgid ""
@@ -137,5 +137,5 @@ msgid ""
 " are opened, it may be possible to change the source file display "
 "parameters such that such parameters are inherited by the target files. "
 "Such modifications are possible in ODF files for example."
-msgstr ""
+msgstr "Pour éviter que les paramètres d'affichage des fichiers cible ne changent à chaque fois que les fichiers sont ouverts, il est possible de changer les paramètres d'affichage des fichiers source de sorte que les fichiers cible héritent de ces paramètres. De telles modification sont possibles, par exemple, dans les fichiers ODF."
 

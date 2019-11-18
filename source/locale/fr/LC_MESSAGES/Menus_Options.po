@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr "Project-Id-Version: OmegaT \n"
 
 #: ../../source/Menus_Options.rst:2
 msgid "Options"
-msgstr ""
+msgstr "Options"
 
 #: ../../source/Menus_Options.rst:5
 msgid "Preferences..."
@@ -29,11 +29,11 @@ msgstr ""
 
 #: ../../source/Menus_Options.rst:12
 msgid "Machine Translate"
-msgstr ""
+msgstr "Traduction automatique"
 
 #: ../../source/Menus_Options.rst:8
 msgid "Allows you to activate/deactivate the Machine Translation tools offered."
-msgstr ""
+msgstr "Vous permet d'activer/de désactiver les outils de traduction automatique proposés."
 
 #: ../../source/Menus_Options.rst:11
 msgid ""
@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../../source/Menus_Options.rst:15
 msgid "Glossary"
-msgstr ""
+msgstr "Glossaires"
 
 #: ../../source/Menus_Options.rst:15
 msgid "Select Taas Terminology Lookup to activate this lookup."
@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../source/Menus_Options.rst:19
 msgid "Dictionary"
-msgstr ""
+msgstr "Dictionnaires"
 
 #: ../../source/Menus_Options.rst:18
 msgid ""
@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../source/Menus_Options.rst:30
 msgid "Auto-completion"
-msgstr ""
+msgstr "Saisie automatique"
 
 #: ../../source/Menus_Options.rst:22
 msgid ""
@@ -84,7 +84,7 @@ msgstr ""
 
 #: ../../source/Menus_Options.rst:36
 msgid "File Filters..."
-msgstr ""
+msgstr "Fichiers et filtres..."
 
 #: ../../source/Menus_Options.rst:33
 msgid ""
@@ -99,7 +99,7 @@ msgstr ""
 
 #: ../../source/Menus_Options.rst:43
 msgid "Segmentation..."
-msgstr ""
+msgstr "Segmentation..."
 
 #: ../../source/Menus_Options.rst:39
 msgid ""
@@ -119,7 +119,7 @@ msgstr ""
 
 #: ../../source/Menus_Options.rst:52
 msgid "Access Configuration Folder"
-msgstr ""
+msgstr "Accéder au dossier de configuration"
 
 #: ../../source/Menus_Options.rst:52
 msgid ""

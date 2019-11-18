@@ -6,7 +6,7 @@
 msgid ""
 msgstr "Project-Id-Version: OmegaT \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-18 00:38+0100\n"
+"POT-Creation-Date: 2019-11-18 00:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,18 +35,18 @@ msgid ""
 "project is opened or reloaded. YEAR is the 4-digit year, MM is the month,"
 " DD the day of the month, and HH and NN are the hours and minutes when "
 "the previous translation memory was saved."
-msgstr ""
+msgstr "OmegaT also backs up the translation memory to project\\_save.tmx.YEARMMDDHHNN.bak in the same subfolder each time a project is opened or reloaded. ANNÉE correspond aux quatre chiffres de l'année, MM correspond au mois, JJ au jour du mois, et HH et MN sont les heures et les minutes de la sauvegarde de la mémoire de traduction précédente."
 
 #: ../../source/HowTo_PreventDataLoss.rst:16
 msgid ""
 "If you believe that you have lost translation data, you can use the "
 "following procedure to restore the project to its most recently saved "
 "state, usually not older than approximately 10 minutes or so:"
-msgstr ""
+msgstr "Si vous pensez avoir perdu des données de traduction, vous pouvez appliquer la procédure suivante pour restaurer le projet dans son état sauvegardé le plus récent (datant généralement de moins de 10 minutes) :"
 
 #: ../../source/HowTo_PreventDataLoss.rst:20
 msgid "close the project"
-msgstr ""
+msgstr "fermez le projet"
 
 #: ../../source/HowTo_PreventDataLoss.rst:22
 msgid ""
@@ -58,7 +58,7 @@ msgstr ""
 msgid ""
 "select the backup translation memory that is the most likely to contain "
 "the data you are looking for"
-msgstr ""
+msgstr "sélectionnez la sauvegarde de la mémoire de traduction qui contient le plus probablement les données que vous cherchez"
 
 #: ../../source/HowTo_PreventDataLoss.rst:28
 msgid "rename it ``project_save.tmx``"
@@ -66,11 +66,11 @@ msgstr ""
 
 #: ../../source/HowTo_PreventDataLoss.rst:30
 msgid "open the project"
-msgstr ""
+msgstr "ouvrez le projet"
 
 #: ../../source/HowTo_PreventDataLoss.rst:32
 msgid "To avoid losing important data:"
-msgstr ""
+msgstr "Afin d'éviter la perte de données importantes :"
 
 #: ../../source/HowTo_PreventDataLoss.rst:34
 msgid ""
@@ -99,5 +99,5 @@ msgid ""
 " message in the `OmegaT user group "
 "<https://groups.yahoo.com/neo/groups/OmegaT/info>`__. Do not hesitate to "
 "post in the language you feel the most familiar with."
-msgstr ""
+msgstr "Utilisez ces textes d'aide pour commencer. Should you run into problems, post a message in the `OmegaT user group <https://groups.yahoo.com/neo/groups/OmegaT/info>`__. N'hésitez pas à publier votre message dans la langue dans laquelle vous êtes le plus à l'aise."
 
